@@ -136,7 +136,7 @@ function _classBadge(cls) {
     mammal: '#BF6A1F', bird: '#1565C0', reptile: '#2E7D32',
     amphibian: '#6A1B9A', fish: '#0097A7', invertebrate: '#795548'
   };
-  return `<span class="animal-class-badge" style="background:${colors[cls] || '#999'}">${_t('class.' + cls)}</span>`;
+  return `<span class="animal-class-badge" style="background:${colors[cls] || '#999'};color:#fff;">${_t('class.' + cls)}</span>`;
 }
 
 function _statBar(label, value, max, unit, color) {
