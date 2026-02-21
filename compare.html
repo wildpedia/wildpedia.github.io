@@ -79,5 +79,24 @@
     <script src="js/animal-selector.js"></script>
     <script src="js/chart.min.js"></script>
     <script src="js/app.js"></script>
+    <script data-goatcounter="https://wildpedia.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script>
+    (function() {
+      var el = document.getElementById('visitor-counter');
+      if (!el) return;
+      var t = setInterval(function() {
+        if (window.goatcounter && window.goatcounter.visit_count) {
+          clearInterval(t);
+          var base = 'https://wildpedia.goatcounter.com/counter/';
+          var path = encodeURIComponent(location.pathname || '/');
+          fetch(base + path + '.json')
+            .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+            .then(function(data) { el.textContent = data.count + ' visitors'; })
+            .catch(function() {});
+        }
+      }, 200);
+      setTimeout(function() { clearInterval(t); }, 5000);
+    })();
+    </script>
 </body>
 </html>
