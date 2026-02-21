@@ -1,5 +1,5 @@
 /**
- * i18n.js - Translation engine for AnimalKingdom
+ * i18n.js - Translation engine for Wildpedia
  * Loads language JSONs, applies translations, handles RTL
  */
 const I18n = (() => {

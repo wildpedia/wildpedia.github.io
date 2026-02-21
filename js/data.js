@@ -1,5 +1,5 @@
 /**
- * data.js - Data loader and cache for AnimalKingdom
+ * data.js - Data loader and cache for Wildpedia
  * Fetches and caches all animal data JSON files
  */
 const Data = (() => {
