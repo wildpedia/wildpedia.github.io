@@ -1,0 +1,56 @@
+[
+  {
+    "id": "predators-prey",
+    "name_key": "cat.predators_prey",
+    "desc_key": "cat.predators_prey.desc",
+    "link_key": "cat.predators_prey.link",
+    "icon": "🦁",
+    "color": "#C62828",
+    "page": "predators-prey.html"
+  },
+  {
+    "id": "super-senses",
+    "name_key": "cat.super_senses",
+    "desc_key": "cat.super_senses.desc",
+    "link_key": "cat.super_senses.link",
+    "icon": "👁️",
+    "color": "#6A1B9A",
+    "page": "super-senses.html"
+  },
+  {
+    "id": "human-bonds",
+    "name_key": "cat.human_bonds",
+    "desc_key": "cat.human_bonds.desc",
+    "link_key": "cat.human_bonds.link",
+    "icon": "🤝",
+    "color": "#1565C0",
+    "page": "human-bonds.html"
+  },
+  {
+    "id": "ecosystem-roles",
+    "name_key": "cat.ecosystem_roles",
+    "desc_key": "cat.ecosystem_roles.desc",
+    "link_key": "cat.ecosystem_roles.link",
+    "icon": "🌍",
+    "color": "#2E7D32",
+    "page": "ecosystem-roles.html"
+  },
+  {
+    "id": "records-extremes",
+    "name_key": "cat.records_extremes",
+    "desc_key": "cat.records_extremes.desc",
+    "link_key": "cat.records_extremes.link",
+    "icon": "🏆",
+    "color": "#E65100",
+    "page": "records-extremes.html"
+  },
+  {
+    "id": "conservation",
+    "name_key": "cat.conservation",
+    "desc_key": "cat.conservation.desc",
+    "link_key": "cat.conservation.link",
+    "icon": "🛡️",
+    "color": "#00838F",
+    "page": "conservation.html"
+  }
+]

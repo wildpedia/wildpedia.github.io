@@ -1,0 +1,56 @@
+[
+  {
+    "id": "pet",
+    "name_key": "human.tab_pets",
+    "icon": "🏠",
+    "color": "#1565C0",
+    "description_key": "human.pets.desc",
+    "danger_range": [1, 2],
+    "examples": ["dog", "cat_domestic", "parrot", "clownfish", "gecko", "iguana", "spider_tarantula"]
+  },
+  {
+    "id": "livestock",
+    "name_key": "human.tab_livestock",
+    "icon": "🐄",
+    "color": "#8D6E63",
+    "description_key": "human.livestock.desc",
+    "danger_range": [1, 2],
+    "examples": ["cow", "horse"]
+  },
+  {
+    "id": "working",
+    "name_key": "human.tab_working",
+    "icon": "🐕‍🦺",
+    "color": "#F9A825",
+    "description_key": "human.working.desc",
+    "danger_range": [1, 2],
+    "examples": ["dog", "horse", "falcon_peregrine", "bee_honey"]
+  },
+  {
+    "id": "dangerous",
+    "name_key": "human.tab_dangerous",
+    "icon": "⚠️",
+    "color": "#C62828",
+    "description_key": "human.dangerous.desc",
+    "danger_range": [3, 5],
+    "examples": ["lion", "tiger", "shark_great_white", "crocodile", "hippo", "cobra_king", "jellyfish_box", "bear_polar", "scorpion"]
+  },
+  {
+    "id": "sacred",
+    "name_key": "human.tab_sacred",
+    "icon": "✨",
+    "color": "#6A1B9A",
+    "description_key": "human.sacred.desc",
+    "danger_range": [1, 3],
+    "examples": ["cow", "elephant_african", "peacock", "eagle_bald", "cobra_king"]
+  },
+  {
+    "id": "wild",
+    "name_key": "human.tab_wild",
+    "icon": "🌿",
+    "color": "#4CAF50",
+    "description_key": "human.wild.desc",
+    "danger_range": [1, 3],
+    "examples": ["orangutan", "dolphin", "whale_blue", "whale_humpback", "bat", "giraffe", "zebra", "kangaroo", "panda", "sloth"]
+  }
+]

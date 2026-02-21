@@ -1,0 +1,82 @@
+[
+  {
+    "id": "echolocation",
+    "name_key": "senses.tab_echolocation",
+    "icon": "🔊",
+    "color": "#6A1B9A",
+    "how_it_works_key": "senses.echolocation.how",
+    "animals": ["bat", "dolphin", "whale_humpback"],
+    "human_equivalent": "Sonar technology",
+    "range": "Up to 100 meters"
+  },
+  {
+    "id": "infrared",
+    "name_key": "senses.tab_infrared",
+    "icon": "🔴",
+    "color": "#C62828",
+    "how_it_works_key": "senses.infrared.how",
+    "animals": ["rattlesnake", "python", "cobra_king"],
+    "human_equivalent": "Thermal cameras",
+    "range": "Up to 1 meter"
+  },
+  {
+    "id": "magnetic_navigation",
+    "name_key": "senses.tab_magnetic",
+    "icon": "🧭",
+    "color": "#1565C0",
+    "how_it_works_key": "senses.magnetic.how",
+    "animals": ["salmon", "sea_turtle", "butterfly_monarch", "bee_honey"],
+    "human_equivalent": "GPS/Compass",
+    "range": "Thousands of kilometers"
+  },
+  {
+    "id": "electroreception",
+    "name_key": "senses.tab_electroreception",
+    "icon": "⚡",
+    "color": "#F9A825",
+    "how_it_works_key": "senses.electroreception.how",
+    "animals": ["shark_great_white", "shark_hammerhead", "electric_eel"],
+    "human_equivalent": "Electric field detectors",
+    "range": "Up to several meters"
+  },
+  {
+    "id": "ultrasound_detection",
+    "name_key": "senses.tab_ultrasound",
+    "icon": "〰️",
+    "color": "#7B1FA2",
+    "how_it_works_key": "senses.ultrasound.how",
+    "animals": ["bat", "dolphin", "owl"],
+    "human_equivalent": "Ultrasound machines",
+    "range": "Varies by species"
+  },
+  {
+    "id": "polarized_light",
+    "name_key": "senses.tab_polarized",
+    "icon": "💠",
+    "color": "#00838F",
+    "how_it_works_key": "senses.polarized.how",
+    "animals": ["bee_honey", "octopus", "ant"],
+    "human_equivalent": "Polarized sunglasses",
+    "range": "Visual range"
+  },
+  {
+    "id": "pressure_sensing",
+    "name_key": "senses.tab_pressure",
+    "icon": "🌀",
+    "color": "#37474F",
+    "how_it_works_key": "senses.pressure.how",
+    "animals": ["shark_great_white", "crocodile", "seahorse"],
+    "human_equivalent": "Barometers",
+    "range": "Up to 100 meters in water"
+  },
+  {
+    "id": "chemical_sensing",
+    "name_key": "senses.tab_chemical",
+    "icon": "👃",
+    "color": "#4E342E",
+    "how_it_works_key": "senses.chemical.how",
+    "animals": ["octopus", "rattlesnake", "ant", "dog"],
+    "human_equivalent": "Chemical analyzers",
+    "range": "Contact to several km"
+  }
+]

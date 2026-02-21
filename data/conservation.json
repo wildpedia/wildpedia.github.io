@@ -1,0 +1,26 @@
+{
+  "statuses": [
+    { "id": "LC", "name_key": "conservation.iucn_lc", "color": "#006400", "description_key": "conservation.lc.desc" },
+    { "id": "NT", "name_key": "conservation.iucn_nt", "color": "#8B8000", "description_key": "conservation.nt.desc" },
+    { "id": "VU", "name_key": "conservation.iucn_vu", "color": "#CC6600", "description_key": "conservation.vu.desc" },
+    { "id": "EN", "name_key": "conservation.iucn_en", "color": "#CC0000", "description_key": "conservation.en.desc" },
+    { "id": "CR", "name_key": "conservation.iucn_cr", "color": "#8B0000", "description_key": "conservation.cr.desc" },
+    { "id": "EW", "name_key": "conservation.iucn_ew", "color": "#4B0082", "description_key": "conservation.ew.desc" },
+    { "id": "EX", "name_key": "conservation.iucn_ex", "color": "#000000", "description_key": "conservation.ex.desc" }
+  ],
+  "threats": [
+    { "id": "habitat_loss", "name_key": "conservation.threat.habitat_loss", "icon": "🏗️", "affected_animals": ["orangutan", "gorilla", "tiger", "panda"] },
+    { "id": "climate_change", "name_key": "conservation.threat.climate_change", "icon": "🌡️", "affected_animals": ["bear_polar", "penguin_emperor", "coral", "sea_turtle"] },
+    { "id": "poaching", "name_key": "conservation.threat.poaching", "icon": "🔫", "affected_animals": ["elephant_african", "rhino", "tiger", "gorilla"] },
+    { "id": "pollution", "name_key": "conservation.threat.pollution", "icon": "🏭", "affected_animals": ["sea_turtle", "whale_blue", "dolphin", "coral"] },
+    { "id": "overfishing", "name_key": "conservation.threat.overfishing", "icon": "🎣", "affected_animals": ["shark_great_white", "shark_hammerhead", "manta_ray", "seahorse"] },
+    { "id": "invasive_species", "name_key": "conservation.threat.invasive", "icon": "🐀", "affected_animals": ["axolotl", "iguana", "frog_tree"] },
+    { "id": "human_wildlife_conflict", "name_key": "conservation.threat.conflict", "icon": "⚔️", "affected_animals": ["elephant_african", "lion", "tiger", "bear_grizzly"] }
+  ],
+  "success_stories": [
+    { "id": "bald_eagle", "animal_id": "eagle_bald", "name_key": "conservation.success.bald_eagle", "from_status": "EN", "to_status": "LC", "year": 2007 },
+    { "id": "humpback_whale", "animal_id": "whale_humpback", "name_key": "conservation.success.humpback", "from_status": "EN", "to_status": "LC", "year": 2016 },
+    { "id": "giant_panda", "animal_id": "panda", "name_key": "conservation.success.panda", "from_status": "EN", "to_status": "VU", "year": 2016 },
+    { "id": "peregrine_falcon", "animal_id": "falcon_peregrine", "name_key": "conservation.success.peregrine", "from_status": "EN", "to_status": "LC", "year": 1999 }
+  ]
+}

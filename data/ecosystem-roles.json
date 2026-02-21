@@ -1,0 +1,92 @@
+[
+  {
+    "id": "apex_predator",
+    "name_key": "ecosystem.tab_apex",
+    "icon": "🦁",
+    "color": "#C62828",
+    "description_key": "ecosystem.apex.desc",
+    "importance_key": "ecosystem.apex.importance",
+    "examples": ["lion", "tiger", "bear_polar", "bear_grizzly", "shark_great_white", "crocodile", "eagle_bald", "eagle_golden", "komodo_dragon", "anaconda"]
+  },
+  {
+    "id": "pollinator",
+    "name_key": "ecosystem.tab_pollinators",
+    "icon": "🐝",
+    "color": "#F9A825",
+    "description_key": "ecosystem.pollinators.desc",
+    "importance_key": "ecosystem.pollinators.importance",
+    "examples": ["bee_honey", "butterfly_monarch", "hummingbird", "bat"]
+  },
+  {
+    "id": "ecosystem_engineer",
+    "name_key": "ecosystem.tab_engineers",
+    "icon": "🏗️",
+    "color": "#5D4037",
+    "description_key": "ecosystem.engineers.desc",
+    "importance_key": "ecosystem.engineers.importance",
+    "examples": ["elephant_african", "elephant_asian", "coral"]
+  },
+  {
+    "id": "decomposer",
+    "name_key": "ecosystem.tab_decomposers",
+    "icon": "♻️",
+    "color": "#4E342E",
+    "description_key": "ecosystem.decomposers.desc",
+    "importance_key": "ecosystem.decomposers.importance",
+    "examples": ["ant"]
+  },
+  {
+    "id": "seed_disperser",
+    "name_key": "ecosystem.tab_seed",
+    "icon": "🌱",
+    "color": "#388E3C",
+    "description_key": "ecosystem.seed.desc",
+    "importance_key": "ecosystem.seed.importance",
+    "examples": ["chimpanzee", "orangutan", "parrot", "toucan", "peacock"]
+  },
+  {
+    "id": "scavenger",
+    "name_key": "ecosystem.tab_scavengers",
+    "icon": "🦅",
+    "color": "#795548",
+    "description_key": "ecosystem.scavengers.desc",
+    "importance_key": "ecosystem.scavengers.importance",
+    "examples": ["crow", "albatross"]
+  },
+  {
+    "id": "filter_feeder",
+    "name_key": "ecosystem.filter_feeder",
+    "icon": "🌊",
+    "color": "#0097A7",
+    "description_key": "ecosystem.filter.desc",
+    "importance_key": "ecosystem.filter.importance",
+    "examples": ["whale_blue", "whale_humpback", "manta_ray", "flamingo"]
+  },
+  {
+    "id": "keystone_species",
+    "name_key": "ecosystem.keystone",
+    "icon": "🔑",
+    "color": "#E65100",
+    "description_key": "ecosystem.keystone.desc",
+    "importance_key": "ecosystem.keystone.importance",
+    "examples": ["salmon", "bee_honey", "elephant_african", "shark_great_white"]
+  },
+  {
+    "id": "mesopredator",
+    "name_key": "ecosystem.mesopredator",
+    "icon": "🐺",
+    "color": "#455A64",
+    "description_key": "ecosystem.mesopredator.desc",
+    "importance_key": "ecosystem.mesopredator.importance",
+    "examples": ["wolf", "cheetah", "leopard", "owl", "falcon_peregrine", "dolphin", "octopus"]
+  },
+  {
+    "id": "herbivore_grazer",
+    "name_key": "ecosystem.herbivore",
+    "icon": "🌿",
+    "color": "#8BC34A",
+    "description_key": "ecosystem.herbivore.desc",
+    "importance_key": "ecosystem.herbivore.importance",
+    "examples": ["giraffe", "zebra", "hippo", "rhino", "panda", "gorilla", "kangaroo"]
+  }
+]

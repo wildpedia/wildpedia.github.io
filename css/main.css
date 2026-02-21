@@ -1,0 +1,3672 @@
+/* ==========================================================================
+   AnimalKingdom - Wildlife & Safari Explorer Platform
+   Adapted from EatClever nutrition layout system with amber/brown safari theme
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. CSS CUSTOM PROPERTIES (VARIABLES)
+   -------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ak-primary: #BF6A1F;
+    --ak-dark: #8B4513;
+    --ak-light: #D4943A;
+    --ak-accent: #1A6B5C;
+    --ak-bg: #faf6f1;
+    --text-dark: #1a1a1a;
+    --text-gray: #555;
+    --white: #ffffff;
+    --border-gray: #e0e0e0;
+    --score-high: #8B4513;
+    --score-above: #BF6A1F;
+    --score-avg: #D4943A;
+    --score-below: #E8C89E;
+    --score-low: #faf6f1;
+    --hover-tint: #fff8f0;
+    --header-h: 56px;
+}
+
+body {
+    font-family: 'Segoe UI', 'Open Sans', 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background: var(--white);
+}
+
+/* ==========================================================================
+   2. HEADER
+   ========================================================================== */
+.header {
+    background: var(--ak-primary);
+    color: var(--white);
+    padding: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    background: var(--white);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.nav a:hover {
+    opacity: 0.8;
+}
+
+/* Language Switcher */
+.lang-select {
+    background: rgba(255,255,255,0.2);
+    color: var(--white);
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.lang-select option {
+    background: var(--white);
+    color: var(--text-dark);
+}
+
+/* ==========================================================================
+   3. HERO SECTION
+   ========================================================================== */
+.hero {
+    background: linear-gradient(135deg, var(--ak-primary) 0%, var(--ak-dark) 100%);
+    color: var(--white);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+/* ==========================================================================
+   4. CONTAINER & SECTION
+   ========================================================================== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.section {
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: var(--ak-dark);
+}
+
+.section-subtitle {
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+/* ==========================================================================
+   5. CARDS GRID
+   ========================================================================== */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+/* Fixed column grids */
+.grid-3x2 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4x2,
+.grid-4x3 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5 {
+    display: flex;
+    overflow-x: auto;
+    gap: 1.25rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.5rem;
+}
+
+.grid-5 > div {
+    flex: 0 0 200px;
+    scroll-snap-align: start;
+}
+
+.grid-5 .overview-card {
+    min-height: 220px;
+    height: auto;
+}
+
+/* Scroll indicator wrapper for horizontal-scroll containers */
+.scroll-wrapper {
+    position: relative;
+}
+
+.scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background: var(--ak-primary);
+    color: var(--white);
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-arrow.visible {
+    opacity: 0.85;
+    visibility: visible;
+}
+
+.scroll-arrow:hover {
+    opacity: 1;
+}
+
+.scroll-arrow-left {
+    left: -4px;
+}
+
+.scroll-arrow-right {
+    right: -4px;
+}
+
+/* ==========================================================================
+   6. CARD BASE STYLES
+   ========================================================================== */
+.card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-left: 3px solid var(--ak-primary);
+    padding: 1.25rem;
+    border-radius: 6px;
+    transition: box-shadow 0.3s, transform 0.2s, background 0.3s;
+    display: block;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(191,106,31,0.12);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, var(--white) 0%, var(--hover-tint) 100%);
+}
+
+a.card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+    color: var(--ak-dark);
+    display: inline;
+    vertical-align: middle;
+}
+
+.card-value {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--ak-primary);
+    margin: 0.6rem 0;
+}
+
+.card-description {
+    color: var(--text-gray);
+    font-size: 0.82rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-podium {
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: var(--ak-dark);
+    margin: 0.4rem 0;
+    flex: 1;
+}
+
+/* ==========================================================================
+   7. OVERVIEW CARD (homepage cards)
+   ========================================================================== */
+.overview-card {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.15s, box-shadow 0.15s;
+    cursor: pointer;
+}
+
+.overview-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.card-link {
+    margin-top: auto;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--ak-primary);
+}
+
+.pillar-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.pillar-card .card-description {
+    flex: 1;
+}
+
+.card-avg {
+    margin-top: 0.6rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--border-gray);
+    font-size: 0.85rem;
+    color: var(--text-gray);
+}
+
+.card-avg strong {
+    color: var(--ak-primary);
+    font-size: 1rem;
+}
+
+.avg-label {
+    font-size: 0.8rem;
+}
+
+/* ==========================================================================
+   8. CATEGORY CARD
+   ========================================================================== */
+.category-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1.25rem;
+    min-height: 140px;
+}
+
+.category-card .card-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.category-card .card-title {
+    display: block;
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+}
+
+.category-card .card-desc {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.category-card .card-link {
+    display: block;
+    margin-top: auto;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   9. PAGE CONTENT (detail pages)
+   ========================================================================== */
+.page-content {
+    min-height: 60vh;
+}
+
+.page-title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--ak-dark);
+    margin-bottom: 1rem;
+}
+
+.page-intro {
+    font-size: 1.1rem;
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+    max-width: 800px;
+}
+
+.back-link {
+    display: inline-block;
+    color: var(--ak-primary);
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.back-bar {
+    position: sticky;
+    top: var(--header-h, 56px);
+    left: 0;
+    right: 0;
+    background: var(--white);
+    padding: 0.5rem 2rem;
+    z-index: 999;
+    border-bottom: 1px solid var(--border-gray);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.back-bar a {
+    color: var(--ak-primary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.back-bar a:hover {
+    text-decoration: underline;
+}
+
+.scroll-top-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    background: var(--ak-primary);
+    color: var(--white);
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
+.scroll-top-btn.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-top-btn:hover {
+    transform: scale(1.1);
+    background: var(--ak-dark);
+}
+
+/* ==========================================================================
+   10. CONTENT SECTIONS
+   ========================================================================== */
+.content-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.content-section:last-child {
+    border-bottom: none;
+}
+
+.content-section h2 {
+    color: var(--ak-dark);
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    font-size: 1.4rem;
+}
+
+.content-section h3 {
+    color: var(--text-gray);
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.content-section p {
+    margin-bottom: 0.75rem;
+    color: var(--text-gray);
+}
+
+.content-section ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-gray);
+}
+
+.content-section ul li {
+    margin-bottom: 0.4rem;
+}
+
+/* ==========================================================================
+   11. SCORE BARS (animal stats: speed, strength, etc.)
+   ========================================================================== */
+.scores-heading {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--ak-dark);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--ak-primary);
+    display: inline-block;
+}
+
+.score-bars {
+    max-width: 800px;
+}
+
+.score-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    gap: 1rem;
+}
+
+.score-label {
+    min-width: 200px;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    text-decoration: none;
+}
+
+.score-label:hover {
+    color: var(--ak-primary);
+}
+
+.score-bar-track {
+    flex: 1;
+    height: 24px;
+    background: var(--ak-bg);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.score-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.6s ease;
+}
+
+.score-value {
+    min-width: 36px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+/* Score tier colors */
+.score-high { background: var(--score-high); }
+.score-above_avg { background: var(--score-above); }
+.score-average { background: var(--score-avg); }
+.score-below_avg { background: var(--score-below); }
+.score-low { background: var(--score-low); }
+
+/* AnimalKingdom stat score colors */
+.score-excellent { background: #8B4513; }
+.score-good { background: #BF6A1F; }
+.score-moderate { background: #D4943A; }
+.score-weak { background: #E8C89E; }
+
+.score-high-text { color: var(--score-high); }
+.score-above_avg-text { color: var(--score-above); }
+.score-average-text { color: var(--score-avg); }
+.score-below_avg-text { color: #8B6914; }
+.score-low-text { color: #cc3333; }
+
+/* ==========================================================================
+   12. PILLAR / TABS
+   ========================================================================== */
+.pillar-desc {
+    font-size: 1.1rem;
+    color: var(--text-gray);
+    margin-bottom: 1.5rem;
+}
+
+.pillar-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.pillar-tab {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--text-dark);
+    font-size: 0.85rem;
+    transition: background 0.2s;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: inherit;
+    background: var(--white);
+}
+
+.pillar-tab:hover {
+    background: var(--ak-bg);
+}
+
+.pillar-tab.active {
+    background: var(--ak-primary);
+    color: var(--white);
+    border-color: var(--ak-primary);
+}
+
+/* ==========================================================================
+   13. RANKING TABLE (records/leaderboards)
+   ========================================================================== */
+.ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.ranking-table th {
+    text-align: left;
+    padding: 0.75rem 1rem;
+    border-bottom: 2px solid var(--ak-dark);
+    color: var(--ak-dark);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ranking-table td {
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.ranking-table tr:hover {
+    background: var(--ak-bg);
+}
+
+.ranking-table a {
+    color: var(--text-dark);
+    text-decoration: none;
+}
+
+.ranking-table a:hover {
+    color: var(--ak-primary);
+}
+
+.rank-num {
+    font-weight: 600;
+    color: var(--text-gray);
+    width: 50px;
+}
+
+.rank-bar-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.rank-bar {
+    height: 20px;
+    border-radius: 3px;
+    min-width: 4px;
+    transition: width 0.4s ease;
+}
+
+.rank-score {
+    font-weight: 600;
+    min-width: 30px;
+    font-size: 0.9rem;
+}
+
+/* ==========================================================================
+   14. TAGS & BADGES
+   ========================================================================== */
+.tag {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    background: var(--ak-bg);
+    color: var(--text-gray);
+    border: 1px solid var(--border-gray);
+}
+
+.gov-tag {
+    display: inline-block;
+    background: var(--ak-bg);
+    padding: 0.35rem 0.85rem;
+    border-radius: 16px;
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    border: 1px solid var(--border-gray);
+}
+
+.category-tag,
+.subcategory-tag {
+    display: inline-block;
+    background: var(--ak-bg);
+    padding: 0.3rem 0.75rem;
+    border-radius: 16px;
+    font-size: 0.82rem;
+    color: var(--text-gray);
+    border: 1px solid var(--border-gray);
+}
+
+/* ==========================================================================
+   15. ANIMAL SELECTOR DROPDOWN (adapted from food-selector)
+   ========================================================================== */
+.animal-selector-wrap {
+    position: relative;
+}
+
+.animal-selector-btn {
+    background: rgba(255,255,255,0.2);
+    color: var(--white);
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+    font-family: inherit;
+    white-space: nowrap;
+}
+
+.animal-selector-btn:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+.animal-selector-panel {
+    display: none;
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    width: 280px;
+    max-height: 380px;
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    z-index: 2000;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.animal-selector-panel.open {
+    display: flex;
+}
+
+.animal-selector-search {
+    padding: 0.6rem 0.75rem;
+    border: none;
+    border-bottom: 1px solid var(--border-gray);
+    font-size: 0.9rem;
+    outline: none;
+    font-family: inherit;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.animal-selector-list {
+    flex: 1;
+    overflow-y: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.animal-selector-list a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    color: var(--text-dark);
+    font-size: 0.88rem;
+    transition: background 0.15s;
+}
+
+.animal-selector-list a:hover {
+    background: var(--ak-bg);
+}
+
+.animal-class-selector-badge {
+    background: var(--ak-bg);
+    color: var(--ak-dark);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+    min-width: 28px;
+    text-align: center;
+}
+
+/* ==========================================================================
+   16. COMPARE PAGE
+   ========================================================================== */
+.compare-picker {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.compare-picker select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    min-width: 180px;
+    background: var(--white);
+}
+
+.compare-picker .compare-btn,
+.compare-btn {
+    background: var(--ak-primary);
+    color: var(--white);
+    border: none;
+    padding: 0.55rem 1.5rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.2s;
+}
+
+.compare-picker .compare-btn:hover,
+.compare-btn:hover {
+    background: var(--ak-dark);
+}
+
+.compare-hint {
+    background: var(--ak-bg);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--text-gray);
+    font-size: 1rem;
+}
+
+.compare-section {
+    margin-bottom: 2.5rem;
+}
+
+.compare-section h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--ak-dark);
+    margin-bottom: 1rem;
+}
+
+.compare-radar-wrap {
+    max-width: 550px;
+    margin: 0 auto 2rem;
+}
+
+.compare-bars {
+    max-width: 800px;
+}
+
+.compare-bar-row {
+    margin-bottom: 0.75rem;
+}
+
+.compare-bar-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 0.3rem;
+}
+
+.compare-bar-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.compare-bar-entry {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.compare-bar-name {
+    font-size: 0.75rem;
+    color: var(--text-gray);
+    min-width: 80px;
+    text-align: right;
+}
+
+.compare-bar-track {
+    flex: 1;
+    height: 18px;
+    background: var(--ak-bg);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.compare-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.6s ease;
+}
+
+.compare-bar-value {
+    font-size: 0.8rem;
+    font-weight: 600;
+    min-width: 28px;
+}
+
+.compare-econ-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.compare-econ-table th {
+    text-align: left;
+    padding: 0.6rem 1rem;
+    border-bottom: 2px solid var(--ak-dark);
+    color: var(--ak-dark);
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.compare-econ-table td {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid var(--border-gray);
+    font-size: 0.9rem;
+}
+
+.compare-econ-table tr:hover {
+    background: var(--ak-bg);
+}
+
+.compare-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.compare-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.compare-selector label {
+    font-size: 0.8rem;
+    color: var(--text-gray);
+    font-weight: 500;
+}
+
+.animal-select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    min-width: 180px;
+    background: var(--white);
+}
+
+.compare-toggle {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.compare-toggle button {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    background: var(--white);
+    font-family: inherit;
+}
+
+.compare-toggle button.active {
+    background: var(--ak-primary);
+    color: var(--white);
+    border-color: var(--ak-primary);
+}
+
+.compare-chart-container {
+    max-width: 500px;
+    margin: 0 auto 2rem;
+}
+
+.compare-bar-rows {
+    max-width: 800px;
+}
+
+.compare-bar-item {
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.compare-nutrient-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 0.25rem;
+}
+
+.compare-food-label {
+    font-size: 0.75rem;
+    color: var(--text-gray);
+    min-width: 80px;
+    text-align: right;
+}
+
+.compare-score-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.compare-score-card {
+    background: var(--ak-bg);
+    padding: 1.25rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.compare-food-name {
+    font-weight: 600;
+    color: var(--ak-dark);
+    margin-bottom: 0.25rem;
+}
+
+.compare-win-count {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--ak-primary);
+}
+
+.compare-detail-list {
+    margin-top: 1rem;
+}
+
+.compare-detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+    font-size: 0.85rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.compare-detail-row:last-child {
+    border-bottom: none;
+}
+
+/* ==========================================================================
+   17. QUIZ
+   ========================================================================== */
+.quiz-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.quiz-start {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.quiz-start-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.quiz-start h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--ak-dark);
+    margin-bottom: 0.75rem;
+}
+
+.quiz-start p {
+    font-size: 1.1rem;
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+}
+
+.quiz-start-btn {
+    background: var(--ak-primary);
+    color: var(--white);
+    border: none;
+    padding: 0.85rem 2.5rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.quiz-start-btn:hover {
+    background: var(--ak-dark);
+    transform: translateY(-1px);
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.quiz-progress-text {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--ak-dark);
+}
+
+.quiz-score-display {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--ak-primary);
+}
+
+.quiz-progress {
+    width: 100%;
+    height: 8px;
+    background: var(--ak-bg);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.quiz-progress-fill {
+    height: 100%;
+    background: var(--ak-primary);
+    border-radius: 4px;
+    transition: width 0.4s ease;
+}
+
+.quiz-question {
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.quiz-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.quiz-option,
+.quiz-option-btn {
+    background: var(--white);
+    border: 2px solid var(--border-gray);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: left;
+    transition: border-color 0.2s, background 0.2s, transform 0.1s;
+    color: var(--text-dark);
+    line-height: 1.3;
+}
+
+.quiz-option:hover:not(.disabled),
+.quiz-option-btn:hover:not(:disabled) {
+    border-color: var(--ak-primary);
+    background: var(--hover-tint);
+    transform: translateY(-1px);
+}
+
+.quiz-option.correct,
+.quiz-option-btn.quiz-correct {
+    border-color: #2E7D32;
+    background: #e8f5e9;
+    color: #1B5E20;
+    font-weight: 600;
+}
+
+.quiz-option.wrong,
+.quiz-option-btn.quiz-wrong {
+    border-color: #C62828;
+    background: #ffebee;
+    color: #B71C1C;
+}
+
+.quiz-option.disabled,
+.quiz-option-btn:disabled {
+    cursor: default;
+    opacity: 0.85;
+}
+
+.quiz-option.disabled:not(.correct):not(.wrong) {
+    opacity: 0.5;
+}
+
+.quiz-feedback {
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.quiz-feedback.correct,
+.quiz-feedback-correct {
+    background: #e8f5e9;
+    color: #1B5E20;
+    border-left: 4px solid #2E7D32;
+}
+
+.quiz-feedback.wrong,
+.quiz-feedback-wrong {
+    background: #ffebee;
+    color: #B71C1C;
+    border-left: 4px solid #C62828;
+}
+
+.quiz-next-btn {
+    display: block;
+    margin: 1.5rem auto 0;
+    background: var(--ak-primary);
+    color: var(--white);
+    border: none;
+    padding: 0.65rem 2rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.2s;
+}
+
+.quiz-next-btn:hover {
+    background: var(--ak-dark);
+}
+
+.quiz-results {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.quiz-score-big {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--ak-dark);
+    margin: 1rem 0 0.5rem;
+}
+
+.quiz-score-label {
+    font-size: 1rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+.quiz-rating {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.quiz-rating-emoji {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.quiz-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.quiz-actions button {
+    padding: 0.7rem 2rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.quiz-actions button:hover {
+    transform: translateY(-1px);
+}
+
+.quiz-play-again {
+    background: var(--ak-primary);
+    color: var(--white);
+}
+
+.quiz-play-again:hover {
+    background: var(--ak-dark);
+}
+
+.quiz-share-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-gray);
+}
+
+.quiz-share-label {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+}
+
+.quiz-share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.quiz-social-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s, opacity 0.2s;
+    color: var(--white);
+}
+
+.quiz-social-btn:hover {
+    transform: scale(1.1);
+}
+
+.quiz-social-whatsapp { background: #25D366; }
+.quiz-social-x { background: #000; }
+.quiz-social-facebook { background: #1877F2; }
+.quiz-social-linkedin { background: #0A66C2; }
+.quiz-social-telegram { background: #26A5E4; }
+.quiz-social-copy {
+    background: var(--ak-bg);
+    color: var(--text-gray);
+    border: 1px solid var(--border-gray);
+}
+.quiz-social-copy.copied {
+    background: #e8f5e9;
+    color: #2E7D32;
+    border-color: #2E7D32;
+}
+
+/* Quiz extra classes (used in renderQuiz) */
+.quiz-start-screen {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.quiz-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.quiz-play-screen { }
+
+.quiz-progress-bar {
+    width: 100%;
+    height: 8px;
+    background: var(--ak-bg);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.quiz-question-text {
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.quiz-results-screen {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+/* ==========================================================================
+   18. FOOTER
+   ========================================================================== */
+.footer {
+    background: var(--text-dark);
+    color: var(--white);
+    padding: 3rem 2rem 1.5rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-section {
+    min-width: 0;
+}
+
+.footer-section h3 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: var(--ak-light);
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    color: rgba(255,255,255,0.6);
+    font-size: 0.9rem;
+}
+
+.visitor-counter {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.45);
+}
+
+.bmc-link {
+    margin-top: 0.75rem;
+}
+
+.bmc-link a {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.bmc-link a:hover {
+    color: #ffdd57;
+}
+
+/* ==========================================================================
+   19. SHARE BAR
+   ========================================================================== */
+.share-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    margin: 0.5rem 0;
+}
+
+.share-bar-label {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.share-bar-buttons {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.share-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: transform 0.2s;
+}
+
+.share-btn:hover {
+    transform: scale(1.1);
+}
+
+.share-whatsapp { background: #25D366; }
+.share-x { background: #000; }
+.share-facebook { background: #1877F2; }
+.share-linkedin { background: #0A66C2; }
+.share-telegram { background: #26A5E4; }
+.share-copy { background: var(--ak-dark); }
+.share-copy.copied { background: var(--ak-primary); }
+
+/* ==========================================================================
+   20. META CARDS (animal detail overview stats)
+   ========================================================================== */
+.meta-card {
+    background: var(--ak-bg);
+    padding: 1.5rem 2rem;
+    border-radius: 4px;
+    min-width: 180px;
+    text-align: center;
+}
+
+.meta-label {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.meta-value {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--ak-dark);
+}
+
+/* Metric dashboard (reused for animal stats) */
+.econ-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.econ-metric {
+    background: var(--ak-bg);
+    padding: 1.25rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--border-gray);
+    transition: box-shadow 0.2s;
+}
+
+.econ-metric:hover {
+    box-shadow: 0 2px 8px rgba(191, 106, 31, 0.08);
+}
+
+.econ-metric-label {
+    font-size: 0.8rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.4rem;
+}
+
+.econ-metric-value {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--ak-dark);
+}
+
+.econ-chart-box {
+    background: var(--ak-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-gray);
+}
+
+.econ-chart-box h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--ak-dark);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.econ-chart-box canvas {
+    max-height: 280px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* ==========================================================================
+   21. SUMMARY BOX
+   ========================================================================== */
+.summary-box {
+    background: linear-gradient(135deg, #fdf5ec 0%, var(--ak-bg) 100%);
+    border: 1px solid rgba(191, 106, 31, 0.15);
+    border-left: 4px solid var(--ak-primary);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.93rem;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+.summary-line {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.35rem 0;
+}
+
+.summary-line + .summary-line {
+    border-top: 1px solid rgba(191, 106, 31, 0.08);
+}
+
+.summary-icon {
+    flex-shrink: 0;
+    font-size: 1rem;
+    width: 1.4rem;
+    text-align: center;
+}
+
+.summary-line strong {
+    color: var(--ak-dark);
+}
+
+/* Editorial summary (column style) */
+.summary-box--editorial {
+    background: linear-gradient(135deg, #fef9f3 0%, #f7efe4 100%);
+    border: none;
+    border-left: 4px solid var(--ak-primary);
+    border-radius: 12px;
+    padding: 1.75rem 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.85;
+    color: var(--text-dark);
+    box-shadow: 0 2px 12px rgba(191, 106, 31, 0.06);
+}
+
+.summary-box--editorial p {
+    margin: 0 0 0.9rem 0;
+    text-align: justify;
+}
+
+.summary-box--editorial p:last-child {
+    margin-bottom: 0;
+}
+
+.summary-box--editorial p:first-child::first-letter {
+    font-size: 2.2em;
+    font-weight: 700;
+    color: var(--ak-primary);
+    float: left;
+    line-height: 1;
+    margin-right: 0.12em;
+    margin-top: 0.05em;
+}
+
+.summary-box--editorial strong {
+    color: var(--ak-dark);
+    font-weight: 700;
+}
+
+.summary-cta {
+    font-style: italic;
+    color: var(--ak-primary);
+    font-weight: 600;
+    text-align: center !important;
+    border-top: 1px solid rgba(191, 106, 31, 0.12);
+    padding-top: 0.9rem;
+    margin-top: 0.4rem;
+}
+
+/* ==========================================================================
+   22. INFO BUTTON & TOOLTIP
+   ========================================================================== */
+.info-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1.5px solid var(--ak-primary);
+    background: transparent;
+    color: var(--ak-primary);
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-style: italic;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    margin-left: 0.35rem;
+    padding: 0;
+    line-height: 1;
+    vertical-align: middle;
+    flex-shrink: 0;
+    transition: background 0.2s, color 0.2s;
+}
+
+.info-btn:hover,
+.info-btn.active {
+    background: var(--ak-primary);
+    color: var(--white);
+}
+
+#ak-tooltip {
+    position: fixed;
+    z-index: 9999;
+    max-width: 300px;
+    background: var(--white);
+    color: var(--text-dark);
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    padding: 0.75rem 1rem;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    display: none;
+    pointer-events: none;
+}
+
+#ak-tooltip.visible {
+    display: block;
+}
+
+/* ==========================================================================
+   23. GENERIC BUTTON STYLES (btn utility)
+   ========================================================================== */
+.btn {
+    display: inline-block;
+    padding: 0.55rem 1.5rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    transition: background 0.2s, transform 0.15s;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.btn-primary {
+    background: var(--ak-primary);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background: var(--ak-dark);
+}
+
+.btn-secondary {
+    background: var(--white);
+    color: var(--ak-primary);
+    border: 1px solid var(--ak-primary);
+}
+
+.btn-secondary:hover {
+    background: var(--hover-tint);
+}
+
+.btn-small {
+    padding: 0.3rem 0.75rem;
+    font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   24. SOURCES & MISC
+   ========================================================================== */
+.sources {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-gray);
+}
+
+.sources h3 {
+    color: var(--ak-dark);
+    margin-bottom: 0.75rem;
+}
+
+.sources ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    color: var(--text-gray);
+}
+
+.sources li {
+    margin-bottom: 0.3rem;
+}
+
+.sources-list a {
+    color: var(--ak-primary);
+    text-decoration: none;
+}
+
+.sources-list a:hover {
+    text-decoration: underline;
+}
+
+.not-found {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-gray);
+    padding: 4rem 0;
+}
+
+/* Highlight box */
+.privacy-highlight {
+    background: #fdf5ec;
+    padding: 1.25rem;
+    border-left: 4px solid var(--ak-primary);
+    margin-bottom: 2rem;
+    border-radius: 0 4px 4px 0;
+}
+
+.updated-date {
+    margin-top: 2rem;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+/* Page subtitle */
+.page-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+    max-width: 800px;
+}
+
+/* No results state */
+.no-results {
+    text-align: center;
+    color: var(--text-gray);
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+/* Site disclaimer */
+.site-disclaimer {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.4);
+    text-align: center;
+    font-style: italic;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ==========================================================================
+   ==========================================================================
+   ==========================================================================
+   ANIMALKINGDOM-SPECIFIC COMPONENTS
+   ==========================================================================
+   ==========================================================================
+   ========================================================================== */
+
+
+/* ==========================================================================
+   25. STAT BAR (animal stats: speed, weight, etc.)
+   ========================================================================== */
+.stat-bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.6rem;
+    gap: 0.75rem;
+}
+
+.stat-bar-label {
+    min-width: 140px;
+    font-size: 0.9rem;
+    color: var(--text-dark);
+}
+
+.stat-bar-track {
+    flex: 1;
+    height: 20px;
+    background: var(--ak-bg);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.stat-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.6s ease;
+}
+
+.stat-bar-fill.speed { background: linear-gradient(90deg, #D4943A, #BF6A1F); }
+.stat-bar-fill.strength { background: linear-gradient(90deg, #8B4513, #6B3410); }
+.stat-bar-fill.agility { background: linear-gradient(90deg, #1A6B5C, #147A6A); }
+.stat-bar-fill.endurance { background: linear-gradient(90deg, #BF6A1F, #8B4513); }
+.stat-bar-fill.intelligence { background: linear-gradient(90deg, #6B3410, #3E2108); }
+.stat-bar-fill.stealth { background: linear-gradient(90deg, #555555, #333333); }
+
+.stat-bar-value {
+    min-width: 50px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.stat-bars-list {
+    max-width: 800px;
+}
+
+/* ==========================================================================
+   26. DANGER METER (5-level scale for human-bonds page)
+   ========================================================================== */
+.danger-meter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.75rem 0;
+}
+
+.danger-meter-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    min-width: 120px;
+}
+
+.danger-meter-scale {
+    display: flex;
+    gap: 3px;
+    flex: 1;
+    max-width: 300px;
+}
+
+.danger-meter-segment {
+    flex: 1;
+    height: 24px;
+    border-radius: 3px;
+    background: #e0e0e0;
+    transition: background 0.3s;
+}
+
+.danger-meter-segment.active.level-1 { background: #006400; }
+.danger-meter-segment.active.level-2 { background: #8B8000; }
+.danger-meter-segment.active.level-3 { background: #CC6600; }
+.danger-meter-segment.active.level-4 { background: #CC0000; }
+.danger-meter-segment.active.level-5 { background: #8B0000; }
+
+.danger-meter-value {
+    font-weight: 700;
+    font-size: 0.9rem;
+    min-width: 40px;
+    text-align: center;
+}
+
+.danger-meter-value.danger-1 { color: #006400; }
+.danger-meter-value.danger-2 { color: #8B8000; }
+.danger-meter-value.danger-3 { color: #CC6600; }
+.danger-meter-value.danger-4 { color: #CC0000; }
+.danger-meter-value.danger-5 { color: #8B0000; }
+
+.danger-meter-text {
+    font-size: 0.82rem;
+    color: var(--text-gray);
+    margin-left: 0.5rem;
+}
+
+/* Danger level badges (inline use) */
+.danger-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.danger-badge.danger-1 { background: #006400; }
+.danger-badge.danger-2 { background: #8B8000; }
+.danger-badge.danger-3 { background: #CC6600; }
+.danger-badge.danger-4 { background: #CC0000; }
+.danger-badge.danger-5 { background: #8B0000; }
+
+/* ==========================================================================
+   27. SENSE RADAR (wrapper for radar chart on animal detail)
+   ========================================================================== */
+.sense-radar {
+    max-width: 450px;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    background: var(--ak-bg);
+    border-radius: 12px;
+    border: 1px solid var(--border-gray);
+}
+
+.sense-radar canvas {
+    max-height: 350px;
+    margin: 0 auto;
+    display: block;
+}
+
+.sense-radar-title {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--ak-dark);
+    margin-bottom: 0.75rem;
+}
+
+.sense-radar-legend {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 0.75rem;
+    font-size: 0.82rem;
+    color: var(--text-gray);
+}
+
+.sense-radar-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.sense-radar-legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   28. IUCN CONSERVATION STATUS BADGES
+   ========================================================================== */
+.iucn-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 14px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.iucn-lc { background: #006400; }
+.iucn-nt { background: #8B8000; }
+.iucn-vu { background: #CC6600; }
+.iucn-en { background: #CC0000; }
+.iucn-cr { background: #8B0000; }
+.iucn-ew { background: #4B0082; }
+.iucn-ex { background: #000000; }
+
+/* IUCN badge with text label variant */
+.iucn-badge-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.iucn-badge-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.iucn-badge-dot.iucn-lc { background: #006400; }
+.iucn-badge-dot.iucn-nt { background: #8B8000; }
+.iucn-badge-dot.iucn-vu { background: #CC6600; }
+.iucn-badge-dot.iucn-en { background: #CC0000; }
+.iucn-badge-dot.iucn-cr { background: #8B0000; }
+.iucn-badge-dot.iucn-ew { background: #4B0082; }
+.iucn-badge-dot.iucn-ex { background: #000000; }
+
+.iucn-badge-text {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+/* IUCN status row for detail pages */
+.iucn-status-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1rem 0;
+    padding: 0.75rem 1rem;
+    background: var(--ak-bg);
+    border-radius: 8px;
+    border: 1px solid var(--border-gray);
+}
+
+.iucn-status-row .iucn-badge {
+    flex-shrink: 0;
+}
+
+.iucn-status-desc {
+    font-size: 0.88rem;
+    color: var(--text-gray);
+    line-height: 1.5;
+}
+
+/* ==========================================================================
+   29. CONTINENT MAP (SVG map container)
+   ========================================================================== */
+.continent-map {
+    max-width: 800px;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    background: var(--ak-bg);
+    border-radius: 12px;
+    border: 1px solid var(--border-gray);
+    text-align: center;
+}
+
+.continent-map svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.continent-map-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--ak-dark);
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.continent-map path {
+    fill: #e0d5c8;
+    stroke: #c4b6a4;
+    stroke-width: 0.5;
+    transition: fill 0.2s;
+}
+
+.continent-map path.highlighted {
+    fill: var(--ak-primary);
+    stroke: var(--ak-dark);
+    stroke-width: 1;
+}
+
+.continent-map path.highlighted:hover {
+    fill: var(--ak-light);
+    cursor: pointer;
+}
+
+.continent-map-legend {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.75rem;
+    font-size: 0.82rem;
+    color: var(--text-gray);
+}
+
+.continent-map-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.continent-map-legend-swatch {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+
+.continent-map-legend-swatch.native {
+    background: var(--ak-primary);
+}
+
+.continent-map-legend-swatch.introduced {
+    background: var(--ak-light);
+    opacity: 0.6;
+}
+
+.continent-map-legend-swatch.absent {
+    background: #e0d5c8;
+}
+
+/* ==========================================================================
+   30. ANIMAL CLASS BADGE (Mammal, Bird, Reptile, etc.)
+   ========================================================================== */
+.animal-class-badge {
+    display: inline-block;
+    padding: 0.2rem 0.65rem;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.animal-class-badge.mammal {
+    background: #fdf2e6;
+    color: #BF6A1F;
+    border: 1px solid rgba(191,106,31,0.3);
+}
+
+.animal-class-badge.bird {
+    background: #e6f3fd;
+    color: #1565C0;
+    border: 1px solid rgba(21,101,192,0.3);
+}
+
+.animal-class-badge.reptile {
+    background: #e6f7e6;
+    color: #2E7D32;
+    border: 1px solid rgba(46,125,50,0.3);
+}
+
+.animal-class-badge.amphibian {
+    background: #e6f7f2;
+    color: #00695C;
+    border: 1px solid rgba(0,105,92,0.3);
+}
+
+.animal-class-badge.fish {
+    background: #e6f2fd;
+    color: #0277BD;
+    border: 1px solid rgba(2,119,189,0.3);
+}
+
+.animal-class-badge.insect {
+    background: #fce4ec;
+    color: #880E4F;
+    border: 1px solid rgba(136,14,79,0.3);
+}
+
+.animal-class-badge.arachnid {
+    background: #f3e5f5;
+    color: #6A1B9A;
+    border: 1px solid rgba(106,27,154,0.3);
+}
+
+.animal-class-badge.mollusk {
+    background: #fce4ec;
+    color: #AD1457;
+    border: 1px solid rgba(173,20,87,0.3);
+}
+
+.animal-class-badge.crustacean {
+    background: #fff3e0;
+    color: #E65100;
+    border: 1px solid rgba(230,81,0,0.3);
+}
+
+/* ==========================================================================
+   31. FUN FACT CARD
+   ========================================================================== */
+.fun-fact-card {
+    background: linear-gradient(135deg, #fef9f3 0%, var(--ak-bg) 100%);
+    border: 1px solid rgba(191, 106, 31, 0.2);
+    border-left: 4px solid var(--ak-light);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.2s, transform 0.15s;
+}
+
+.fun-fact-card:hover {
+    box-shadow: 0 4px 12px rgba(191, 106, 31, 0.1);
+    transform: translateY(-1px);
+}
+
+.fun-fact-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.fun-fact-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--ak-dark);
+    margin-bottom: 0.4rem;
+}
+
+.fun-fact-text {
+    font-size: 0.88rem;
+    color: var(--text-gray);
+    line-height: 1.6;
+}
+
+.fun-fact-source {
+    font-size: 0.75rem;
+    color: #999;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Fun facts grid */
+.fun-facts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+/* ==========================================================================
+   32. FEATURED CARDS (homepage)
+   ========================================================================== */
+.featured-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-left: none;
+    padding: 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.2s;
+    min-height: 120px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    min-width: 180px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+.featured-card:hover {
+    box-shadow: 0 4px 16px rgba(191,106,31,0.12);
+    transform: translateY(-2px);
+}
+
+.featured-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.featured-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--ak-dark);
+}
+
+/* ==========================================================================
+   33. ANIMAL DETAIL PAGE
+   ========================================================================== */
+.animal-detail-header {
+    margin-bottom: 1.5rem;
+}
+
+.animal-tags-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.animal-hero-display {
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: var(--ak-bg);
+    border-radius: 8px;
+}
+
+.animal-hero-icon {
+    font-size: 4rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.animal-common-name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--ak-dark);
+}
+
+.animal-scientific-name {
+    font-size: 1rem;
+    color: var(--text-gray);
+    font-style: italic;
+}
+
+.animal-stats-section,
+.animal-habitat-section,
+.animal-behavior-section,
+.animal-diet-section,
+.animal-conservation-section,
+.animal-fun-facts-section {
+    margin-bottom: 2rem;
+}
+
+.animal-availability {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+}
+
+/* Animal habitat chips */
+.habitat-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.habitat-chip {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    border-radius: 16px;
+    font-size: 0.82rem;
+    text-decoration: none;
+    background: var(--ak-bg);
+    color: var(--ak-primary);
+    border: 1px solid rgba(191,106,31,0.2);
+    transition: background 0.2s;
+}
+
+.habitat-chip:hover {
+    background: var(--hover-tint);
+}
+
+/* Animal link chips */
+.animal-link-chip {
+    display: inline-block;
+    padding: 0.35rem 0.85rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    background: linear-gradient(135deg, #fdf2e6 0%, #f5dfc4 100%);
+    color: var(--ak-dark);
+    border: 1px solid rgba(191,106,31,0.25);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.animal-link-chip:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(191,106,31,0.15);
+}
+
+/* ==========================================================================
+   34. ANIMAL BROWSE GRID (listing page without specific animal)
+   ========================================================================== */
+.animal-browse-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.animal-browse-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.15s, box-shadow 0.15s;
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    background: var(--white);
+}
+
+.animal-browse-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.animal-browse-icon {
+    font-size: 2rem;
+}
+
+.animal-browse-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.animal-browse-rank {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #fff;
+    background: var(--ak-primary);
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animal-browse-class {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* ==========================================================================
+   35. TOP ANIMALS SECTIONS (homepage)
+   ========================================================================== */
+.top-animals-section {
+    margin-bottom: 2.5rem;
+}
+
+.top-animals-section h2 {
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+    color: var(--ak-dark);
+}
+
+/* ==========================================================================
+   36. CARD EXPAND / DETAIL PANELS
+   ========================================================================== */
+.card-expand-btn {
+    background: none;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    padding: 0.4rem 1rem;
+    font-size: 0.82rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s;
+    color: var(--ak-primary);
+    font-family: inherit;
+}
+
+.card-expand-btn:hover {
+    background: var(--ak-bg);
+}
+
+.card-expanded {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-gray);
+}
+
+.card-expanded h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--ak-dark);
+}
+
+.card-badges {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.card-body {
+    flex: 1;
+}
+
+.card-desc {
+    color: var(--text-gray);
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+/* ==========================================================================
+   37. STAT PILLS (quick-stats in cards)
+   ========================================================================== */
+.stat-pill {
+    background: var(--ak-bg);
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    color: var(--text-gray);
+}
+
+.quick-stats {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin: 0.5rem 0;
+}
+
+/* ==========================================================================
+   38. STAT ROW (key-value pairs for detail)
+   ========================================================================== */
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0;
+    font-size: 0.85rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.stat-row:last-child {
+    border-bottom: none;
+}
+
+.stat-val-bad {
+    color: #C62828;
+    font-weight: 600;
+}
+
+.stat-val-good {
+    color: #2E7D32;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   39. HABITAT GUIDE SECTION
+   ========================================================================== */
+.habitat-guide-section {
+    background: var(--ak-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.habitat-item {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.habitat-item:last-child {
+    border-bottom: none;
+}
+
+.habitat-label {
+    font-weight: 600;
+    min-width: 120px;
+    color: var(--text-dark);
+}
+
+.habitat-desc {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* ==========================================================================
+   40. DIET INFO SECTION
+   ========================================================================== */
+.diet-type-badge {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    border-radius: 14px;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.diet-type-badge.herbivore {
+    background: #e8f5e9;
+    color: #2E7D32;
+    border: 1px solid rgba(46,125,50,0.3);
+}
+
+.diet-type-badge.carnivore {
+    background: #ffebee;
+    color: #C62828;
+    border: 1px solid rgba(198,40,40,0.3);
+}
+
+.diet-type-badge.omnivore {
+    background: #fdf2e6;
+    color: #BF6A1F;
+    border: 1px solid rgba(191,106,31,0.3);
+}
+
+.diet-type-badge.insectivore {
+    background: #f3e5f5;
+    color: #6A1B9A;
+    border: 1px solid rgba(106,27,154,0.3);
+}
+
+.diet-type-badge.piscivore {
+    background: #e6f2fd;
+    color: #0277BD;
+    border: 1px solid rgba(2,119,189,0.3);
+}
+
+/* Diet foods list */
+.diet-foods-list {
+    list-style: disc;
+    margin-left: 1.5rem;
+    color: var(--text-gray);
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+}
+
+.diet-foods-list li {
+    margin-bottom: 0.25rem;
+}
+
+.diet-foods-list a {
+    color: var(--ak-primary);
+    text-decoration: none;
+}
+
+.diet-foods-list a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   41. PREDATOR / PREY CARDS
+   ========================================================================== */
+.predator-prey-grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1rem;
+    align-items: stretch;
+    margin-bottom: 1rem;
+}
+
+.predator-panel {
+    padding: 1.25rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-gray);
+}
+
+.predator-panel-predators {
+    background: #fff5f5;
+    border-color: #ffcdd2;
+}
+
+.predator-panel-prey {
+    background: #f1f8e9;
+    border-color: #c5e1a5;
+}
+
+.predator-vs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.predator-vs span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--ak-primary);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.panel-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-gray);
+    margin-bottom: 0.3rem;
+}
+
+.panel-desc {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-dark);
+}
+
+/* ==========================================================================
+   42. LIFESPAN / WEIGHT / SIZE DISPLAY
+   ========================================================================== */
+.lifespan-display {
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: var(--ak-bg);
+    border-radius: 8px;
+}
+
+.lifespan-big {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--ak-dark);
+}
+
+.lifespan-unit {
+    font-size: 1rem;
+    color: var(--text-gray);
+}
+
+.weight-display {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 0.75rem;
+    background: var(--ak-bg);
+    border-radius: 8px;
+}
+
+.weight-big {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--ak-dark);
+}
+
+.weight-unit {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+}
+
+/* ==========================================================================
+   43. MIGRATION MAP / RANGE
+   ========================================================================== */
+.migration-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    padding: 1.5rem;
+    border-top: 3px solid var(--ak-primary);
+}
+
+.migration-route {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.migration-route:last-child {
+    border-bottom: none;
+}
+
+.migration-from,
+.migration-to {
+    font-weight: 500;
+    min-width: 120px;
+    font-size: 0.85rem;
+}
+
+.migration-arrow {
+    color: var(--ak-primary);
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.migration-distance {
+    font-size: 0.82rem;
+    color: var(--text-gray);
+    margin-left: auto;
+}
+
+/* ==========================================================================
+   44. CONSERVATION NOTE BOXES
+   ========================================================================== */
+.conservation-box {
+    background: #fdf5ec;
+    border-left: 4px solid var(--ak-primary);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--text-gray);
+}
+
+.conservation-box strong {
+    color: var(--ak-dark);
+}
+
+.conservation-box.critical {
+    background: #ffebee;
+    border-left-color: #C62828;
+}
+
+.conservation-box.critical strong {
+    color: #C62828;
+}
+
+.conservation-box.positive {
+    background: #e8f5e9;
+    border-left-color: #2E7D32;
+}
+
+.conservation-box.positive strong {
+    color: #2E7D32;
+}
+
+/* ==========================================================================
+   45. POPULATION TREND
+   ========================================================================== */
+.population-trend {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.population-trend.increasing {
+    background: #e8f5e9;
+    color: #2E7D32;
+}
+
+.population-trend.stable {
+    background: #fff8e1;
+    color: #F57F17;
+}
+
+.population-trend.decreasing {
+    background: #ffebee;
+    color: #C62828;
+}
+
+.population-trend.unknown {
+    background: var(--ak-bg);
+    color: var(--text-gray);
+}
+
+.population-trend-arrow {
+    font-size: 1rem;
+}
+
+/* ==========================================================================
+   46. TAXONOMY TABLE
+   ========================================================================== */
+.taxonomy-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+}
+
+.taxonomy-table th {
+    text-align: left;
+    padding: 0.5rem 1rem;
+    font-size: 0.82rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--border-gray);
+    width: 120px;
+}
+
+.taxonomy-table td {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid var(--border-gray);
+    color: var(--text-dark);
+}
+
+.taxonomy-table tr:hover {
+    background: var(--ak-bg);
+}
+
+/* ==========================================================================
+   47. SOCIAL BEHAVIOR SECTION
+   ========================================================================== */
+.social-badge {
+    display: inline-block;
+    padding: 0.25rem 0.65rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.social-badge.solitary {
+    background: #f3e5f5;
+    color: #6A1B9A;
+    border: 1px solid rgba(106,27,154,0.3);
+}
+
+.social-badge.pair {
+    background: #e6f2fd;
+    color: #1565C0;
+    border: 1px solid rgba(21,101,192,0.3);
+}
+
+.social-badge.pack {
+    background: #fdf2e6;
+    color: #BF6A1F;
+    border: 1px solid rgba(191,106,31,0.3);
+}
+
+.social-badge.herd {
+    background: #e8f5e9;
+    color: #2E7D32;
+    border: 1px solid rgba(46,125,50,0.3);
+}
+
+.social-badge.colony {
+    background: #fff8e1;
+    color: #F57F17;
+    border: 1px solid rgba(245,127,23,0.3);
+}
+
+/* ==========================================================================
+   48. ACTIVITY PATTERN
+   ========================================================================== */
+.activity-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+.activity-badge.diurnal {
+    background: #fff8e1;
+    color: #F57F17;
+    border: 1px solid rgba(245,127,23,0.3);
+}
+
+.activity-badge.nocturnal {
+    background: #263238;
+    color: #B0BEC5;
+    border: 1px solid #455A64;
+}
+
+.activity-badge.crepuscular {
+    background: #ede7f6;
+    color: #4527A0;
+    border: 1px solid rgba(69,39,160,0.3);
+}
+
+.activity-badge.cathemeral {
+    background: var(--ak-bg);
+    color: var(--ak-dark);
+    border: 1px solid rgba(139,69,19,0.3);
+}
+
+/* ==========================================================================
+   49. SPEED / SIZE COMPARISON BARS
+   ========================================================================== */
+.speed-comparison {
+    max-width: 700px;
+    margin-bottom: 1.5rem;
+}
+
+.speed-comparison-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.speed-comparison-label {
+    min-width: 120px;
+    font-size: 0.85rem;
+    color: var(--text-dark);
+}
+
+.speed-comparison-bar-track {
+    flex: 1;
+    height: 22px;
+    background: var(--ak-bg);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.speed-comparison-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: var(--ak-primary);
+    transition: width 0.6s ease;
+}
+
+.speed-comparison-bar-fill.highlighted {
+    background: var(--ak-dark);
+}
+
+.speed-comparison-value {
+    min-width: 65px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.82rem;
+    color: var(--text-dark);
+}
+
+/* ==========================================================================
+   50. RECORDS / LEADERBOARD SECTION
+   ========================================================================== */
+.records-section {
+    margin-bottom: 2.5rem;
+}
+
+.records-section h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--ak-dark);
+    margin-bottom: 1rem;
+}
+
+.record-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+    transition: box-shadow 0.2s, transform 0.15s;
+}
+
+.record-card:hover {
+    box-shadow: 0 4px 12px rgba(191,106,31,0.1);
+    transform: translateY(-2px);
+}
+
+.record-medal {
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.record-animal {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ak-dark);
+    margin-bottom: 0.25rem;
+}
+
+.record-value {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--ak-primary);
+    margin-bottom: 0.25rem;
+}
+
+.record-category {
+    font-size: 0.82rem;
+    color: var(--text-gray);
+}
+
+
+/* ==========================================================================
+   ==========================================================================
+   RTL SUPPORT
+   ==========================================================================
+   ========================================================================== */
+
+/* ==========================================================================
+   51. RTL OVERRIDES
+   ========================================================================== */
+[dir="rtl"] .header-content {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .score-row {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .score-label {
+    text-align: right;
+}
+
+[dir="rtl"] .score-value {
+    text-align: left;
+}
+
+[dir="rtl"] .rank-bar-wrap {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .ranking-table th,
+[dir="rtl"] .ranking-table td {
+    text-align: right;
+}
+
+[dir="rtl"] .back-link {
+    direction: rtl;
+}
+
+[dir="rtl"] .content-section ul {
+    margin-left: 0;
+    margin-right: 1.5rem;
+}
+
+[dir="rtl"] .privacy-highlight {
+    border-left: none;
+    border-right: 4px solid var(--ak-primary);
+}
+
+[dir="rtl"] .animal-selector-panel {
+    right: auto;
+    left: 0;
+}
+
+[dir="rtl"] .compare-bar-name {
+    text-align: left;
+}
+
+[dir="rtl"] .compare-econ-table th,
+[dir="rtl"] .compare-econ-table td {
+    text-align: right;
+}
+
+[dir="rtl"] .quiz-option {
+    text-align: right;
+}
+
+[dir="rtl"] .quiz-feedback {
+    border-left: none;
+}
+
+[dir="rtl"] .quiz-feedback.correct,
+[dir="rtl"] .quiz-feedback-correct {
+    border-right: 4px solid #2E7D32;
+}
+
+[dir="rtl"] .quiz-feedback.wrong,
+[dir="rtl"] .quiz-feedback-wrong {
+    border-right: 4px solid #C62828;
+}
+
+[dir="rtl"] .card {
+    border-left: 1px solid var(--border-gray);
+    border-right: 3px solid var(--ak-primary);
+}
+
+[dir="rtl"] .info-btn {
+    margin-left: 0;
+    margin-right: 0.35rem;
+}
+
+[dir="rtl"] .summary-box,
+[dir="rtl"] .summary-box--editorial {
+    border-left: none;
+    border-right: 4px solid var(--ak-primary);
+}
+
+[dir="rtl"] .summary-box--editorial p {
+    text-align: right;
+}
+
+[dir="rtl"] .summary-box--editorial p:first-child::first-letter {
+    float: right;
+    margin-right: 0;
+    margin-left: 0.12em;
+}
+
+[dir="rtl"] .fun-fact-card {
+    border-left: 1px solid rgba(191, 106, 31, 0.2);
+    border-right: 4px solid var(--ak-light);
+}
+
+[dir="rtl"] .conservation-box {
+    border-left: none;
+    border-right: 4px solid var(--ak-primary);
+    border-radius: 6px 0 0 6px;
+}
+
+[dir="rtl"] .conservation-box.critical {
+    border-right-color: #C62828;
+}
+
+[dir="rtl"] .conservation-box.positive {
+    border-right-color: #2E7D32;
+}
+
+[dir="rtl"] .stat-bar-label {
+    text-align: right;
+}
+
+[dir="rtl"] .stat-bar-value {
+    text-align: left;
+}
+
+[dir="rtl"] .danger-meter-label {
+    text-align: right;
+}
+
+[dir="rtl"] .danger-meter {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .taxonomy-table th {
+    text-align: right;
+}
+
+[dir="rtl"] .speed-comparison-label {
+    text-align: right;
+}
+
+[dir="rtl"] .speed-comparison-value {
+    text-align: left;
+}
+
+[dir="rtl"] .diet-foods-list {
+    margin-left: 0;
+    margin-right: 1.5rem;
+}
+
+
+/* ==========================================================================
+   ==========================================================================
+   RESPONSIVE DESIGN
+   ==========================================================================
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   TABLET (max-width: 768px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .header-content {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .nav {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-3x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-4x2,
+    .grid-4x3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container {
+        padding: 2rem 1rem;
+    }
+
+    .score-row {
+        flex-wrap: wrap;
+    }
+
+    .score-label {
+        min-width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+    .score-bar-track {
+        min-width: 0;
+    }
+
+    .pillar-tabs {
+        gap: 0.3rem;
+    }
+
+    .pillar-tab {
+        font-size: 0.75rem;
+        padding: 0.3rem 0.5rem;
+    }
+
+    .ranking-table {
+        font-size: 0.85rem;
+    }
+
+    .ranking-table th,
+    .ranking-table td {
+        padding: 0.5rem;
+    }
+
+    .econ-metrics {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .quiz-options {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    #ak-tooltip {
+        max-width: calc(100vw - 2rem);
+    }
+
+    .summary-box {
+        padding: 1rem 1.25rem;
+        font-size: 0.88rem;
+    }
+
+    .summary-line {
+        gap: 0.5rem;
+    }
+
+    .summary-box--editorial {
+        padding: 1.25rem 1.35rem;
+        font-size: 0.92rem;
+        line-height: 1.75;
+    }
+
+    .summary-box--editorial p:first-child::first-letter {
+        font-size: 1.8em;
+    }
+
+    /* AnimalKingdom-specific responsive (tablet) */
+    .predator-prey-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .predator-vs {
+        display: none;
+    }
+
+    .stat-bar-label {
+        min-width: 100px;
+        font-size: 0.82rem;
+    }
+
+    .continent-map {
+        padding: 0.75rem;
+    }
+
+    .sense-radar {
+        max-width: 100%;
+        padding: 0.75rem;
+    }
+
+    .sense-radar canvas {
+        max-height: 280px;
+    }
+
+    .fun-facts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .danger-meter {
+        flex-wrap: wrap;
+    }
+
+    .danger-meter-label {
+        min-width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+    .danger-meter-scale {
+        max-width: none;
+    }
+
+    .speed-comparison-label {
+        min-width: 80px;
+        font-size: 0.78rem;
+    }
+
+    .animal-hero-icon {
+        font-size: 3rem;
+    }
+
+    .animal-common-name {
+        font-size: 1.6rem;
+    }
+
+    .iucn-status-row {
+        flex-wrap: wrap;
+    }
+
+    .taxonomy-table {
+        max-width: 100%;
+    }
+
+    .migration-route {
+        flex-wrap: wrap;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   MOBILE (max-width: 480px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+    .nav a:not(:first-child):not(:last-child) {
+        display: none;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .meta-card {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .animal-selector-panel {
+        width: calc(100vw - 2rem);
+        right: -1rem;
+    }
+
+    .compare-picker {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .compare-picker select {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .compare-bar-name {
+        min-width: 60px;
+        font-size: 0.7rem;
+    }
+
+    .grid-3x2 {
+        grid-template-columns: 1fr;
+    }
+
+    .compare-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .animal-select {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .animal-browse-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .continent-map svg {
+        max-height: 200px;
+    }
+
+    .continent-map-legend {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .sense-radar canvas {
+        max-height: 220px;
+    }
+
+    .sense-radar-legend {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.4rem;
+    }
+
+    .danger-meter-segment {
+        height: 18px;
+    }
+
+    .speed-comparison-row {
+        flex-wrap: wrap;
+    }
+
+    .speed-comparison-label {
+        min-width: 100%;
+        margin-bottom: 0.15rem;
+    }
+
+    .speed-comparison-value {
+        min-width: 100%;
+        text-align: left;
+        margin-top: 0.15rem;
+    }
+
+    .animal-hero-display {
+        padding: 0.75rem;
+    }
+
+    .animal-hero-icon {
+        font-size: 2.5rem;
+    }
+
+    .animal-common-name {
+        font-size: 1.4rem;
+    }
+
+    .lifespan-big {
+        font-size: 2rem;
+    }
+
+    .weight-big {
+        font-size: 1.6rem;
+    }
+
+    .iucn-status-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .record-card {
+        padding: 1rem;
+    }
+
+    .record-value {
+        font-size: 1.2rem;
+    }
+
+    .fun-fact-card {
+        padding: 1rem 1.25rem;
+    }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "savanna",
+    "name_key": "habitat.savanna",
+    "icon": "🌾",
+    "color": "#C8A951",
+    "description_key": "habitat.savanna.desc",
+    "climate": "tropical",
+    "typical_animals": ["lion", "elephant_african", "giraffe", "zebra", "cheetah"]
+  },
+  {
+    "id": "rainforest",
+    "name_key": "habitat.rainforest",
+    "icon": "🌴",
+    "color": "#2E7D32",
+    "description_key": "habitat.rainforest.desc",
+    "climate": "tropical",
+    "typical_animals": ["gorilla", "orangutan", "chimpanzee", "toucan", "cobra_king"]
+  },
+  {
+    "id": "desert",
+    "name_key": "habitat.desert",
+    "icon": "🏜️",
+    "color": "#D4943A",
+    "description_key": "habitat.desert.desc",
+    "climate": "arid",
+    "typical_animals": ["scorpion", "rattlesnake", "kangaroo"]
+  },
+  {
+    "id": "arctic",
+    "name_key": "habitat.arctic",
+    "icon": "❄️",
+    "color": "#4FC3F7",
+    "description_key": "habitat.arctic.desc",
+    "climate": "polar",
+    "typical_animals": ["bear_polar", "penguin_emperor", "wolf"]
+  },
+  {
+    "id": "ocean",
+    "name_key": "habitat.ocean",
+    "icon": "🌊",
+    "color": "#1565C0",
+    "description_key": "habitat.ocean.desc",
+    "climate": "marine",
+    "typical_animals": ["shark_great_white", "whale_blue", "dolphin", "octopus", "manta_ray"]
+  },
+  {
+    "id": "freshwater",
+    "name_key": "habitat.freshwater",
+    "icon": "🏞️",
+    "color": "#0097A7",
+    "description_key": "habitat.freshwater.desc",
+    "climate": "various",
+    "typical_animals": ["crocodile", "hippo", "otter", "piranha", "axolotl"]
+  },
+  {
+    "id": "forest",
+    "name_key": "habitat.forest",
+    "icon": "🌲",
+    "color": "#388E3C",
+    "description_key": "habitat.forest.desc",
+    "climate": "temperate",
+    "typical_animals": ["bear_grizzly", "wolf", "owl", "salamander", "crow"]
+  },
+  {
+    "id": "mountains",
+    "name_key": "habitat.mountains",
+    "icon": "⛰️",
+    "color": "#795548",
+    "description_key": "habitat.mountains.desc",
+    "climate": "various",
+    "typical_animals": ["eagle_golden", "bear_grizzly", "panda"]
+  },
+  {
+    "id": "wetlands",
+    "name_key": "habitat.wetlands",
+    "icon": "🌿",
+    "color": "#558B2F",
+    "description_key": "habitat.wetlands.desc",
+    "climate": "various",
+    "typical_animals": ["flamingo", "crocodile", "frog_tree", "swan"]
+  },
+  {
+    "id": "grasslands",
+    "name_key": "habitat.grasslands",
+    "icon": "🌱",
+    "color": "#8BC34A",
+    "description_key": "habitat.grasslands.desc",
+    "climate": "temperate",
+    "typical_animals": ["horse", "kangaroo", "zebra", "ostrich"]
+  },
+  {
+    "id": "antarctica",
+    "name_key": "habitat.antarctica",
+    "icon": "🧊",
+    "color": "#B3E5FC",
+    "description_key": "habitat.antarctica.desc",
+    "climate": "polar",
+    "typical_animals": ["penguin_emperor", "whale_blue", "whale_humpback"]
+  },
+  {
+    "id": "cave",
+    "name_key": "habitat.cave",
+    "icon": "🦇",
+    "color": "#616161",
+    "description_key": "habitat.cave.desc",
+    "climate": "various",
+    "typical_animals": ["bat", "salamander"]
+  },
+  {
+    "id": "urban",
+    "name_key": "habitat.urban",
+    "icon": "🏙️",
+    "color": "#78909C",
+    "description_key": "habitat.urban.desc",
+    "climate": "various",
+    "typical_animals": ["crow", "falcon_peregrine", "bee_honey", "pigeon"]
+  },
+  {
+    "id": "various",
+    "name_key": "habitat.various",
+    "icon": "🌍",
+    "color": "#9E9E9E",
+    "description_key": "habitat.various.desc",
+    "climate": "various",
+    "typical_animals": ["dog", "cat_domestic"]
+  }
+]
