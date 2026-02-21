@@ -103,18 +103,12 @@
     (function() {
       var el = document.getElementById('visitor-counter');
       if (!el) return;
-      var t = setInterval(function() {
-        if (window.goatcounter && window.goatcounter.visit_count) {
-          clearInterval(t);
-          var base = 'https://wildpedia.goatcounter.com/counter/';
-          var path = encodeURIComponent(location.pathname || '/');
-          fetch(base + path + '.json')
-            .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
-            .then(function(data) { el.textContent = data.count + ' visitors'; })
-            .catch(function() {});
-        }
-      }, 200);
-      setTimeout(function() { clearInterval(t); }, 5000);
+      setTimeout(function() {
+        fetch('https://wildpedia.goatcounter.com/counter/' + encodeURIComponent(location.pathname || '/') + '.json')
+          .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+          .then(function(data) { el.textContent = data.count + ' visitors'; })
+          .catch(function() {});
+      }, 1500);
     })();
     </script>
 </body>
