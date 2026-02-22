@@ -222,12 +222,22 @@ function _setupScrollTop() {
    INDEX PAGE
    ========================================================================== */
 function renderIndex() {
+  _renderHeroStats();
   _renderWisdom();
   _renderCategoryCards();
   _renderFeatured();
   _renderConservationOverview();
   _renderFunFacts();
   _shareBar('share-bar-home');
+}
+
+function _renderHeroStats() {
+  const el = document.getElementById('hero-stats');
+  if (!el) return;
+  const animals = Data.getAllAnimals();
+  const continents = new Set();
+  animals.forEach(a => (a.continent || []).forEach(c => continents.add(c)));
+  el.textContent = animals.length + ' ' + _t('hero.stats_species') + ' · ' + continents.size + ' ' + _t('hero.stats_continents');
 }
 
 function _renderWisdom() {
@@ -257,17 +267,33 @@ function _renderCategoryCards() {
 function _renderFeatured() {
   const grid = document.getElementById('featured-cards');
   if (!grid) return;
+  const animals = Data.getAllAnimals();
+  const _a = id => animals.find(a => a.id === id);
+
+  // Top animal for each featured card
+  const topPredator = _a('lion');
+  const fastest = _a('cheetah');
+  const endangered = animals.filter(a => a.conservation_status === 'CR')[0] || _a('tiger');
+  const bestParent = _a('penguin_emperor');
+  const superSense = _a('dolphin');
+
   const featured = [
-    { key: 'featured.top_predators', icon: '🦁', link: 'predators-prey.html' },
-    { key: 'featured.fastest', icon: '💨', link: 'records-extremes.html' },
-    { key: 'featured.endangered', icon: '🛡️', link: 'conservation.html' },
-    { key: 'featured.best_parents', icon: '🐣', link: 'human-bonds.html' },
-    { key: 'featured.superpowers', icon: '⚡', link: 'super-senses.html' }
+    { key: 'featured.top_predators', top: topPredator, link: 'predators-prey.html' },
+    { key: 'featured.fastest', top: fastest, link: 'records-extremes.html' },
+    { key: 'featured.endangered', top: endangered, link: 'conservation.html' },
+    { key: 'featured.best_parents', top: bestParent, link: 'human-bonds.html' },
+    { key: 'featured.superpowers', top: superSense, link: 'super-senses.html' }
   ];
-  grid.innerHTML = featured.map(f => `<a href="${f.link}" class="featured-card">
-    <div class="featured-icon">${f.icon}</div>
-    <div class="featured-title">${_t(f.key)}</div>
-  </a>`).join('');
+  grid.innerHTML = featured.map(f => {
+    const name = f.top ? I18n.getAnimalName(f.top) : '';
+    const emoji = f.top ? f.top.emoji : '';
+    return `<a href="${f.link}" class="featured-card">
+      <div class="featured-title">${_t(f.key)}</div>
+      <div class="featured-top-animal">${emoji}</div>
+      <div class="featured-top-name">${name}</div>
+      <div class="featured-more">+ ${_t('featured.see_more') || 'see more'}</div>
+    </a>`;
+  }).join('');
 }
 
 function _renderConservationOverview() {
@@ -837,15 +863,15 @@ function renderCompare() {
       <div class="compare-controls">
         <div class="compare-selector">
           <label>${_t('compare.select_first')}</label>
-          <select class="food-select" id="compare-a"><option value="">—</option>${options}</select>
+          <select id="compare-a"><option value="">—</option>${options}</select>
         </div>
         <div class="compare-selector">
           <label>${_t('compare.select_second')}</label>
-          <select class="food-select" id="compare-b"><option value="">—</option>${options}</select>
+          <select id="compare-b"><option value="">—</option>${options}</select>
         </div>
         <div class="compare-selector">
           <label>${_t('compare.select_third')}</label>
-          <select class="food-select" id="compare-c"><option value="">—</option>${options}</select>
+          <select id="compare-c"><option value="">—</option>${options}</select>
         </div>
         <button class="compare-btn" id="compare-go">${_t('compare.btn')}</button>
       </div>
@@ -925,7 +951,16 @@ function renderCompare() {
           },
           options: {
             responsive: true,
-            scales: { r: { min: 0, max: 5, ticks: { stepSize: 1 } } }
+            scales: {
+              r: {
+                min: 0, max: 5,
+                ticks: { stepSize: 1, font: { size: 14 } },
+                pointLabels: { font: { size: 16, weight: '600' } }
+              }
+            },
+            plugins: {
+              legend: { labels: { font: { size: 15, weight: '600' }, padding: 20 } }
+            }
           }
         });
       }
@@ -945,7 +980,7 @@ function renderWorldMap() {
   const continents = [
     { id: 'north_america', name_key: 'continent.north_america', color: '#2E7D32', x: 17, y: 28 },
     { id: 'south_america', name_key: 'continent.south_america', color: '#6A1B9A', x: 25, y: 68 },
-    { id: 'europe', name_key: 'continent.europe', color: '#1565C0', x: 47, y: 18 },
+    { id: 'europe', name_key: 'continent.europe', color: '#1565C0', x: 47, y: 24 },
     { id: 'africa', name_key: 'continent.africa', color: '#C62828', x: 49, y: 52 },
     { id: 'asia', name_key: 'continent.asia', color: '#E65100', x: 66, y: 24 },
     { id: 'oceania', name_key: 'continent.oceania', color: '#00838F', x: 82, y: 66 },
@@ -984,16 +1019,16 @@ function renderWorldMap() {
       <p class="page-intro">${_t('map.subtitle')}</p>
 
       <div class="continent-map" style="position:relative;border-radius:12px;margin-bottom:2rem;overflow:hidden;background:linear-gradient(180deg, #dceef8 0%, #c8e0d4 40%, #e8dfc8 100%);">
-        <div style="position:relative;width:100%;padding-bottom:50%;">
+        <div style="position:relative;width:100%;padding-bottom:60%;">
           <img src="img/world-map.svg" alt="" style="position:absolute;inset:0;width:100%;height:100%;color:#5a7d6a;pointer-events:none;">
           ${continents.map(c => {
             const mapAnimals = _getMapAnimals(c.id);
             const isActive = activeContinent === c.id;
             const dimmed = activeContinent && !isActive;
             const count = Data.getAnimalsByContinent(c.id).length;
-            return `<div data-continent="${c.id}" style="position:absolute;left:${c.x}%;top:${c.y}%;transform:translate(-50%,-50%);text-align:center;cursor:pointer;transition:filter 0.3s;z-index:1;${dimmed ? 'filter:grayscale(100%) opacity(0.5);' : ''}">
+            return `<div data-continent="${c.id}" class="map-continent-group" style="position:absolute;left:${c.x}%;top:${c.y}%;transform:translate(-50%,-50%);text-align:center;cursor:pointer;transition:filter 0.3s, transform 0.25s;z-index:1;${dimmed ? 'filter:grayscale(100%) opacity(0.5);' : ''}">
               <div style="font-weight:${isActive ? '700' : '600'};font-size:${isActive ? '0.85rem' : '0.72rem'};color:${c.color};text-shadow:0 1px 3px rgba(255,255,255,0.95);white-space:nowrap;">${_t(c.name_key)}</div>
-              <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1px;max-width:100px;margin:0 auto;">${mapAnimals.map(a => `<span style="font-size:1.1rem;" title="${_animalName(a)}">${a.emoji || '🐾'}</span>`).join('')}</div>
+              <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:2px;max-width:140px;margin:0 auto;">${mapAnimals.map(a => `<span style="font-size:1.6rem;" title="${_animalName(a)}">${a.emoji || '🐾'}</span>`).join('')}</div>
               <div style="font-size:0.65rem;color:${c.color};text-shadow:0 1px 2px rgba(255,255,255,0.9);font-weight:600;">${count}</div>
             </div>`;
           }).join('')}
@@ -1054,6 +1089,7 @@ function renderQuiz() {
   if (!el) return;
 
   let state = 'start'; // start, play, results
+  let difficulty = 'medium'; // easy, medium, hard
   let questions = [];
   let current = 0;
   let score = 0;
@@ -1063,143 +1099,190 @@ function renderQuiz() {
     const animals = Data.getAllAnimals();
     const qs = [];
 
-    // Type 1: Which animal is fastest?
-    const bySpeed = animals.filter(a => a.stats && a.stats.speed_kmh > 0).sort((a, b) => b.stats.speed_kmh - a.stats.speed_kmh);
-    if (bySpeed.length >= 4) {
-      const correct = bySpeed[0];
-      const wrong = _pickRandom(bySpeed.slice(1), 3);
-      qs.push({
-        q: `Which animal is the fastest on land?`,
-        options: _shuffle([correct, ...wrong]),
-        correct: correct.id,
-        explanation: `${_animalName(correct)} can reach ${correct.stats.speed_kmh} km/h!`
-      });
-    }
+    // === EASY questions ===
 
-    // Type 2: Which animal is endangered?
-    const endangered = animals.filter(a => a.conservation_status === 'CR');
-    const notEndangered = animals.filter(a => a.conservation_status === 'LC');
-    if (endangered.length >= 1 && notEndangered.length >= 3) {
-      const correct = _pickRandom(endangered, 1)[0];
-      const wrong = _pickRandom(notEndangered, 3);
-      qs.push({
-        q: `Which of these animals is Critically Endangered?`,
-        options: _shuffle([correct, ...wrong]),
-        correct: correct.id,
-        explanation: `${_animalName(correct)} is classified as Critically Endangered by the IUCN.`
-      });
-    }
-
-    // Type 3: Which has echolocation?
-    const withEcho = animals.filter(a => a.senses && a.senses.special && a.senses.special.includes('echolocation'));
-    const withoutEcho = animals.filter(a => !a.senses || !a.senses.special || !a.senses.special.includes('echolocation'));
-    if (withEcho.length >= 1 && withoutEcho.length >= 3) {
-      const correct = _pickRandom(withEcho, 1)[0];
-      const wrong = _pickRandom(withoutEcho, 3);
-      qs.push({
-        q: `Which animal uses echolocation?`,
-        options: _shuffle([correct, ...wrong]),
-        correct: correct.id,
-        explanation: `${_animalName(correct)} uses echolocation to navigate and find food.`
-      });
-    }
-
-    // Type 4: Which is heaviest?
-    const byWeight = animals.filter(a => a.stats && a.stats.weight_kg > 0).sort((a, b) => b.stats.weight_kg - a.stats.weight_kg);
-    if (byWeight.length >= 4) {
-      const correct = byWeight[0];
-      const wrong = _pickRandom(byWeight.slice(3), 3);
-      qs.push({
-        q: `Which animal is the heaviest?`,
-        options: _shuffle([correct, ...wrong]),
-        correct: correct.id,
-        explanation: `${_animalName(correct)} weighs up to ${correct.stats.weight_kg.toLocaleString()} kg!`
-      });
-    }
-
-    // Type 5: Which is a mammal?
+    // Which is a mammal?
     const mammals = animals.filter(a => a.class === 'mammal');
     const nonMammals = animals.filter(a => a.class !== 'mammal');
     if (mammals.length >= 1 && nonMammals.length >= 3) {
       const correct = _pickRandom(mammals, 1)[0];
       const wrong = _pickRandom(nonMammals, 3);
-      qs.push({
-        q: `Which of these is a mammal?`,
-        options: _shuffle([correct, ...wrong]),
-        correct: correct.id,
-        explanation: `${_animalName(correct)} is a ${_t('class.mammal').toLowerCase()}.`
-      });
+      qs.push({ diff: 'easy', q: `Which of these is a mammal?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} is a ${_t('class.mammal').toLowerCase()}.` });
     }
 
-    // Type 6: Danger level question
-    const dangerous = animals.filter(a => a.human_relation && a.human_relation.danger_level >= 4);
-    const safe = animals.filter(a => a.human_relation && a.human_relation.danger_level <= 2);
-    if (dangerous.length >= 1 && safe.length >= 3) {
-      const correct = _pickRandom(dangerous, 1)[0];
-      const wrong = _pickRandom(safe, 3);
-      qs.push({
-        q: `Which animal is considered dangerous to humans?`,
-        options: _shuffle([correct, ...wrong]),
-        correct: correct.id,
-        explanation: `${_animalName(correct)} has a danger level of ${correct.human_relation.danger_level}/5.`
-      });
-    }
-
-    // Type 7: Longest-lived
-    const byLife = animals.filter(a => a.stats && a.stats.lifespan_years > 0).sort((a, b) => b.stats.lifespan_years - a.stats.lifespan_years);
-    if (byLife.length >= 4) {
-      const correct = byLife[0];
-      const wrong = _pickRandom(byLife.slice(3), 3);
-      qs.push({
-        q: `Which animal lives the longest?`,
-        options: _shuffle([correct, ...wrong]),
-        correct: correct.id,
-        explanation: `${_animalName(correct)} can live up to ${correct.stats.lifespan_years} years!`
-      });
-    }
-
-    // Type 8: Which is a bird?
+    // Which is a bird?
     const birds = animals.filter(a => a.class === 'bird');
     const nonBirds = animals.filter(a => a.class !== 'bird');
     if (birds.length >= 1 && nonBirds.length >= 3) {
       const correct = _pickRandom(birds, 1)[0];
       const wrong = _pickRandom(nonBirds, 3);
-      qs.push({
-        q: `Which of these is a bird?`,
-        options: _shuffle([correct, ...wrong]),
-        correct: correct.id,
-        explanation: `${_animalName(correct)} belongs to the bird class.`
-      });
+      qs.push({ diff: 'easy', q: `Which of these is a bird?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} belongs to the bird class.` });
     }
 
-    // Type 9: Habitat question
+    // Which lives in the ocean?
     const oceanAnimals = animals.filter(a => a.habitat && a.habitat.includes('ocean'));
     const landAnimals = animals.filter(a => a.habitat && !a.habitat.includes('ocean'));
     if (oceanAnimals.length >= 1 && landAnimals.length >= 3) {
       const correct = _pickRandom(oceanAnimals, 1)[0];
       const wrong = _pickRandom(landAnimals, 3);
-      qs.push({
-        q: `Which animal lives in the ocean?`,
-        options: _shuffle([correct, ...wrong]),
-        correct: correct.id,
-        explanation: `${_animalName(correct)} is found in ocean habitats.`
-      });
+      qs.push({ diff: 'easy', q: `Which animal lives in the ocean?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} is found in ocean habitats.` });
     }
 
-    // Type 10: Fun fact true/false style
+    // Which is a reptile?
+    const reptiles = animals.filter(a => a.class === 'reptile');
+    const nonReptiles = animals.filter(a => a.class !== 'reptile');
+    if (reptiles.length >= 1 && nonReptiles.length >= 3) {
+      const correct = _pickRandom(reptiles, 1)[0];
+      const wrong = _pickRandom(nonReptiles, 3);
+      qs.push({ diff: 'easy', q: `Which of these is a reptile?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} is a reptile.` });
+    }
+
+    // Which lives in Africa?
+    const africaAnimals = animals.filter(a => a.continent && a.continent.includes('africa'));
+    const nonAfrica = animals.filter(a => !a.continent || !a.continent.includes('africa'));
+    if (africaAnimals.length >= 1 && nonAfrica.length >= 3) {
+      const correct = _pickRandom(africaAnimals, 1)[0];
+      const wrong = _pickRandom(nonAfrica, 3);
+      qs.push({ diff: 'easy', q: `Which of these animals lives in Africa?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} can be found in Africa.` });
+    }
+
+    // Which is a carnivore?
+    const carnivores = animals.filter(a => a.diet === 'carnivore');
+    const nonCarnivores = animals.filter(a => a.diet !== 'carnivore');
+    if (carnivores.length >= 1 && nonCarnivores.length >= 3) {
+      const correct = _pickRandom(carnivores, 1)[0];
+      const wrong = _pickRandom(nonCarnivores, 3);
+      qs.push({ diff: 'easy', q: `Which of these is a carnivore?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} is a meat-eater.` });
+    }
+
+    // === MEDIUM questions ===
+
+    // Which is fastest?
+    const bySpeed = animals.filter(a => a.stats && a.stats.speed_kmh > 0).sort((a, b) => b.stats.speed_kmh - a.stats.speed_kmh);
+    if (bySpeed.length >= 4) {
+      const correct = bySpeed[0];
+      const wrong = _pickRandom(bySpeed.slice(1), 3);
+      qs.push({ diff: 'medium', q: `Which animal is the fastest on land?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} can reach ${correct.stats.speed_kmh} km/h!` });
+    }
+
+    // Which is heaviest?
+    const byWeight = animals.filter(a => a.stats && a.stats.weight_kg > 0).sort((a, b) => b.stats.weight_kg - a.stats.weight_kg);
+    if (byWeight.length >= 4) {
+      const correct = byWeight[0];
+      const wrong = _pickRandom(byWeight.slice(3), 3);
+      qs.push({ diff: 'medium', q: `Which animal is the heaviest?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} weighs up to ${correct.stats.weight_kg.toLocaleString()} kg!` });
+    }
+
+    // Which is dangerous?
+    const dangerous = animals.filter(a => a.human_relation && a.human_relation.danger_level >= 4);
+    const safe = animals.filter(a => a.human_relation && a.human_relation.danger_level <= 2);
+    if (dangerous.length >= 1 && safe.length >= 3) {
+      const correct = _pickRandom(dangerous, 1)[0];
+      const wrong = _pickRandom(safe, 3);
+      qs.push({ diff: 'medium', q: `Which animal is considered dangerous to humans?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} has a danger level of ${correct.human_relation.danger_level}/5.` });
+    }
+
+    // Which lives longest?
+    const byLife = animals.filter(a => a.stats && a.stats.lifespan_years > 0).sort((a, b) => b.stats.lifespan_years - a.stats.lifespan_years);
+    if (byLife.length >= 4) {
+      const correct = byLife[0];
+      const wrong = _pickRandom(byLife.slice(3), 3);
+      qs.push({ diff: 'medium', q: `Which animal lives the longest?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} can live up to ${correct.stats.lifespan_years} years!` });
+    }
+
+    // Which is tallest?
+    const byHeight = animals.filter(a => a.stats && a.stats.height_cm > 0).sort((a, b) => b.stats.height_cm - a.stats.height_cm);
+    if (byHeight.length >= 4) {
+      const correct = byHeight[0];
+      const wrong = _pickRandom(byHeight.slice(3), 3);
+      qs.push({ diff: 'medium', q: `Which animal is the tallest?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} can reach ${correct.stats.height_cm} cm tall!` });
+    }
+
+    // Which is an apex predator?
+    const apex = animals.filter(a => a.ecosystem_role === 'apex_predator');
+    const nonApex = animals.filter(a => a.ecosystem_role !== 'apex_predator');
+    if (apex.length >= 1 && nonApex.length >= 3) {
+      const correct = _pickRandom(apex, 1)[0];
+      const wrong = _pickRandom(nonApex, 3);
+      qs.push({ diff: 'medium', q: `Which of these is an apex predator?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} sits at the top of the food chain.` });
+    }
+
+    // === HARD questions ===
+
+    // Which is Critically Endangered?
+    const endangered = animals.filter(a => a.conservation_status === 'CR');
+    const notEndangered = animals.filter(a => a.conservation_status === 'LC');
+    if (endangered.length >= 1 && notEndangered.length >= 3) {
+      const correct = _pickRandom(endangered, 1)[0];
+      const wrong = _pickRandom(notEndangered, 3);
+      qs.push({ diff: 'hard', q: `Which of these animals is Critically Endangered?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} is classified as Critically Endangered by the IUCN.` });
+    }
+
+    // Which uses echolocation?
+    const withEcho = animals.filter(a => a.senses && a.senses.special && a.senses.special.includes('echolocation'));
+    const withoutEcho = animals.filter(a => !a.senses || !a.senses.special || !a.senses.special.includes('echolocation'));
+    if (withEcho.length >= 1 && withoutEcho.length >= 3) {
+      const correct = _pickRandom(withEcho, 1)[0];
+      const wrong = _pickRandom(withoutEcho, 3);
+      qs.push({ diff: 'hard', q: `Which animal uses echolocation?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} uses echolocation to navigate and find food.` });
+    }
+
+    // Fun fact question
     const withFacts = animals.filter(a => a.fun_facts && a.fun_facts.length > 0);
     if (withFacts.length >= 4) {
-      const factAnimal = _pickRandom(withFacts, 1)[0];
-      const wrong = _pickRandom(withFacts.filter(a => a.id !== factAnimal.id), 3);
-      qs.push({
-        q: `"${factAnimal.fun_facts[0]}" — Which animal is this about?`,
-        options: _shuffle([factAnimal, ...wrong]),
-        correct: factAnimal.id,
-        explanation: `This fact is about ${_animalName(factAnimal)}.`
+      const candidates = withFacts.filter(a => {
+        const name = _animalName(a).toLowerCase();
+        const names = [name, a.id.replace(/_/g, ' ')];
+        return a.fun_facts.some(f => !names.some(n => f.toLowerCase().includes(n)));
       });
+      const pool = candidates.length >= 4 ? candidates : withFacts;
+      const factAnimal = _pickRandom(pool, 1)[0];
+      const name = _animalName(factAnimal).toLowerCase();
+      const safeNames = [name, factAnimal.id.replace(/_/g, ' ')];
+      let fact = factAnimal.fun_facts.find(f => !safeNames.some(n => f.toLowerCase().includes(n)));
+      if (!fact) {
+        fact = factAnimal.fun_facts[0];
+        safeNames.forEach(n => { fact = fact.replace(new RegExp(n, 'gi'), 'This animal'); });
+      }
+      const wrong = _pickRandom(withFacts.filter(a => a.id !== factAnimal.id), 3);
+      qs.push({ diff: 'hard', q: `"${fact}" — Which animal is this about?`, options: _shuffle([factAnimal, ...wrong]), correct: factAnimal.id, explanation: `This fact is about ${_animalName(factAnimal)}.` });
     }
 
-    return _shuffle(qs).slice(0, 10);
+    // Which has infrared vision?
+    const withInfrared = animals.filter(a => a.senses && a.senses.special && a.senses.special.includes('infrared'));
+    const withoutInfrared = animals.filter(a => !a.senses || !a.senses.special || !a.senses.special.includes('infrared'));
+    if (withInfrared.length >= 1 && withoutInfrared.length >= 3) {
+      const correct = _pickRandom(withInfrared, 1)[0];
+      const wrong = _pickRandom(withoutInfrared, 3);
+      qs.push({ diff: 'hard', q: `Which animal can detect infrared radiation?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} can sense infrared to detect prey.` });
+    }
+
+    // Which is a pollinator?
+    const pollinators = animals.filter(a => a.ecosystem_role === 'pollinator');
+    const nonPollinators = animals.filter(a => a.ecosystem_role !== 'pollinator');
+    if (pollinators.length >= 1 && nonPollinators.length >= 3) {
+      const correct = _pickRandom(pollinators, 1)[0];
+      const wrong = _pickRandom(nonPollinators, 3);
+      qs.push({ diff: 'hard', q: `Which of these is an important pollinator?`, options: _shuffle([correct, ...wrong]), correct: correct.id, explanation: `${_animalName(correct)} plays a key role in pollination.` });
+    }
+
+    // Filter by difficulty
+    let filtered;
+    if (difficulty === 'easy') {
+      filtered = qs.filter(q => q.diff === 'easy');
+    } else if (difficulty === 'hard') {
+      filtered = qs.filter(q => q.diff === 'hard');
+    } else {
+      filtered = qs; // medium = mix of all
+    }
+
+    // If not enough questions, fill from all
+    if (filtered.length < 10) {
+      const extra = qs.filter(q => !filtered.includes(q));
+      filtered = filtered.concat(_shuffle(extra));
+    }
+
+    return _shuffle(filtered).slice(0, 10);
   }
 
   function _pickRandom(arr, n) {
@@ -1222,9 +1305,24 @@ function renderQuiz() {
         <div class="quiz-icon">🐾</div>
         <h1>${_t('quiz.title')}</h1>
         <p>${_t('quiz.subtitle')}</p>
+        <div class="quiz-difficulty">
+          <p style="font-weight:600;margin-bottom:0.5rem;">${_t('quiz.difficulty') || 'Choose difficulty'}</p>
+          <div class="quiz-diff-buttons">
+            <button class="quiz-diff-btn${difficulty === 'easy' ? ' active' : ''}" data-diff="easy">🌱 ${_t('quiz.easy') || 'Easy'}</button>
+            <button class="quiz-diff-btn${difficulty === 'medium' ? ' active' : ''}" data-diff="medium">🌿 ${_t('quiz.medium') || 'Medium'}</button>
+            <button class="quiz-diff-btn${difficulty === 'hard' ? ' active' : ''}" data-diff="hard">🌲 ${_t('quiz.hard') || 'Hard'}</button>
+          </div>
+        </div>
         <p style="color:var(--text-gray)">${_t('quiz.questions')}</p>
         <button class="quiz-start-btn" id="quiz-start-btn">${_t('quiz.start')}</button>
       </div>`;
+      el.querySelectorAll('.quiz-diff-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          difficulty = btn.dataset.diff;
+          el.querySelectorAll('.quiz-diff-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+        });
+      });
       document.getElementById('quiz-start-btn').addEventListener('click', () => {
         questions = generateQuestions();
         current = 0;

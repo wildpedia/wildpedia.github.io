@@ -13,6 +13,8 @@
 
   "hero.title": "Nature's Wisdom. Every Creature Matters.",
   "hero.subtitle": "Discover the strengths, senses, and secrets of the animal kingdom — from the deepest oceans to the highest skies.",
+  "hero.stats_species": "species",
+  "hero.stats_continents": "continents",
   "hero.cta_explore": "Start Exploring",
   "hero.cta_quiz": "Take the Quiz",
   "hero.cta_compare": "Compare Animals",
@@ -34,6 +36,9 @@
   "nav.impressum": "Legal Notice",
   "nav.privacy": "Privacy Policy",
   "nav.categories": "Categories",
+
+  "map.teaser": "Explore Animals Around the World",
+  "map.teaser_hint": "Click the map to discover the animal kingdom by continent",
 
   "cat.section_title": "Explore by Category",
   "cat.section_subtitle": "Six windows into the animal kingdom",
@@ -65,6 +70,7 @@
   "featured.superpowers": "Animal Superpowers",
   "featured.view_all": "View All",
   "featured.learn_more": "Learn More",
+  "featured.see_more": "see more",
 
   "detail.back": "Back to Home",
   "detail.scientific_name": "Scientific Name",
@@ -170,6 +176,10 @@
 
   "quiz.title": "Animal Kingdom Quiz",
   "quiz.subtitle": "Test your knowledge about animals",
+  "quiz.difficulty": "Choose difficulty",
+  "quiz.easy": "Easy",
+  "quiz.medium": "Medium",
+  "quiz.hard": "Hard",
   "quiz.start": "Start Quiz",
   "quiz.questions": "10 Questions",
   "quiz.question_of": "Question {n} of {total}",
@@ -372,7 +382,7 @@
   "didyouknow.source": "Source",
 
   "conservation_overview.title": "Conservation Overview",
-  "conservation_overview.subtitle": "How our animals are doing",
+  "conservation_overview.subtitle": "How animals are doing worldwide",
   "conservation_overview.view_details": "View Details",
   "conservation_overview.chart_label": "Status Breakdown",
 
@@ -468,7 +478,7 @@
   "impressum.title": "Legal Notice (Impressum)",
   "impressum.intro": "Information in accordance with legal requirements.",
   "impressum.responsible.title": "Responsible for Content",
-  "impressum.responsible.text": "Wildpedia is a non-commercial, educational open-source project. There is no commercial entity behind this website.",
+  "impressum.responsible.text": "Wildpedia is a non-commercial, educational project. There is no commercial entity behind this website.",
   "impressum.disclaimer.title": "Disclaimer",
   "impressum.disclaimer.text": "The information provided on this website is for general educational purposes only. While we strive for accuracy, we make no warranties about the completeness, reliability, or accuracy of this information. Any action you take based on the information on this website is strictly at your own risk.",
   "impressum.copyright.title": "Copyright",
@@ -491,13 +501,13 @@
   "privacy.updated": "Last updated: February 2026",
 
   "about.title": "About Wildpedia",
-  "about.intro": "Wildpedia is a free, open-source platform helping people discover and appreciate the animal kingdom.",
+  "about.intro": "Wildpedia is a free platform helping people discover and appreciate the animal kingdom.",
   "about.mission.title": "Our Mission",
   "about.mission.text": "Our mission is to make animal knowledge accessible, engaging, and visually compelling. We believe that understanding animals is the first step toward protecting them and the ecosystems they inhabit.",
   "about.data.title": "Our Data",
   "about.data.text": "All animal data is carefully curated from peer-reviewed scientific sources, wildlife databases, and conservation organizations. We regularly update our database to ensure accuracy and completeness.",
-  "about.open.title": "Open Source",
-  "about.open.text": "Wildpedia is fully open source. We welcome contributions from developers, biologists, educators, and animal enthusiasts. Visit our GitHub repository to get involved.",
+  "about.open.title": "Free & Open",
+  "about.open.text": "Wildpedia is free to use, ad-free, and publicly available on GitHub. All data comes from trusted public sources. We welcome feedback from developers, biologists, educators, and animal enthusiasts.",
   "about.features.title": "Features",
   "about.features.text": "Wildpedia includes detailed animal profiles, side-by-side comparisons, an interactive world map, knowledge quizzes, and six thematic exploration categories.",
   "about.audience.title": "Who Is This For?",
