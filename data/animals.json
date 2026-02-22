@@ -5604,5 +5604,6977 @@
       "sea_turtle",
       "jellyfish_box"
     ]
+  },
+  {
+    "id": "red_fox",
+    "emoji": "🦊",
+    "name": {
+      "en": "Red Fox",
+      "de": "Rotfuchs",
+      "fr": "Renard roux",
+      "es": "Zorro rojo",
+      "it": "Volpe rossa",
+      "pt": "Raposa-vermelha",
+      "ro": "Vulpe roșie",
+      "ru": "Рыжая лисица",
+      "zh": "赤狐",
+      "ja": "アカギツネ",
+      "hi": "लाल लोमड़ी",
+      "ar": "ثعلب أحمر"
+    },
+    "scientific_name": "Vulpes vulpes",
+    "class": "mammal",
+    "habitat": [
+      "forest",
+      "grasslands",
+      "urban"
+    ],
+    "continent": [
+      "north_america",
+      "europe",
+      "asia",
+      "africa",
+      "oceania"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 6,
+      "speed_kmh": 50,
+      "lifespan_years": 5,
+      "height_cm": 40
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "highly_adaptable",
+      "excellent_hearing",
+      "nocturnal_stealth",
+      "cunning_problem_solver"
+    ],
+    "weaknesses": [
+      "small_size",
+      "vulnerable_to_larger_predators",
+      "susceptible_to_mange"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 5,
+      "smell": 5,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "magnetic_field_sensing"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "They use the Earth's magnetic field to pounce on prey hidden under snow",
+      "Their bushy tail serves as a warm blanket during cold nights",
+      "They have over 28 different vocalizations to communicate with each other"
+    ],
+    "tags": [
+      "canine",
+      "mammal",
+      "adaptable",
+      "nocturnal",
+      "widespread"
+    ],
+    "related_animals": [
+      "wolf",
+      "dog",
+      "raccoon"
+    ]
+  },
+  {
+    "id": "rabbit",
+    "emoji": "🐇",
+    "name": {
+      "en": "European Rabbit",
+      "de": "Wildkaninchen",
+      "fr": "Lapin de garenne",
+      "es": "Conejo europeo",
+      "it": "Coniglio selvatico",
+      "pt": "Coelho-europeu",
+      "ro": "Iepure de vizuină",
+      "ru": "Европейский кролик",
+      "zh": "穴兔",
+      "ja": "アナウサギ",
+      "hi": "यूरोपीय खरगोश",
+      "ar": "أرنب أوروبي"
+    },
+    "scientific_name": "Oryctolagus cuniculus",
+    "class": "mammal",
+    "habitat": [
+      "grasslands",
+      "forest",
+      "urban"
+    ],
+    "continent": [
+      "europe",
+      "africa",
+      "oceania"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 2,
+      "speed_kmh": 56,
+      "lifespan_years": 9,
+      "height_cm": 20
+    },
+    "conservation_status": "EN",
+    "human_relation": {
+      "type": "pet",
+      "danger_level": 1
+    },
+    "strengths": [
+      "rapid_reproduction",
+      "powerful_hind_legs",
+      "excellent_hearing",
+      "burrowing_ability"
+    ],
+    "weaknesses": [
+      "vulnerable_to_many_predators",
+      "disease_susceptibility",
+      "fragile_skeleton"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 5,
+      "smell": 4,
+      "taste": 3,
+      "touch": 3,
+      "special": [
+        "near_360_degree_vision"
+      ]
+    },
+    "ecosystem_role": "prey",
+    "fun_facts": [
+      "Their teeth never stop growing throughout their entire life",
+      "They can rotate their ears 270 degrees to detect sounds from any direction",
+      "A single pair can produce up to 800 descendants in a single season"
+    ],
+    "tags": [
+      "herbivore",
+      "mammal",
+      "burrowing",
+      "prey",
+      "fast_breeder"
+    ],
+    "related_animals": [
+      "red_fox",
+      "eagle_golden",
+      "owl"
+    ]
+  },
+  {
+    "id": "hedgehog",
+    "emoji": "🦔",
+    "name": {
+      "en": "European Hedgehog",
+      "de": "Igel",
+      "fr": "Hérisson d'Europe",
+      "es": "Erizo europeo",
+      "it": "Riccio europeo",
+      "pt": "Ouriço-cacheiro",
+      "ro": "Arici",
+      "ru": "Обыкновенный ёж",
+      "zh": "刺猬",
+      "ja": "ハリネズミ",
+      "hi": "कंटक चूहा",
+      "ar": "قنفذ أوروبي"
+    },
+    "scientific_name": "Erinaceus europaeus",
+    "class": "mammal",
+    "habitat": [
+      "forest",
+      "grasslands",
+      "urban"
+    ],
+    "continent": [
+      "europe"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 1,
+      "speed_kmh": 6,
+      "lifespan_years": 7,
+      "height_cm": 15
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "protective_spine_coat",
+      "curls_into_defensive_ball",
+      "nocturnal_foraging",
+      "immunity_to_some_venoms"
+    ],
+    "weaknesses": [
+      "slow_moving",
+      "vulnerable_when_uncurled",
+      "road_mortality"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 4,
+      "smell": 5,
+      "taste": 2,
+      "touch": 4,
+      "special": []
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "They have approximately 5,000 to 7,000 spines on their back",
+      "When encountering a new scent they produce frothy saliva and spread it on their spines in a behavior called self-anointing",
+      "They can hibernate for up to six months during winter"
+    ],
+    "tags": [
+      "nocturnal",
+      "mammal",
+      "spiny",
+      "insectivore",
+      "europe"
+    ],
+    "related_animals": [
+      "bat",
+      "red_fox",
+      "owl"
+    ]
+  },
+  {
+    "id": "moose",
+    "emoji": "🫎",
+    "name": {
+      "en": "Moose",
+      "de": "Elch",
+      "fr": "Orignal",
+      "es": "Alce",
+      "it": "Alce",
+      "pt": "Alce",
+      "ro": "Elan",
+      "ru": "Лось",
+      "zh": "驼鹿",
+      "ja": "ヘラジカ",
+      "hi": "मूस",
+      "ar": "موظ"
+    },
+    "scientific_name": "Alces alces",
+    "class": "mammal",
+    "habitat": [
+      "forest",
+      "freshwater"
+    ],
+    "continent": [
+      "north_america",
+      "europe",
+      "asia"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 550,
+      "speed_kmh": 56,
+      "lifespan_years": 20,
+      "height_cm": 210
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 3
+    },
+    "strengths": [
+      "massive_antlers",
+      "powerful_kicks",
+      "strong_swimmer",
+      "excellent_cold_weather_adaptation"
+    ],
+    "weaknesses": [
+      "poor_eyesight",
+      "overheating_in_warm_weather",
+      "vulnerable_to_parasites"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 4,
+      "smell": 5,
+      "taste": 3,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "herbivore_grazer",
+    "fun_facts": [
+      "Their antlers are the fastest growing tissue of any mammal growing up to 2.5 cm per day",
+      "They can dive underwater and stay submerged for up to 30 seconds to eat aquatic plants",
+      "Despite their massive size they can run silently through dense forest"
+    ],
+    "tags": [
+      "megafauna",
+      "mammal",
+      "antlers",
+      "forest",
+      "herbivore"
+    ],
+    "related_animals": [
+      "horse",
+      "bison",
+      "wolf"
+    ]
+  },
+  {
+    "id": "raccoon",
+    "emoji": "🦝",
+    "name": {
+      "en": "Raccoon",
+      "de": "Waschbär",
+      "fr": "Raton laveur",
+      "es": "Mapache",
+      "it": "Procione",
+      "pt": "Guaxinim",
+      "ro": "Raton",
+      "ru": "Енот-полоскун",
+      "zh": "浣熊",
+      "ja": "アライグマ",
+      "hi": "रैकून",
+      "ar": "راكون"
+    },
+    "scientific_name": "Procyon lotor",
+    "class": "mammal",
+    "habitat": [
+      "forest",
+      "urban",
+      "freshwater"
+    ],
+    "continent": [
+      "north_america",
+      "europe"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 8,
+      "speed_kmh": 24,
+      "lifespan_years": 5,
+      "height_cm": 30
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "extremely_dexterous_paws",
+      "highly_intelligent",
+      "nocturnal_adaptability",
+      "omnivorous_diet_flexibility"
+    ],
+    "weaknesses": [
+      "rabies_carrier",
+      "short_lifespan_in_wild",
+      "small_size"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 4,
+      "smell": 4,
+      "taste": 3,
+      "touch": 5,
+      "special": [
+        "hypersensitive_paws"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "Their front paws have four times more sensory receptors than their back paws allowing them to identify objects without looking",
+      "They can remember the solution to tasks for up to three years",
+      "The black mask on their face reduces glare and enhances night vision"
+    ],
+    "tags": [
+      "nocturnal",
+      "mammal",
+      "adaptable",
+      "urban",
+      "clever"
+    ],
+    "related_animals": [
+      "red_fox",
+      "dog",
+      "bear_grizzly"
+    ]
+  },
+  {
+    "id": "bison",
+    "emoji": "🦬",
+    "name": {
+      "en": "American Bison",
+      "de": "Amerikanischer Bison",
+      "fr": "Bison d'Amérique",
+      "es": "Bisonte americano",
+      "it": "Bisonte americano",
+      "pt": "Bisão-americano",
+      "ro": "Bizon american",
+      "ru": "Американский бизон",
+      "zh": "美洲野牛",
+      "ja": "アメリカバイソン",
+      "hi": "अमेरिकी बाइसन",
+      "ar": "بيسون أمريكي"
+    },
+    "scientific_name": "Bison bison",
+    "class": "mammal",
+    "habitat": [
+      "grasslands"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 900,
+      "speed_kmh": 56,
+      "lifespan_years": 20,
+      "height_cm": 186
+    },
+    "conservation_status": "NT",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 4
+    },
+    "strengths": [
+      "massive_size_and_weight",
+      "powerful_charge",
+      "thick_skull_for_headbutting",
+      "cold_weather_endurance"
+    ],
+    "weaknesses": [
+      "poor_eyesight",
+      "habitat_loss",
+      "slow_reproduction"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 4,
+      "smell": 5,
+      "taste": 3,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "ecosystem_engineer",
+    "fun_facts": [
+      "They can jump up to 1.8 meters high despite weighing nearly a ton",
+      "Their population was reduced from 60 million to just 541 in the 1880s before recovery efforts began",
+      "Wallowing in dust creates depressions that become microhabitats for insects and plants"
+    ],
+    "tags": [
+      "megafauna",
+      "mammal",
+      "grasslands",
+      "north_america",
+      "herbivore"
+    ],
+    "related_animals": [
+      "cow",
+      "moose",
+      "horse"
+    ]
+  },
+  {
+    "id": "camel",
+    "emoji": "🐫",
+    "name": {
+      "en": "Dromedary Camel",
+      "de": "Dromedar",
+      "fr": "Dromadaire",
+      "es": "Dromedario",
+      "it": "Dromedario",
+      "pt": "Dromedário",
+      "ro": "Dromader",
+      "ru": "Одногорбый верблюд",
+      "zh": "单峰骆驼",
+      "ja": "ヒトコブラクダ",
+      "hi": "एक कूबड़ वाला ऊँट",
+      "ar": "جمل وحيد السنام"
+    },
+    "scientific_name": "Camelus dromedarius",
+    "class": "mammal",
+    "habitat": [
+      "desert"
+    ],
+    "continent": [
+      "africa",
+      "asia"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 500,
+      "speed_kmh": 65,
+      "lifespan_years": 40,
+      "height_cm": 210
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "domesticated",
+      "danger_level": 2
+    },
+    "strengths": [
+      "extreme_heat_tolerance",
+      "water_conservation",
+      "long_distance_endurance",
+      "powerful_kick"
+    ],
+    "weaknesses": [
+      "poor_cold_adaptation",
+      "slow_reproduction",
+      "dependent_on_sparse_vegetation"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 3,
+      "smell": 4,
+      "taste": 3,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "herbivore_grazer",
+    "fun_facts": [
+      "They can drink up to 200 liters of water in just three minutes",
+      "Their humps store fat not water and can weigh up to 36 kg when fully stocked",
+      "They have three eyelids and two rows of eyelashes to keep out desert sand"
+    ],
+    "tags": [
+      "desert",
+      "mammal",
+      "domesticated",
+      "endurance",
+      "africa"
+    ],
+    "related_animals": [
+      "horse",
+      "giraffe",
+      "elephant_african"
+    ]
+  },
+  {
+    "id": "jaguar",
+    "emoji": "🐆",
+    "name": {
+      "en": "Jaguar",
+      "de": "Jaguar",
+      "fr": "Jaguar",
+      "es": "Jaguar",
+      "it": "Giaguaro",
+      "pt": "Onça-pintada",
+      "ro": "Jaguar",
+      "ru": "Ягуар",
+      "zh": "美洲豹",
+      "ja": "ジャガー",
+      "hi": "जगुआर",
+      "ar": "جاكوار"
+    },
+    "scientific_name": "Panthera onca",
+    "class": "mammal",
+    "habitat": [
+      "rainforest",
+      "forest",
+      "wetlands"
+    ],
+    "continent": [
+      "south_america",
+      "north_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 100,
+      "speed_kmh": 80,
+      "lifespan_years": 15,
+      "height_cm": 75
+    },
+    "conservation_status": "NT",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 5
+    },
+    "strengths": [
+      "strongest_bite_of_all_big_cats",
+      "excellent_swimmer",
+      "ambush_hunting",
+      "can_crush_turtle_shells"
+    ],
+    "weaknesses": [
+      "solitary_hunter",
+      "habitat_loss",
+      "conflict_with_ranchers"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 4,
+      "smell": 4,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "excellent_night_vision"
+      ]
+    },
+    "ecosystem_role": "apex_predator",
+    "fun_facts": [
+      "They kill prey by biting directly through the skull into the brain unlike other big cats that go for the throat",
+      "They are one of the few big cats that enjoy water and regularly hunt caimans",
+      "The name comes from the indigenous word yaguar meaning he who kills with one leap"
+    ],
+    "tags": [
+      "big_cat",
+      "mammal",
+      "rainforest",
+      "south_america",
+      "apex_predator"
+    ],
+    "related_animals": [
+      "leopard",
+      "lion",
+      "tiger"
+    ]
+  },
+  {
+    "id": "walrus",
+    "emoji": "🦭",
+    "name": {
+      "en": "Walrus",
+      "de": "Walross",
+      "fr": "Morse",
+      "es": "Morsa",
+      "it": "Tricheco",
+      "pt": "Morsa",
+      "ro": "Morsă",
+      "ru": "Морж",
+      "zh": "海象",
+      "ja": "セイウチ",
+      "hi": "वालरस",
+      "ar": "فظ"
+    },
+    "scientific_name": "Odobenus rosmarus",
+    "class": "mammal",
+    "habitat": [
+      "arctic",
+      "ocean"
+    ],
+    "continent": [
+      "north_america",
+      "europe",
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 1200,
+      "speed_kmh": 35,
+      "lifespan_years": 40,
+      "height_cm": 120
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 3
+    },
+    "strengths": [
+      "massive_tusks",
+      "thick_blubber_insulation",
+      "powerful_swimmer",
+      "social_herd_protection"
+    ],
+    "weaknesses": [
+      "slow_on_land",
+      "climate_change_vulnerability",
+      "slow_reproduction"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 3,
+      "smell": 4,
+      "taste": 2,
+      "touch": 5,
+      "special": [
+        "vibrissae_sensing"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "Their tusks can grow up to one meter long and are used to haul out onto ice",
+      "They use their sensitive whiskers called vibrissae to detect shellfish on the dark ocean floor",
+      "They can slow their heart rate to withstand the frigid Arctic water temperatures"
+    ],
+    "tags": [
+      "arctic",
+      "mammal",
+      "marine_mammal",
+      "tusked",
+      "social"
+    ],
+    "related_animals": [
+      "bear_polar",
+      "whale_blue",
+      "dolphin"
+    ]
+  },
+  {
+    "id": "penguin_african",
+    "emoji": "🐧",
+    "name": {
+      "en": "African Penguin",
+      "de": "Brillenpinguin",
+      "fr": "Manchot du Cap",
+      "es": "Pingüino africano",
+      "it": "Pinguino africano",
+      "pt": "Pinguim-africano",
+      "ro": "Pinguin african",
+      "ru": "Очковый пингвин",
+      "zh": "非洲企鹅",
+      "ja": "ケープペンギン",
+      "hi": "अफ़्रीकी पेंगुइन",
+      "ar": "بطريق أفريقي"
+    },
+    "scientific_name": "Spheniscus demersus",
+    "class": "bird",
+    "habitat": [
+      "ocean",
+      "coastal"
+    ],
+    "continent": [
+      "africa"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 3.5,
+      "speed_kmh": 20,
+      "lifespan_years": 15,
+      "height_cm": 60
+    },
+    "conservation_status": "EN",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "excellent_swimmer",
+      "colonial_nesting_protection",
+      "waterproof_feathers",
+      "efficient_diving"
+    ],
+    "weaknesses": [
+      "flightless",
+      "oil_spill_vulnerability",
+      "declining_fish_stocks"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 3,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "underwater_vision"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "They are also called jackass penguins because their call sounds like a braying donkey",
+      "Each individual has a unique pattern of spots on its chest like a fingerprint",
+      "They can hold their breath for over two minutes while diving up to 130 meters deep"
+    ],
+    "tags": [
+      "flightless",
+      "bird",
+      "ocean",
+      "africa",
+      "colonial"
+    ],
+    "related_animals": [
+      "penguin_emperor",
+      "albatross",
+      "puffin"
+    ]
+  },
+  {
+    "id": "woodpecker",
+    "emoji": "🪶",
+    "name": {
+      "en": "Great Spotted Woodpecker",
+      "de": "Buntspecht",
+      "fr": "Pic épeiche",
+      "es": "Pico picapinos",
+      "it": "Picchio rosso maggiore",
+      "pt": "Pica-pau-malhado-grande",
+      "ro": "Ciocănitoare mare",
+      "ru": "Большой пёстрый дятел",
+      "zh": "大斑啄木鸟",
+      "ja": "アカゲラ",
+      "hi": "बड़ा चितकबरा कठफोड़वा",
+      "ar": "نقار الخشب المرقط الكبير"
+    },
+    "scientific_name": "Dendrocopos major",
+    "class": "bird",
+    "habitat": [
+      "forest"
+    ],
+    "continent": [
+      "europe",
+      "asia"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 0.085,
+      "speed_kmh": 33,
+      "lifespan_years": 10,
+      "height_cm": 23
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "shock_absorbing_skull",
+      "powerful_drilling_beak",
+      "barbed_tongue_for_insects",
+      "vertical_tree_climbing"
+    ],
+    "weaknesses": [
+      "small_size",
+      "dependent_on_mature_trees",
+      "territorial_energy_cost"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 5,
+      "smell": 2,
+      "taste": 3,
+      "touch": 4,
+      "special": [
+        "vibration_detection_in_wood"
+      ]
+    },
+    "ecosystem_role": "ecosystem_engineer",
+    "fun_facts": [
+      "They can peck at speeds of 20 times per second experiencing forces of 1,200 g without brain injury",
+      "Their tongue wraps around the back of their skull and can extend 10 cm beyond the beak",
+      "The cavities they create become homes for dozens of other species that cannot excavate their own"
+    ],
+    "tags": [
+      "bird",
+      "forest",
+      "europe",
+      "drilling",
+      "ecosystem_engineer"
+    ],
+    "related_animals": [
+      "owl",
+      "crow",
+      "parrot"
+    ]
+  },
+  {
+    "id": "crane",
+    "emoji": "🦢",
+    "name": {
+      "en": "Red-crowned Crane",
+      "de": "Mandschurenkranich",
+      "fr": "Grue du Japon",
+      "es": "Grulla de Manchuria",
+      "it": "Gru della Manciuria",
+      "pt": "Grou-japonês",
+      "ro": "Cocor cu creștet roșu",
+      "ru": "Японский журавль",
+      "zh": "丹顶鹤",
+      "ja": "タンチョウ",
+      "hi": "लाल-शिखर सारस",
+      "ar": "رافعة متوّجة حمراء"
+    },
+    "scientific_name": "Grus japonensis",
+    "class": "bird",
+    "habitat": [
+      "wetlands",
+      "grasslands"
+    ],
+    "continent": [
+      "asia"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 10,
+      "speed_kmh": 60,
+      "lifespan_years": 40,
+      "height_cm": 158
+    },
+    "conservation_status": "EN",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "powerful_long_distance_flight",
+      "long_legs_for_wading",
+      "loud_calls_carry_kilometers",
+      "pair_bonding_for_life"
+    ],
+    "weaknesses": [
+      "wetland_habitat_loss",
+      "slow_reproduction",
+      "large_territory_requirement"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 4,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "They perform elaborate synchronized dances as courtship rituals that include bowing jumping and wing flapping",
+      "In Japanese culture they are symbols of luck longevity and fidelity",
+      "Their calls can be heard over 3 km away due to an elongated windpipe coiled within the breastbone"
+    ],
+    "tags": [
+      "wading_bird",
+      "bird",
+      "asia",
+      "cultural_symbol",
+      "endangered"
+    ],
+    "related_animals": [
+      "flamingo",
+      "swan",
+      "albatross"
+    ]
+  },
+  {
+    "id": "hawk",
+    "emoji": "🦅",
+    "name": {
+      "en": "Red-tailed Hawk",
+      "de": "Rotschwanzbussard",
+      "fr": "Buse à queue rousse",
+      "es": "Busardo colirrojo",
+      "it": "Poiana codarossa",
+      "pt": "Búteo-de-cauda-vermelha",
+      "ro": "Șorecarul cu coadă roșie",
+      "ru": "Краснохвостый сарыч",
+      "zh": "红尾鸵",
+      "ja": "アカオノスリ",
+      "hi": "लाल पूँछ वाला बाज़",
+      "ar": "صقر أحمر الذيل"
+    },
+    "scientific_name": "Buteo jamaicensis",
+    "class": "bird",
+    "habitat": [
+      "forest",
+      "grasslands",
+      "desert",
+      "urban"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 1.2,
+      "speed_kmh": 190,
+      "lifespan_years": 25,
+      "height_cm": 55
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "exceptional_eyesight",
+      "powerful_talons",
+      "soaring_efficiency",
+      "adaptable_habitat_range"
+    ],
+    "weaknesses": [
+      "vulnerable_to_electrocution_on_power_lines",
+      "ground_nesting_risk",
+      "wind_dependency_for_soaring"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 4,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "ultraviolet_vision"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "Their distinctive screech is so iconic it is often dubbed over bald eagle footage in movies",
+      "They can spot a mouse from a height of 30 meters with vision eight times sharper than a human",
+      "Mated pairs perform a sky dance where they lock talons and spiral downward together"
+    ],
+    "tags": [
+      "raptor",
+      "bird",
+      "north_america",
+      "soaring",
+      "hunter"
+    ],
+    "related_animals": [
+      "eagle_bald",
+      "eagle_golden",
+      "falcon_peregrine"
+    ]
+  },
+  {
+    "id": "puffin",
+    "emoji": "🐦",
+    "name": {
+      "en": "Atlantic Puffin",
+      "de": "Papageitaucher",
+      "fr": "Macareux moine",
+      "es": "Frailecillo atlántico",
+      "it": "Pulcinella di mare",
+      "pt": "Papagaio-do-mar",
+      "ro": "Pufin atlantic",
+      "ru": "Тупик",
+      "zh": "大西洋海鹦",
+      "ja": "ニシツノメドリ",
+      "hi": "अटलांटिक पफ़िन",
+      "ar": "بفن أطلسي"
+    },
+    "scientific_name": "Fratercula arctica",
+    "class": "bird",
+    "habitat": [
+      "ocean",
+      "coastal"
+    ],
+    "continent": [
+      "north_america",
+      "europe"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.4,
+      "speed_kmh": 88,
+      "lifespan_years": 30,
+      "height_cm": 25
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "excellent_diver",
+      "can_carry_multiple_fish",
+      "waterproof_plumage",
+      "strong_flyer_despite_small_wings"
+    ],
+    "weaknesses": [
+      "clumsy_on_land",
+      "climate_change_affecting_food_sources",
+      "burrow_flooding_risk"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 3,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "underwater_vision"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "They can hold over a dozen fish crosswise in their beak at once thanks to a hinged jaw",
+      "Their beaks are fluorescent and glow under ultraviolet light",
+      "They flap their wings up to 400 times per minute to stay airborne"
+    ],
+    "tags": [
+      "seabird",
+      "bird",
+      "ocean",
+      "colonial",
+      "diver"
+    ],
+    "related_animals": [
+      "penguin_emperor",
+      "penguin_african",
+      "albatross"
+    ]
+  },
+  {
+    "id": "alligator",
+    "emoji": "🐊",
+    "name": {
+      "en": "American Alligator",
+      "de": "Mississippi-Alligator",
+      "fr": "Alligator d'Amérique",
+      "es": "Aligátor americano",
+      "it": "Alligatore americano",
+      "pt": "Aligátor-americano",
+      "ro": "Aligator american",
+      "ru": "Миссисипский аллигатор",
+      "zh": "美洲短吻鰄",
+      "ja": "アメリカアリゲーター",
+      "hi": "अमेरिकी मगरमच्छ",
+      "ar": "تمساح أمريكي"
+    },
+    "scientific_name": "Alligator mississippiensis",
+    "class": "reptile",
+    "habitat": [
+      "freshwater",
+      "wetlands"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 360,
+      "speed_kmh": 32,
+      "lifespan_years": 50,
+      "height_cm": 45
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 4
+    },
+    "strengths": [
+      "powerful_bite_force",
+      "armored_scales",
+      "ambush_predator",
+      "semi_aquatic_versatility"
+    ],
+    "weaknesses": [
+      "cannot_chew_food",
+      "cold_blooded_vulnerability",
+      "slow_on_land_over_distance"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 4,
+      "smell": 3,
+      "taste": 2,
+      "touch": 4,
+      "special": [
+        "pressure_sensing",
+        "infrared_detection"
+      ]
+    },
+    "ecosystem_role": "apex_predator",
+    "fun_facts": [
+      "They create gator holes that become critical water reservoirs for other wildlife during droughts",
+      "Their bite force measures over 13,000 newtons but the muscles to open the jaw are so weak a rubber band can hold it shut",
+      "The temperature of the nest determines the sex of the hatchlings"
+    ],
+    "tags": [
+      "reptile",
+      "freshwater",
+      "north_america",
+      "apex_predator",
+      "armored"
+    ],
+    "related_animals": [
+      "crocodile",
+      "komodo_dragon",
+      "sea_turtle"
+    ]
+  },
+  {
+    "id": "tortoise_galapagos",
+    "emoji": "🐢",
+    "name": {
+      "en": "Galápagos Giant Tortoise",
+      "de": "Galápagos-Riesenschildkröte",
+      "fr": "Tortue géante des Galápagos",
+      "es": "Tortuga gigante de Galápagos",
+      "it": "Tartaruga gigante delle Galápagos",
+      "pt": "Tartaruga-gigante-de-galápagos",
+      "ro": "Broasca țestoasă gigant din Galápagos",
+      "ru": "Галапагосская черепаха",
+      "zh": "加拉帕戈斯象龟",
+      "ja": "ガラパゴスゾウガメ",
+      "hi": "गैलापागोस विशाल कछुआ",
+      "ar": "سلحفاة غالاباغوس العملاقة"
+    },
+    "scientific_name": "Chelonoidis nigra",
+    "class": "reptile",
+    "habitat": [
+      "grasslands",
+      "forest"
+    ],
+    "continent": [
+      "south_america"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 250,
+      "speed_kmh": 0.5,
+      "lifespan_years": 175,
+      "height_cm": 120
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "extreme_longevity",
+      "protective_shell",
+      "can_survive_months_without_food_or_water",
+      "massive_size_deters_predators"
+    ],
+    "weaknesses": [
+      "extremely_slow",
+      "vulnerable_to_invasive_species",
+      "slow_reproduction"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 2,
+      "smell": 4,
+      "taste": 3,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "herbivore_grazer",
+    "fun_facts": [
+      "They can live over 175 years making them among the longest-lived vertebrates on Earth",
+      "Charles Darwin collected specimens during his visit to the islands which helped inspire his theory of evolution",
+      "They can survive up to a year without food or water by metabolizing stored fat"
+    ],
+    "tags": [
+      "reptile",
+      "tortoise",
+      "south_america",
+      "longevity",
+      "island"
+    ],
+    "related_animals": [
+      "sea_turtle",
+      "iguana",
+      "chameleon"
+    ]
+  },
+  {
+    "id": "newt",
+    "emoji": "🦎",
+    "name": {
+      "en": "Great Crested Newt",
+      "de": "Kammmolch",
+      "fr": "Triton crêté",
+      "es": "Tritón crestado",
+      "it": "Tritone crestato",
+      "pt": "Tritão-de-crista",
+      "ro": "Tritonul cu creastă",
+      "ru": "Гребенчатый тритон",
+      "zh": "大冠螾螞",
+      "ja": "カンムリイモリ",
+      "hi": "बड़ा शिखर वाला न्यूट",
+      "ar": "سمندل ذو عرف كبير"
+    },
+    "scientific_name": "Triturus cristatus",
+    "class": "amphibian",
+    "habitat": [
+      "freshwater",
+      "forest"
+    ],
+    "continent": [
+      "europe",
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.015,
+      "speed_kmh": 2,
+      "lifespan_years": 15,
+      "height_cm": 4
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "skin_toxin_defense",
+      "limb_regeneration",
+      "nocturnal_hunting",
+      "aquatic_and_terrestrial_versatility"
+    ],
+    "weaknesses": [
+      "tiny_size",
+      "pond_habitat_loss",
+      "sensitive_to_pollution"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 2,
+      "smell": 4,
+      "taste": 2,
+      "touch": 4,
+      "special": [
+        "lateral_line_system"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "Males develop a dramatic jagged crest along their back during breeding season to attract females",
+      "They can regenerate lost limbs eyes and even parts of their heart and brain",
+      "Their skin secretions contain a mild toxin that makes them unpalatable to most predators"
+    ],
+    "tags": [
+      "amphibian",
+      "freshwater",
+      "europe",
+      "nocturnal",
+      "regeneration"
+    ],
+    "related_animals": [
+      "salamander",
+      "axolotl",
+      "frog_poison_dart"
+    ]
+  },
+  {
+    "id": "toad",
+    "emoji": "🐸",
+    "name": {
+      "en": "Common Toad",
+      "de": "Erdkröte",
+      "fr": "Crapaud commun",
+      "es": "Sapo común",
+      "it": "Rospo comune",
+      "pt": "Sapo-comum",
+      "ro": "Broasca râioasă",
+      "ru": "Обыкновенная жаба",
+      "zh": "蟾蛍",
+      "ja": "ヒキガエル",
+      "hi": "आम मेंढक",
+      "ar": "علجوم شائع"
+    },
+    "scientific_name": "Bufo bufo",
+    "class": "amphibian",
+    "habitat": [
+      "forest",
+      "grasslands",
+      "urban"
+    ],
+    "continent": [
+      "europe",
+      "asia",
+      "africa"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.08,
+      "speed_kmh": 8,
+      "lifespan_years": 12,
+      "height_cm": 7
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "toxic_skin_secretions",
+      "camouflage",
+      "long_sticky_tongue",
+      "nocturnal_hunting"
+    ],
+    "weaknesses": [
+      "slow_moving",
+      "road_mortality_during_migration",
+      "permeable_skin_pollution_risk"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 3,
+      "smell": 3,
+      "taste": 2,
+      "touch": 4,
+      "special": [
+        "vibration_sensing"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "They always return to the exact pond where they were born to breed sometimes traveling several kilometers",
+      "Unlike frogs they walk rather than hop and have dry bumpy skin instead of smooth moist skin",
+      "A single toad can eat up to 10,000 insects in a single summer"
+    ],
+    "tags": [
+      "amphibian",
+      "nocturnal",
+      "europe",
+      "garden_wildlife",
+      "insectivore"
+    ],
+    "related_animals": [
+      "frog_tree",
+      "frog_poison_dart",
+      "salamander"
+    ]
+  },
+  {
+    "id": "shark_whale",
+    "emoji": "🦈",
+    "name": {
+      "en": "Whale Shark",
+      "de": "Walhai",
+      "fr": "Requin-baleine",
+      "es": "Tiburón ballena",
+      "it": "Squalo balena",
+      "pt": "Tubarão-baleia",
+      "ro": "Rechinul-balenă",
+      "ru": "Китовая акула",
+      "zh": "鲸鲨",
+      "ja": "ジンベエザメ",
+      "hi": "व्हेल शार्क",
+      "ar": "القرش الحوتي"
+    },
+    "scientific_name": "Rhincodon typus",
+    "class": "fish",
+    "habitat": [
+      "ocean"
+    ],
+    "continent": [
+      "north_america",
+      "south_america",
+      "africa",
+      "asia",
+      "oceania"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 19000,
+      "speed_kmh": 20,
+      "lifespan_years": 100,
+      "height_cm": 300
+    },
+    "conservation_status": "EN",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "largest_fish_in_the_world",
+      "efficient_filter_feeder",
+      "thick_skin_up_to_15cm",
+      "long_distance_migration"
+    ],
+    "weaknesses": [
+      "slow_swimming_speed",
+      "slow_reproduction",
+      "boat_strike_vulnerability"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 2,
+      "smell": 4,
+      "taste": 3,
+      "touch": 3,
+      "special": [
+        "electroreception"
+      ]
+    },
+    "ecosystem_role": "filter_feeder",
+    "fun_facts": [
+      "They can grow up to 18 meters long making them the largest fish in the ocean",
+      "Despite their enormous size they feed almost exclusively on plankton and small fish",
+      "Each individual has a unique pattern of spots like a human fingerprint used by scientists for identification"
+    ],
+    "tags": [
+      "fish",
+      "ocean",
+      "filter_feeder",
+      "gentle_giant",
+      "endangered"
+    ],
+    "related_animals": [
+      "shark_great_white",
+      "manta_ray",
+      "whale_blue"
+    ]
+  },
+  {
+    "id": "swordfish",
+    "emoji": "🐟",
+    "name": {
+      "en": "Swordfish",
+      "de": "Schwertfisch",
+      "fr": "Espadon",
+      "es": "Pez espada",
+      "it": "Pesce spada",
+      "pt": "Espadarte",
+      "ro": "Peștele-spadă",
+      "ru": "Рыба-меч",
+      "zh": "剑鱼",
+      "ja": "メカジキ",
+      "hi": "तलवार मछली",
+      "ar": "سمكة أبو سيف"
+    },
+    "scientific_name": "Xiphias gladius",
+    "class": "fish",
+    "habitat": [
+      "ocean"
+    ],
+    "continent": [
+      "north_america",
+      "south_america",
+      "europe",
+      "africa",
+      "asia",
+      "oceania"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 450,
+      "speed_kmh": 97,
+      "lifespan_years": 15,
+      "height_cm": 80
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "incredible_speed",
+      "sword_shaped_bill_weapon",
+      "deep_diving_ability",
+      "warm_blooded_eyes_and_brain"
+    ],
+    "weaknesses": [
+      "overfishing_pressure",
+      "solitary_no_group_defense",
+      "mercury_accumulation"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 2,
+      "smell": 3,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "heated_eyes_for_deep_vision"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "They can heat their eyes and brain up to 15 degrees above water temperature to improve vision in deep cold water",
+      "They slash through schools of fish with their bill to stun prey before eating them",
+      "They can dive to depths of over 900 meters and are among the fastest fish in the ocean"
+    ],
+    "tags": [
+      "fish",
+      "ocean",
+      "fast",
+      "predator",
+      "deep_diver"
+    ],
+    "related_animals": [
+      "shark_great_white",
+      "manta_ray",
+      "tuna"
+    ]
+  },
+  {
+    "id": "tuna",
+    "emoji": "🐟",
+    "name": {
+      "en": "Bluefin Tuna",
+      "de": "Blauflossen-Thunfisch",
+      "fr": "Thon rouge",
+      "es": "Atún rojo",
+      "it": "Tonno rosso",
+      "pt": "Atum-rabilho",
+      "ro": "Ton roșu",
+      "ru": "Обыкновенный тунец",
+      "zh": "蓝鳍金枪鱼",
+      "ja": "クロマグロ",
+      "hi": "ब्लूफिन ट्यूना",
+      "ar": "تونة زرقاء الزعنفة"
+    },
+    "scientific_name": "Thunnus thynnus",
+    "class": "fish",
+    "habitat": [
+      "ocean"
+    ],
+    "continent": [
+      "north_america",
+      "europe",
+      "africa",
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 680,
+      "speed_kmh": 75,
+      "lifespan_years": 40,
+      "height_cm": 100
+    },
+    "conservation_status": "EN",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "exceptional_speed",
+      "warm_blooded_metabolism",
+      "long_distance_migration",
+      "powerful_burst_swimming"
+    ],
+    "weaknesses": [
+      "severe_overfishing",
+      "slow_maturity",
+      "mercury_accumulation"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 3,
+      "smell": 4,
+      "taste": 3,
+      "touch": 3,
+      "special": [
+        "lateral_line_system"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "They are warm-blooded and can maintain a body temperature up to 21 degrees above the surrounding water",
+      "A single bluefin tuna sold for over 3 million dollars at a Tokyo auction in 2019",
+      "They can cross the Atlantic Ocean in under 60 days during their annual migration"
+    ],
+    "tags": [
+      "fish",
+      "ocean",
+      "fast",
+      "migratory",
+      "endangered"
+    ],
+    "related_animals": [
+      "swordfish",
+      "shark_great_white",
+      "salmon"
+    ]
+  },
+  {
+    "id": "lobster",
+    "emoji": "🦞",
+    "name": {
+      "en": "American Lobster",
+      "de": "Amerikanischer Hummer",
+      "fr": "Homard américain",
+      "es": "Langosta americana",
+      "it": "Astice americano",
+      "pt": "Lagosta-americana",
+      "ro": "Homar american",
+      "ru": "Американский омар",
+      "zh": "美洲螯龙虾",
+      "ja": "アメリカンロブスター",
+      "hi": "अमेरिकी झींगा",
+      "ar": "كركند أمريكي"
+    },
+    "scientific_name": "Homarus americanus",
+    "class": "invertebrate",
+    "habitat": [
+      "ocean"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 9,
+      "speed_kmh": 18,
+      "lifespan_years": 50,
+      "height_cm": 15
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "powerful_crushing_claws",
+      "hard_exoskeleton",
+      "regenerating_limbs",
+      "nocturnal_scavenging"
+    ],
+    "weaknesses": [
+      "vulnerable_during_molting",
+      "slow_growth",
+      "overfishing_pressure"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 1,
+      "smell": 5,
+      "taste": 4,
+      "touch": 4,
+      "special": [
+        "chemical_sensing"
+      ]
+    },
+    "ecosystem_role": "scavenger",
+    "fun_facts": [
+      "They taste with their feet and chew with structures in their stomachs called gastric mills",
+      "They can live over 100 years and show no signs of aging a phenomenon called biological immortality",
+      "Their blood is blue because it contains copper instead of the iron found in human blood"
+    ],
+    "tags": [
+      "crustacean",
+      "invertebrate",
+      "ocean",
+      "scavenger",
+      "north_america"
+    ],
+    "related_animals": [
+      "crab",
+      "scorpion",
+      "octopus"
+    ]
+  },
+  {
+    "id": "snail",
+    "emoji": "🐌",
+    "name": {
+      "en": "Garden Snail",
+      "de": "Weinbergschnecke",
+      "fr": "Escargot de jardin",
+      "es": "Caracol de jardín",
+      "it": "Chiocciola",
+      "pt": "Caracol-de-jardim",
+      "ro": "Melc de grădină",
+      "ru": "Садовая улитка",
+      "zh": "花园蜗牛",
+      "ja": "カタツムリ",
+      "hi": "बगीचे का घोंघा",
+      "ar": "حلزون الحديقة"
+    },
+    "scientific_name": "Cornu aspersum",
+    "class": "invertebrate",
+    "habitat": [
+      "forest",
+      "grasslands",
+      "urban"
+    ],
+    "continent": [
+      "europe",
+      "north_america",
+      "south_america",
+      "africa",
+      "oceania"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 0.01,
+      "speed_kmh": 0.05,
+      "lifespan_years": 5,
+      "height_cm": 4
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "protective_shell_retreat",
+      "mucus_trail_locomotion",
+      "estivation_during_drought",
+      "hermaphroditic_reproduction"
+    ],
+    "weaknesses": [
+      "extremely_slow",
+      "vulnerable_to_dehydration",
+      "many_natural_predators"
+    ],
+    "senses": {
+      "vision": 1,
+      "hearing": 1,
+      "smell": 3,
+      "taste": 3,
+      "touch": 4,
+      "special": [
+        "chemical_trail_following"
+      ]
+    },
+    "ecosystem_role": "decomposer",
+    "fun_facts": [
+      "They have up to 20,000 microscopic teeth on a ribbon-like tongue called a radula",
+      "Their slime is so effective that they can crawl over a razor blade without getting cut",
+      "They can sleep for up to three years during periods of unfavorable conditions"
+    ],
+    "tags": [
+      "mollusk",
+      "invertebrate",
+      "slow",
+      "garden_wildlife",
+      "hermaphrodite"
+    ],
+    "related_animals": [
+      "octopus",
+      "coral",
+      "ant"
+    ]
+  },
+  {
+    "id": "dragonfly",
+    "emoji": "🪰",
+    "name": {
+      "en": "Common Dragonfly",
+      "de": "Libelle",
+      "fr": "Libellule",
+      "es": "Libélula",
+      "it": "Libellula",
+      "pt": "Libélula",
+      "ro": "Libelulă",
+      "ru": "Стрекоза",
+      "zh": "蜻蜓",
+      "ja": "トンボ",
+      "hi": "ड्रैगनफ्लाई",
+      "ar": "يعسوب"
+    },
+    "scientific_name": "Sympetrum striolatum",
+    "class": "invertebrate",
+    "habitat": [
+      "freshwater",
+      "grasslands"
+    ],
+    "continent": [
+      "europe",
+      "asia",
+      "africa"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.001,
+      "speed_kmh": 56,
+      "lifespan_years": 1,
+      "height_cm": 5
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "incredible_aerial_agility",
+      "nearly_360_degree_vision",
+      "high_hunting_success_rate",
+      "independent_wing_movement"
+    ],
+    "weaknesses": [
+      "short_adult_lifespan",
+      "vulnerable_to_habitat_loss",
+      "fragile_wings"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 2,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "compound_eyes_with_30000_facets"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "They have a 95 percent hunting success rate making them the most efficient predators in the animal kingdom",
+      "Their compound eyes contain up to 30,000 individual facets giving them near-360-degree vision",
+      "They spend up to five years as aquatic larvae before emerging as adults that live only a few weeks"
+    ],
+    "tags": [
+      "insect",
+      "invertebrate",
+      "freshwater",
+      "aerial_predator",
+      "ancient"
+    ],
+    "related_animals": [
+      "bee_honey",
+      "butterfly_monarch",
+      "bat"
+    ]
+  },
+  {
+    "id": "crab",
+    "emoji": "🦀",
+    "name": {
+      "en": "Japanese Spider Crab",
+      "de": "Japanische Riesenkrabbe",
+      "fr": "Crabe-araignée géant du Japon",
+      "es": "Cangrejo araña japonés",
+      "it": "Granchio ragno giapponese",
+      "pt": "Caranguejo-aranha-japonês",
+      "ro": "Crabul-păianjen japonez",
+      "ru": "Японский краб-паук",
+      "zh": "甘氏巨螯蟹",
+      "ja": "タカアシガニ",
+      "hi": "जापानी मकड़ी केकड़ा",
+      "ar": "سلطعون العنكبوت الياباني"
+    },
+    "scientific_name": "Macrocheira kaempferi",
+    "class": "invertebrate",
+    "habitat": [
+      "ocean"
+    ],
+    "continent": [
+      "asia"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 19,
+      "speed_kmh": 4,
+      "lifespan_years": 100,
+      "height_cm": 40
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "largest_leg_span_of_any_arthropod",
+      "hard_exoskeleton",
+      "deep_water_camouflage",
+      "regenerating_limbs"
+    ],
+    "weaknesses": [
+      "slow_moving",
+      "vulnerable_during_molting",
+      "overfishing_threat"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 1,
+      "smell": 4,
+      "taste": 3,
+      "touch": 4,
+      "special": [
+        "chemical_sensing"
+      ]
+    },
+    "ecosystem_role": "scavenger",
+    "fun_facts": [
+      "Their leg span can reach up to 3.7 meters making them the largest living arthropod",
+      "They decorate their shells with sponges and other organisms for camouflage",
+      "Fossil records show they have remained virtually unchanged for over 100 million years"
+    ],
+    "tags": [
+      "crustacean",
+      "invertebrate",
+      "ocean",
+      "asia",
+      "deep_sea"
+    ],
+    "related_animals": [
+      "lobster",
+      "octopus",
+      "scorpion"
+    ]
+  },
+  {
+    "id": "starfish",
+    "emoji": "⭐",
+    "name": {
+      "en": "Common Starfish",
+      "de": "Gemeiner Seestern",
+      "fr": "Étoile de mer commune",
+      "es": "Estrella de mar común",
+      "it": "Stella marina comune",
+      "pt": "Estrela-do-mar-comum",
+      "ro": "Stea de mare",
+      "ru": "Обыкновенная морская звезда",
+      "zh": "普通海星",
+      "ja": "ヒトデ",
+      "hi": "तारा मछली",
+      "ar": "نجم البحر الشائع"
+    },
+    "scientific_name": "Asterias rubens",
+    "class": "invertebrate",
+    "habitat": [
+      "ocean"
+    ],
+    "continent": [
+      "europe",
+      "north_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.2,
+      "speed_kmh": 0.1,
+      "lifespan_years": 10,
+      "height_cm": 5
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "arm_regeneration",
+      "tube_feet_suction",
+      "can_pry_open_shellfish",
+      "stomach_eversion_feeding"
+    ],
+    "weaknesses": [
+      "extremely_slow",
+      "no_blood_or_brain",
+      "sensitive_to_water_quality"
+    ],
+    "senses": {
+      "vision": 1,
+      "hearing": 1,
+      "smell": 3,
+      "taste": 2,
+      "touch": 4,
+      "special": [
+        "eyespot_light_detection"
+      ]
+    },
+    "ecosystem_role": "mesopredator",
+    "fun_facts": [
+      "They eat by pushing their stomach out through their mouth to digest prey externally",
+      "A single arm can regenerate into an entirely new individual if it contains part of the central disc",
+      "They have no brain and no blood instead using a water vascular system to move and feed"
+    ],
+    "tags": [
+      "echinoderm",
+      "invertebrate",
+      "ocean",
+      "regeneration",
+      "tidal"
+    ],
+    "related_animals": [
+      "coral",
+      "jellyfish_box",
+      "octopus"
+    ]
+  },
+  {
+    "id": "snow_leopard",
+    "emoji": "🐆",
+    "name": {
+      "en": "Snow Leopard",
+      "de": "Schneeleopard",
+      "fr": "Panthère des neiges",
+      "es": "Leopardo de las nieves",
+      "it": "Leopardo delle nevi",
+      "pt": "Leopardo-das-neves",
+      "ro": "Leopardul zăpezilor",
+      "ru": "Снежный барс",
+      "zh": "雪豹",
+      "ja": "ユキヒョウ",
+      "hi": "हिम तेंदुआ",
+      "ar": "نمر الثلج"
+    },
+    "scientific_name": "Panthera uncia",
+    "class": "mammal",
+    "habitat": [
+      "mountains",
+      "alpine"
+    ],
+    "continent": [
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 50,
+      "speed_kmh": 65,
+      "lifespan_years": 15,
+      "height_cm": 60
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 3
+    },
+    "strengths": [
+      "incredible_agility",
+      "powerful_hind_legs",
+      "thick_fur_insulation",
+      "long_tail_for_balance"
+    ],
+    "weaknesses": [
+      "solitary_hunter",
+      "habitat_loss",
+      "low_population_density"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 4,
+      "smell": 3,
+      "taste": 2,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "apex_predator",
+    "fun_facts": [
+      "Their tails can be nearly as long as their entire body and are used for balance and warmth",
+      "They can leap up to 15 meters in a single bound across rocky terrain",
+      "Unlike other big cats, they cannot roar due to a different larynx structure"
+    ],
+    "tags": [
+      "big_cat",
+      "mountain",
+      "asia",
+      "mammal",
+      "endangered"
+    ],
+    "related_animals": [
+      "leopard",
+      "tiger",
+      "lynx"
+    ]
+  },
+  {
+    "id": "wombat",
+    "emoji": "🐻",
+    "name": {
+      "en": "Common Wombat",
+      "de": "Wombat",
+      "fr": "Wombat commun",
+      "es": "Wombat común",
+      "it": "Vombato comune",
+      "pt": "Vombate-comum",
+      "ro": "Wombat comun",
+      "ru": "Вомбат",
+      "zh": "袋熊",
+      "ja": "ウォンバット",
+      "hi": "वॉम्बैट",
+      "ar": "ومبت"
+    },
+    "scientific_name": "Vombatus ursinus",
+    "class": "mammal",
+    "habitat": [
+      "forest",
+      "grasslands"
+    ],
+    "continent": [
+      "oceania"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 30,
+      "speed_kmh": 40,
+      "lifespan_years": 15,
+      "height_cm": 36
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "powerful_digging_claws",
+      "reinforced_cartilage_rear",
+      "strong_compact_body",
+      "efficient_metabolism"
+    ],
+    "weaknesses": [
+      "poor_eyesight",
+      "slow_reproduction",
+      "vulnerable_to_vehicles"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 3,
+      "smell": 4,
+      "taste": 2,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "ecosystem_engineer",
+    "fun_facts": [
+      "Their droppings are cube-shaped to prevent them from rolling away on slopes",
+      "Their backward-facing pouch prevents dirt from entering while digging",
+      "They have an extremely slow metabolism and can take up to 14 days to digest a meal"
+    ],
+    "tags": [
+      "marsupial",
+      "burrowing",
+      "oceania",
+      "mammal",
+      "nocturnal"
+    ],
+    "related_animals": [
+      "kangaroo",
+      "platypus",
+      "panda"
+    ]
+  },
+  {
+    "id": "armadillo",
+    "emoji": "🦔",
+    "name": {
+      "en": "Nine-banded Armadillo",
+      "de": "Neunbinden-Gürteltier",
+      "fr": "Tatou à neuf bandes",
+      "es": "Armadillo de nueve bandas",
+      "it": "Armadillo a nove fasce",
+      "pt": "Tatu-galinha",
+      "ro": "Armadilo cu nouă benzi",
+      "ru": "Девятипоясный броненосец",
+      "zh": "九带犰狳",
+      "ja": "ココノオビアルマジロ",
+      "hi": "नौ-बैंड आर्मडिलो",
+      "ar": "أرماديلو ذو تسعة أحزمة"
+    },
+    "scientific_name": "Dasypus novemcinctus",
+    "class": "mammal",
+    "habitat": [
+      "grasslands",
+      "forest"
+    ],
+    "continent": [
+      "north_america",
+      "south_america"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 6,
+      "speed_kmh": 48,
+      "lifespan_years": 15,
+      "height_cm": 25
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "armored_shell",
+      "powerful_digging_claws",
+      "can_hold_breath_6_minutes",
+      "always_births_identical_quadruplets"
+    ],
+    "weaknesses": [
+      "poor_eyesight",
+      "vulnerable_to_cold",
+      "road_mortality"
+    ],
+    "senses": {
+      "vision": 1,
+      "hearing": 3,
+      "smell": 5,
+      "taste": 2,
+      "touch": 4,
+      "special": [
+        "vibration_sensing"
+      ]
+    },
+    "ecosystem_role": "ecosystem_engineer",
+    "fun_facts": [
+      "They always give birth to genetically identical quadruplets from a single fertilized egg",
+      "They can walk along the bottom of rivers by holding their breath for up to 6 minutes",
+      "Their body temperature is unusually low at 34°C making them susceptible to leprosy"
+    ],
+    "tags": [
+      "armored",
+      "burrowing",
+      "americas",
+      "mammal",
+      "nocturnal"
+    ],
+    "related_animals": [
+      "wombat",
+      "panda",
+      "ant"
+    ]
+  },
+  {
+    "id": "meerkat",
+    "emoji": "🐾",
+    "name": {
+      "en": "Meerkat",
+      "de": "Erdmännchen",
+      "fr": "Suricate",
+      "es": "Suricata",
+      "it": "Suricato",
+      "pt": "Suricata",
+      "ro": "Suricată",
+      "ru": "Сурикат",
+      "zh": "猫鼬",
+      "ja": "ミーアキャット",
+      "hi": "मीरकैट",
+      "ar": "ميركات"
+    },
+    "scientific_name": "Suricata suricatta",
+    "class": "mammal",
+    "habitat": [
+      "desert",
+      "savanna"
+    ],
+    "continent": [
+      "africa"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 0.73,
+      "speed_kmh": 32,
+      "lifespan_years": 12,
+      "height_cm": 30
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "cooperative_group_living",
+      "sentinel_warning_system",
+      "venom_resistant",
+      "excellent_diggers"
+    ],
+    "weaknesses": [
+      "small_size",
+      "dependent_on_group",
+      "vulnerable_to_aerial_predators"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 4,
+      "smell": 3,
+      "taste": 2,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "prey",
+    "fun_facts": [
+      "They have dark patches around their eyes that reduce sun glare acting like natural sunglasses",
+      "Sentinels take turns standing guard and use different alarm calls for different predators",
+      "They are immune to certain venoms including scorpion stings that would kill other animals their size"
+    ],
+    "tags": [
+      "social",
+      "desert",
+      "africa",
+      "mammal",
+      "burrowing"
+    ],
+    "related_animals": [
+      "hyena",
+      "scorpion",
+      "cobra_king"
+    ]
+  },
+  {
+    "id": "hyena",
+    "emoji": "🐾",
+    "name": {
+      "en": "Spotted Hyena",
+      "de": "Tüpfelhyäne",
+      "fr": "Hyène tachetée",
+      "es": "Hiena manchada",
+      "it": "Iena maculata",
+      "pt": "Hiena-malhada",
+      "ro": "Hiena pătată",
+      "ru": "Пятнистая гиена",
+      "zh": "斑鬣狗",
+      "ja": "ブチハイエナ",
+      "hi": "चित्तीदार लकड़बग्घा",
+      "ar": "ضبع مرقط"
+    },
+    "scientific_name": "Crocuta crocuta",
+    "class": "mammal",
+    "habitat": [
+      "savanna",
+      "grasslands"
+    ],
+    "continent": [
+      "africa"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 62,
+      "speed_kmh": 60,
+      "lifespan_years": 20,
+      "height_cm": 85
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 4
+    },
+    "strengths": [
+      "strongest_bite_force_relative_to_size",
+      "pack_hunting",
+      "extreme_endurance",
+      "bone_crushing_jaws"
+    ],
+    "weaknesses": [
+      "often_outnumbered_by_lions",
+      "susceptible_to_canine_distemper",
+      "dependent_on_clan"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 5,
+      "smell": 5,
+      "taste": 2,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "scavenger",
+    "fun_facts": [
+      "They have one of the strongest bite forces of any mammal capable of crushing bone",
+      "Females are larger and more dominant than males in their clans",
+      "Their whooping calls can be heard up to 5 km away and convey information about the caller's identity"
+    ],
+    "tags": [
+      "social",
+      "scavenger",
+      "africa",
+      "mammal",
+      "nocturnal"
+    ],
+    "related_animals": [
+      "lion",
+      "wolf",
+      "meerkat"
+    ]
+  },
+  {
+    "id": "buffalo_water",
+    "emoji": "🐃",
+    "name": {
+      "en": "Water Buffalo",
+      "de": "Wasserbüffel",
+      "fr": "Buffle d'eau",
+      "es": "Búfalo de agua",
+      "it": "Bufalo d'acqua",
+      "pt": "Búfalo-d'água",
+      "ro": "Bivolul de apă",
+      "ru": "Водяной буйвол",
+      "zh": "水牛",
+      "ja": "スイギュウ",
+      "hi": "जल भैंस",
+      "ar": "جاموس الماء"
+    },
+    "scientific_name": "Bubalus bubalis",
+    "class": "mammal",
+    "habitat": [
+      "wetlands",
+      "grasslands"
+    ],
+    "continent": [
+      "asia"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 900,
+      "speed_kmh": 48,
+      "lifespan_years": 25,
+      "height_cm": 170
+    },
+    "conservation_status": "EN",
+    "human_relation": {
+      "type": "domesticated",
+      "danger_level": 3
+    },
+    "strengths": [
+      "massive_curved_horns",
+      "tremendous_strength",
+      "excellent_swimmer",
+      "thick_hide"
+    ],
+    "weaknesses": [
+      "slow_reproduction",
+      "habitat_loss",
+      "heat_intolerance_needs_water"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 4,
+      "smell": 4,
+      "taste": 3,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "keystone",
+    "fun_facts": [
+      "Wild populations are estimated at fewer than 4000 individuals despite billions of domesticated relatives",
+      "They spend most of their day submerged in water or mud to stay cool",
+      "Their horns can span over 2 meters from tip to tip making them the largest of any bovid"
+    ],
+    "tags": [
+      "domesticated",
+      "bovid",
+      "asia",
+      "mammal",
+      "wetland"
+    ],
+    "related_animals": [
+      "cow",
+      "rhino",
+      "hippo"
+    ]
+  },
+  {
+    "id": "deer",
+    "emoji": "🦌",
+    "name": {
+      "en": "Red Deer",
+      "de": "Rothirsch",
+      "fr": "Cerf élaphe",
+      "es": "Ciervo rojo",
+      "it": "Cervo nobile",
+      "pt": "Veado-vermelho",
+      "ro": "Cerb nobil",
+      "ru": "Благородный олень",
+      "zh": "马鹿",
+      "ja": "アカシカ",
+      "hi": "लाल हिरण",
+      "ar": "الأيل الأحمر"
+    },
+    "scientific_name": "Cervus elaphus",
+    "class": "mammal",
+    "habitat": [
+      "forest",
+      "grasslands",
+      "mountains"
+    ],
+    "continent": [
+      "europe",
+      "asia",
+      "north_america",
+      "africa"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 240,
+      "speed_kmh": 65,
+      "lifespan_years": 18,
+      "height_cm": 130
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "large_antlers_for_combat",
+      "excellent_stamina",
+      "fast_runner",
+      "keen_senses"
+    ],
+    "weaknesses": [
+      "antlers_shed_annually",
+      "vulnerable_during_rut",
+      "large_size_limits_hiding"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 5,
+      "smell": 5,
+      "taste": 3,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "prey",
+    "fun_facts": [
+      "Males shed and regrow their antlers every year with each set larger than the last",
+      "During the rut males produce a distinctive roar that can be heard several kilometers away",
+      "Antlers are the fastest-growing tissue of any mammal growing up to 2.5 cm per day"
+    ],
+    "tags": [
+      "ungulate",
+      "forest",
+      "europe",
+      "mammal",
+      "herbivore"
+    ],
+    "related_animals": [
+      "horse",
+      "giraffe",
+      "zebra"
+    ]
+  },
+  {
+    "id": "seal",
+    "emoji": "🦭",
+    "name": {
+      "en": "Harbor Seal",
+      "de": "Seehund",
+      "fr": "Phoque commun",
+      "es": "Foca común",
+      "it": "Foca comune",
+      "pt": "Foca-comum",
+      "ro": "Focă comună",
+      "ru": "Обыкновенный тюлень",
+      "zh": "斑海豹",
+      "ja": "ゼニガタアザラシ",
+      "hi": "हार्बर सील",
+      "ar": "فقمة الميناء"
+    },
+    "scientific_name": "Phoca vitulina",
+    "class": "mammal",
+    "habitat": [
+      "ocean",
+      "coastal"
+    ],
+    "continent": [
+      "north_america",
+      "europe",
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 105,
+      "speed_kmh": 19,
+      "lifespan_years": 30,
+      "height_cm": 50
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "excellent_underwater_vision",
+      "deep_diving_ability",
+      "sensitive_whiskers",
+      "thick_blubber_insulation"
+    ],
+    "weaknesses": [
+      "clumsy_on_land",
+      "vulnerable_to_predators_on_shore",
+      "sensitive_to_pollution"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 4,
+      "smell": 3,
+      "taste": 2,
+      "touch": 5,
+      "special": [
+        "whisker_hydrodynamic_sensing"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "Their whiskers can detect fish swimming up to 180 meters away by sensing water disturbances",
+      "They can dive to depths of over 500 meters and hold their breath for nearly 30 minutes",
+      "Pups can swim within minutes of being born"
+    ],
+    "tags": [
+      "marine",
+      "pinniped",
+      "coastal",
+      "mammal",
+      "diver"
+    ],
+    "related_animals": [
+      "dolphin",
+      "whale_blue",
+      "otter"
+    ]
+  },
+  {
+    "id": "lynx",
+    "emoji": "🐱",
+    "name": {
+      "en": "Eurasian Lynx",
+      "de": "Eurasischer Luchs",
+      "fr": "Lynx boréal",
+      "es": "Lince euroasiático",
+      "it": "Lince eurasiatica",
+      "pt": "Lince-euroasiático",
+      "ro": "Linx eurasiatic",
+      "ru": "Обыкновенная рысь",
+      "zh": "欧亚猞猁",
+      "ja": "オオヤマネコ",
+      "hi": "यूरेशियन लिंक्स",
+      "ar": "الوشق الأوراسي"
+    },
+    "scientific_name": "Lynx lynx",
+    "class": "mammal",
+    "habitat": [
+      "forest",
+      "mountains"
+    ],
+    "continent": [
+      "europe",
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 25,
+      "speed_kmh": 70,
+      "lifespan_years": 17,
+      "height_cm": 65
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "stealthy_ambush_hunter",
+      "excellent_hearing",
+      "powerful_pounce",
+      "thick_winter_fur"
+    ],
+    "weaknesses": [
+      "solitary_cannot_take_large_prey",
+      "territorial_conflicts",
+      "habitat_fragmentation"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 5,
+      "smell": 3,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "ear_tufts_enhance_hearing"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "The tufts on their ears act like antennas enhancing their already exceptional hearing",
+      "They are the largest wild cat species in Europe",
+      "They can spot a mouse from 75 meters away and hear it from 60 meters"
+    ],
+    "tags": [
+      "wild_cat",
+      "forest",
+      "europe",
+      "mammal",
+      "solitary"
+    ],
+    "related_animals": [
+      "snow_leopard",
+      "leopard",
+      "cat_domestic"
+    ]
+  },
+  {
+    "id": "platypus",
+    "emoji": "🦆",
+    "name": {
+      "en": "Platypus",
+      "de": "Schnabeltier",
+      "fr": "Ornithorynque",
+      "es": "Ornitorrinco",
+      "it": "Ornitorinco",
+      "pt": "Ornitorrinco",
+      "ro": "Ornitorinc",
+      "ru": "Утконос",
+      "zh": "鸭嘴兽",
+      "ja": "カモノハシ",
+      "hi": "प्लैटिपस",
+      "ar": "خُلد الماء"
+    },
+    "scientific_name": "Ornithorhynchus anatinus",
+    "class": "mammal",
+    "habitat": [
+      "freshwater",
+      "rivers"
+    ],
+    "continent": [
+      "oceania"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 2.4,
+      "speed_kmh": 3,
+      "lifespan_years": 17,
+      "height_cm": 15
+    },
+    "conservation_status": "NT",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "venomous_spur",
+      "electroreception",
+      "excellent_swimmer",
+      "dense_waterproof_fur"
+    ],
+    "weaknesses": [
+      "vulnerable_on_land",
+      "sensitive_to_water_quality",
+      "low_reproduction_rate"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 2,
+      "smell": 2,
+      "taste": 2,
+      "touch": 4,
+      "special": [
+        "electroreception",
+        "mechanoreception"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "It is one of only five species of egg-laying mammals known as monotremes",
+      "Males have a venomous spur on their hind legs that can cause excruciating pain in humans",
+      "They close their eyes ears and nose while diving and navigate entirely using electroreception"
+    ],
+    "tags": [
+      "monotreme",
+      "venomous",
+      "oceania",
+      "mammal",
+      "aquatic"
+    ],
+    "related_animals": [
+      "wombat",
+      "kangaroo",
+      "otter"
+    ]
+  },
+  {
+    "id": "robin",
+    "emoji": "🐦",
+    "name": {
+      "en": "European Robin",
+      "de": "Rotkehlchen",
+      "fr": "Rouge-gorge familier",
+      "es": "Petirrojo europeo",
+      "it": "Pettirosso",
+      "pt": "Pisco-de-peito-ruivo",
+      "ro": "Gușă-roșie",
+      "ru": "Зарянка",
+      "zh": "欧亚鸲",
+      "ja": "ヨーロッパコマドリ",
+      "hi": "यूरोपीय रॉबिन",
+      "ar": "أبو الحناء الأوروبي"
+    },
+    "scientific_name": "Erithacus rubecula",
+    "class": "bird",
+    "habitat": [
+      "forest",
+      "urban",
+      "gardens"
+    ],
+    "continent": [
+      "europe",
+      "asia",
+      "africa"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 0.018,
+      "speed_kmh": 30,
+      "lifespan_years": 5,
+      "height_cm": 14
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "territorial_aggression",
+      "adaptable_to_urban_environments",
+      "melodious_song",
+      "magnetic_field_navigation"
+    ],
+    "weaknesses": [
+      "small_size",
+      "vulnerable_to_cats",
+      "short_lifespan"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 4,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "magnetic_field_detection"
+      ]
+    },
+    "ecosystem_role": "seed_disperser",
+    "fun_facts": [
+      "They are fiercely territorial and will attack their own reflection in windows and mirrors",
+      "They can detect the Earth's magnetic field through quantum processes in their eyes",
+      "They often follow gardeners and large animals to catch insects disturbed from the soil"
+    ],
+    "tags": [
+      "songbird",
+      "urban",
+      "europe",
+      "bird",
+      "territorial"
+    ],
+    "related_animals": [
+      "crow",
+      "swift",
+      "hummingbird"
+    ]
+  },
+  {
+    "id": "pelican",
+    "emoji": "🐦",
+    "name": {
+      "en": "Great White Pelican",
+      "de": "Rosapelikan",
+      "fr": "Pélican blanc",
+      "es": "Pelícano blanco",
+      "it": "Pellicano bianco",
+      "pt": "Pelicano-branco",
+      "ro": "Pelican comun",
+      "ru": "Розовый пеликан",
+      "zh": "白鹈鹕",
+      "ja": "モモイロペリカン",
+      "hi": "श्वेत पेलिकन",
+      "ar": "بجع أبيض كبير"
+    },
+    "scientific_name": "Pelecanus onocrotalus",
+    "class": "bird",
+    "habitat": [
+      "wetlands",
+      "coastal",
+      "lakes"
+    ],
+    "continent": [
+      "europe",
+      "africa",
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 11,
+      "speed_kmh": 56,
+      "lifespan_years": 30,
+      "height_cm": 160
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "expandable_throat_pouch",
+      "cooperative_fishing",
+      "powerful_flier",
+      "excellent_swimmer"
+    ],
+    "weaknesses": [
+      "clumsy_on_land",
+      "dependent_on_fish_stocks",
+      "sensitive_to_habitat_loss"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 3,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "The throat pouch can hold up to 13 liters of water which is three times the stomach capacity",
+      "They fish cooperatively forming a line to drive fish into shallow water",
+      "Their wingspan can reach 3.6 meters making them one of the largest flying birds"
+    ],
+    "tags": [
+      "waterbird",
+      "coastal",
+      "social",
+      "bird",
+      "fishing"
+    ],
+    "related_animals": [
+      "flamingo",
+      "albatross",
+      "stork"
+    ]
+  },
+  {
+    "id": "kingfisher",
+    "emoji": "🐦",
+    "name": {
+      "en": "Common Kingfisher",
+      "de": "Eisvogel",
+      "fr": "Martin-pêcheur d'Europe",
+      "es": "Martín pescador común",
+      "it": "Martin pescatore",
+      "pt": "Guarda-rios-comum",
+      "ro": "Pescăruș albastru",
+      "ru": "Обыкновенный зимородок",
+      "zh": "普通翠鸟",
+      "ja": "カワセミ",
+      "hi": "किंगफिशर",
+      "ar": "رفراف شائع"
+    },
+    "scientific_name": "Alcedo atthis",
+    "class": "bird",
+    "habitat": [
+      "freshwater",
+      "rivers",
+      "wetlands"
+    ],
+    "continent": [
+      "europe",
+      "asia",
+      "africa"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.035,
+      "speed_kmh": 40,
+      "lifespan_years": 7,
+      "height_cm": 16
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "precision_dive_hunting",
+      "incredible_eyesight",
+      "streamlined_body",
+      "rapid_flight"
+    ],
+    "weaknesses": [
+      "vulnerable_to_cold_winters",
+      "requires_clean_water",
+      "territorial_fights_can_be_fatal"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 3,
+      "smell": 1,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "underwater_vision_compensation"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "Their eyes can compensate for light refraction in water allowing precise strikes at fish",
+      "The bill shape inspired the design of the Japanese Shinkansen bullet train nose",
+      "They must eat approximately 60% of their body weight in fish every day to survive"
+    ],
+    "tags": [
+      "diving_bird",
+      "colorful",
+      "freshwater",
+      "bird",
+      "fishing"
+    ],
+    "related_animals": [
+      "hummingbird",
+      "pelican",
+      "falcon_peregrine"
+    ]
+  },
+  {
+    "id": "swift",
+    "emoji": "🐦",
+    "name": {
+      "en": "Common Swift",
+      "de": "Mauersegler",
+      "fr": "Martinet noir",
+      "es": "Vencejo común",
+      "it": "Rondone comune",
+      "pt": "Andorinhão-preto",
+      "ro": "Drepnea neagră",
+      "ru": "Чёрный стриж",
+      "zh": "普通雨燕",
+      "ja": "ヨーロッパアマツバメ",
+      "hi": "सामान्य स्विफ्ट",
+      "ar": "سمامة شائعة"
+    },
+    "scientific_name": "Apus apus",
+    "class": "bird",
+    "habitat": [
+      "urban",
+      "aerial"
+    ],
+    "continent": [
+      "europe",
+      "asia",
+      "africa"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.042,
+      "speed_kmh": 111,
+      "lifespan_years": 10,
+      "height_cm": 17
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "extreme_flight_speed",
+      "can_sleep_while_flying",
+      "incredible_endurance",
+      "aerial_insect_hunting"
+    ],
+    "weaknesses": [
+      "helpless_on_ground",
+      "cannot_take_off_from_flat_surface",
+      "dependent_on_aerial_insects"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 3,
+      "smell": 1,
+      "taste": 2,
+      "touch": 2,
+      "special": []
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "They can spend up to 10 months continuously airborne eating sleeping and mating in flight",
+      "Young birds that leave the nest may not land again for 2 to 3 years",
+      "They can sleep while flying by shutting down one half of their brain at a time"
+    ],
+    "tags": [
+      "aerial",
+      "fastest_birds",
+      "migratory",
+      "bird",
+      "urban"
+    ],
+    "related_animals": [
+      "falcon_peregrine",
+      "hummingbird",
+      "robin"
+    ]
+  },
+  {
+    "id": "vulture",
+    "emoji": "🦅",
+    "name": {
+      "en": "Griffon Vulture",
+      "de": "Gänsegeier",
+      "fr": "Vautour fauve",
+      "es": "Buitre leonado",
+      "it": "Grifone",
+      "pt": "Grifo",
+      "ro": "Vultur pleșuv",
+      "ru": "Белоголовый сип",
+      "zh": "兀鹫",
+      "ja": "シロエリハゲワシ",
+      "hi": "गिद्ध",
+      "ar": "نسر أسمر"
+    },
+    "scientific_name": "Gyps fulvus",
+    "class": "bird",
+    "habitat": [
+      "mountains",
+      "savanna",
+      "grasslands"
+    ],
+    "continent": [
+      "europe",
+      "africa",
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 9.5,
+      "speed_kmh": 120,
+      "lifespan_years": 40,
+      "height_cm": 105
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "incredible_eyesight",
+      "stomach_acid_kills_pathogens",
+      "efficient_soaring_flight",
+      "bald_head_prevents_infection"
+    ],
+    "weaknesses": [
+      "cannot_hunt_live_prey",
+      "slow_reproduction",
+      "vulnerable_to_poisoning"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 3,
+      "smell": 2,
+      "taste": 1,
+      "touch": 2,
+      "special": []
+    },
+    "ecosystem_role": "scavenger",
+    "fun_facts": [
+      "Their stomach acid is so corrosive it can dissolve anthrax and other deadly pathogens",
+      "They can spot a carcass from over 6 km away while soaring at high altitude",
+      "Their bald heads are an adaptation to prevent bacteria buildup when feeding inside carcasses"
+    ],
+    "tags": [
+      "scavenger",
+      "soaring",
+      "raptor",
+      "bird",
+      "mountains"
+    ],
+    "related_animals": [
+      "eagle_bald",
+      "eagle_golden",
+      "crow"
+    ]
+  },
+  {
+    "id": "macaw",
+    "emoji": "🦜",
+    "name": {
+      "en": "Scarlet Macaw",
+      "de": "Hellroter Ara",
+      "fr": "Ara rouge",
+      "es": "Guacamaya roja",
+      "it": "Ara scarlatta",
+      "pt": "Arara-vermelha",
+      "ro": "Ara stacojiu",
+      "ru": "Красный ара",
+      "zh": "金刚鹦鹉",
+      "ja": "コンゴウインコ",
+      "hi": "स्कार्लेट मकाव",
+      "ar": "مقو قرمزي"
+    },
+    "scientific_name": "Ara macao",
+    "class": "bird",
+    "habitat": [
+      "rainforest"
+    ],
+    "continent": [
+      "south_america",
+      "north_america"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 1,
+      "speed_kmh": 56,
+      "lifespan_years": 75,
+      "height_cm": 86
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "pet",
+      "danger_level": 2
+    },
+    "strengths": [
+      "powerful_beak_cracks_nuts",
+      "highly_intelligent",
+      "strong_flier",
+      "social_bonding"
+    ],
+    "weaknesses": [
+      "pet_trade_threat",
+      "habitat_dependent",
+      "slow_reproduction"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 4,
+      "smell": 2,
+      "taste": 3,
+      "touch": 3,
+      "special": [
+        "ultraviolet_vision"
+      ]
+    },
+    "ecosystem_role": "seed_disperser",
+    "fun_facts": [
+      "They eat clay from riverbanks to neutralize toxins found in unripe seeds and fruits",
+      "They mate for life and pairs can be seen flying close together with wings nearly touching",
+      "Their beaks exert a force strong enough to crack open a Brazil nut"
+    ],
+    "tags": [
+      "parrot",
+      "colorful",
+      "intelligent",
+      "bird",
+      "rainforest"
+    ],
+    "related_animals": [
+      "parrot",
+      "toucan",
+      "crow"
+    ]
+  },
+  {
+    "id": "stork",
+    "emoji": "🪿",
+    "name": {
+      "en": "White Stork",
+      "de": "Weißstorch",
+      "fr": "Cigogne blanche",
+      "es": "Cigüeña blanca",
+      "it": "Cicogna bianca",
+      "pt": "Cegonha-branca",
+      "ro": "Barză albă",
+      "ru": "Белый аист",
+      "zh": "白鹳",
+      "ja": "シュバシコウ",
+      "hi": "सफेद सारस",
+      "ar": "لقلق أبيض"
+    },
+    "scientific_name": "Ciconia ciconia",
+    "class": "bird",
+    "habitat": [
+      "wetlands",
+      "grasslands",
+      "urban"
+    ],
+    "continent": [
+      "europe",
+      "africa",
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 3.5,
+      "speed_kmh": 45,
+      "lifespan_years": 30,
+      "height_cm": 115
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "long_distance_migration",
+      "efficient_thermal_soaring",
+      "adaptable_nesting",
+      "tall_wading_legs"
+    ],
+    "weaknesses": [
+      "power_line_collisions",
+      "habitat_loss",
+      "pesticide_accumulation"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 3,
+      "smell": 1,
+      "taste": 2,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "They communicate by clattering their bills together rapidly instead of using vocal calls",
+      "They migrate up to 20000 km between Europe and Africa twice a year",
+      "The same nest can be used and added to by generations of storks reaching over 2 meters in diameter"
+    ],
+    "tags": [
+      "wading_bird",
+      "migratory",
+      "europe",
+      "bird",
+      "nesting"
+    ],
+    "related_animals": [
+      "flamingo",
+      "pelican",
+      "swan"
+    ]
+  },
+  {
+    "id": "kiwi",
+    "emoji": "🥝",
+    "name": {
+      "en": "North Island Kiwi",
+      "de": "Nördlicher Streifenkiwi",
+      "fr": "Kiwi austral",
+      "es": "Kiwi de la Isla Norte",
+      "it": "Kiwi dell'Isola del Nord",
+      "pt": "Quivi-da-ilha-norte",
+      "ro": "Kiwi din Insula de Nord",
+      "ru": "Северный бурый киви",
+      "zh": "北岛几维鸟",
+      "ja": "キタシマキーウィ",
+      "hi": "उत्तरी द्वीप कीवी",
+      "ar": "كيوي الجزيرة الشمالية"
+    },
+    "scientific_name": "Apteryx mantelli",
+    "class": "bird",
+    "habitat": [
+      "forest"
+    ],
+    "continent": [
+      "oceania"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 2.8,
+      "speed_kmh": 19,
+      "lifespan_years": 40,
+      "height_cm": 40
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "excellent_sense_of_smell",
+      "powerful_legs",
+      "nocturnal_stealth",
+      "hair_like_feathers_for_camouflage"
+    ],
+    "weaknesses": [
+      "flightless",
+      "vulnerable_to_introduced_predators",
+      "slow_reproduction"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 4,
+      "smell": 5,
+      "taste": 3,
+      "touch": 4,
+      "special": [
+        "nostril_tip_smell"
+      ]
+    },
+    "ecosystem_role": "seed_disperser",
+    "fun_facts": [
+      "They are the only bird with nostrils at the tip of their beak for sniffing out food underground",
+      "They lay the largest egg relative to body size of any bird at up to 20% of the female's weight",
+      "Their body temperature is 38°C which is lower than most birds and closer to a mammal"
+    ],
+    "tags": [
+      "flightless",
+      "nocturnal",
+      "oceania",
+      "bird",
+      "endemic"
+    ],
+    "related_animals": [
+      "ostrich",
+      "penguin_emperor",
+      "wombat"
+    ]
+  },
+  {
+    "id": "monitor_komodo",
+    "emoji": "🦎",
+    "name": {
+      "en": "Komodo Dragon",
+      "de": "Komodowaran",
+      "fr": "Dragon de Komodo",
+      "es": "Dragón de Komodo",
+      "it": "Drago di Komodo",
+      "pt": "Dragão-de-komodo",
+      "ro": "Dragonul de Komodo",
+      "ru": "Комодский варан",
+      "zh": "科莫多巨蜥",
+      "ja": "コモドオオトカゲ",
+      "hi": "कोमोडो ड्रैगन",
+      "ar": "تنين كومودو"
+    },
+    "scientific_name": "Varanus komodoensis",
+    "class": "reptile",
+    "habitat": [
+      "forest",
+      "savanna"
+    ],
+    "continent": [
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 70,
+      "speed_kmh": 20,
+      "lifespan_years": 30,
+      "height_cm": 60
+    },
+    "conservation_status": "EN",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 5
+    },
+    "strengths": [
+      "venomous_bite",
+      "powerful_tail",
+      "excellent_swimmer",
+      "ambush_predator"
+    ],
+    "weaknesses": [
+      "limited_island_habitat",
+      "slow_reproduction",
+      "cold_blooded"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 2,
+      "smell": 5,
+      "taste": 5,
+      "touch": 3,
+      "special": [
+        "forked_tongue_chemical_sensing"
+      ]
+    },
+    "ecosystem_role": "apex_predator",
+    "fun_facts": [
+      "Their saliva contains over 50 strains of bacteria and venom glands that prevent blood clotting",
+      "They can detect carrion from up to 9.5 km away using their forked tongue",
+      "Females can reproduce without mating through a process called parthenogenesis"
+    ],
+    "tags": [
+      "largest_lizard",
+      "venomous",
+      "asia",
+      "reptile",
+      "island"
+    ],
+    "related_animals": [
+      "crocodile",
+      "iguana",
+      "anaconda"
+    ]
+  },
+  {
+    "id": "turtle_leatherback",
+    "emoji": "🐢",
+    "name": {
+      "en": "Leatherback Sea Turtle",
+      "de": "Lederschildkröte",
+      "fr": "Tortue luth",
+      "es": "Tortuga laúd",
+      "it": "Tartaruga liuto",
+      "pt": "Tartaruga-de-couro",
+      "ro": "Broasca-țestoasă pieloasă",
+      "ru": "Кожистая черепаха",
+      "zh": "棱皮龟",
+      "ja": "オサガメ",
+      "hi": "लेदरबैक समुद्री कछुआ",
+      "ar": "السلحفاة جلدية الظهر"
+    },
+    "scientific_name": "Dermochelys coriacea",
+    "class": "reptile",
+    "habitat": [
+      "ocean"
+    ],
+    "continent": [
+      "north_america",
+      "south_america",
+      "africa",
+      "asia",
+      "oceania"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 500,
+      "speed_kmh": 35,
+      "lifespan_years": 50,
+      "height_cm": 60
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "deepest_diving_reptile",
+      "longest_migration_of_any_reptile",
+      "flexible_leathery_shell",
+      "thermoregulation_in_cold_water"
+    ],
+    "weaknesses": [
+      "plastic_bag_confusion_with_jellyfish",
+      "beach_nesting_vulnerability",
+      "light_pollution_disorientation"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 2,
+      "smell": 3,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "magnetic_navigation"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "They can dive to depths exceeding 1200 meters making them the deepest diving reptile",
+      "They are the largest of all sea turtles and the fourth-heaviest living reptile",
+      "They migrate up to 16000 km per year between nesting and feeding grounds"
+    ],
+    "tags": [
+      "marine",
+      "migratory",
+      "largest_turtle",
+      "reptile",
+      "ocean"
+    ],
+    "related_animals": [
+      "sea_turtle",
+      "crocodile",
+      "whale_humpback"
+    ]
+  },
+  {
+    "id": "python_burmese",
+    "emoji": "🐍",
+    "name": {
+      "en": "Burmese Python",
+      "de": "Tigerpython",
+      "fr": "Python birman",
+      "es": "Pitón birmana",
+      "it": "Pitone birmano",
+      "pt": "Píton-birmanesa",
+      "ro": "Pitonul birmanez",
+      "ru": "Тёмный тигровый питон",
+      "zh": "缅甸蟒",
+      "ja": "ビルマニシキヘビ",
+      "hi": "बर्मी अजगर",
+      "ar": "أصلة بورمية"
+    },
+    "scientific_name": "Python bivittatus",
+    "class": "reptile",
+    "habitat": [
+      "rainforest",
+      "wetlands"
+    ],
+    "continent": [
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 90,
+      "speed_kmh": 3,
+      "lifespan_years": 25,
+      "height_cm": 20
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "pet",
+      "danger_level": 4
+    },
+    "strengths": [
+      "powerful_constriction",
+      "heat_sensing_labial_pits",
+      "excellent_swimmer",
+      "flexible_jaw_for_large_prey"
+    ],
+    "weaknesses": [
+      "slow_moving",
+      "vulnerable_after_large_meal",
+      "cold_blooded"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 1,
+      "smell": 5,
+      "taste": 4,
+      "touch": 4,
+      "special": [
+        "infrared_heat_sensing"
+      ]
+    },
+    "ecosystem_role": "apex_predator",
+    "fun_facts": [
+      "They can swallow prey up to five times the width of their head thanks to flexible skull bones",
+      "They are one of the five largest snake species and can exceed 7 meters in length",
+      "Females coil around their eggs and shiver their muscles to generate heat for incubation"
+    ],
+    "tags": [
+      "constrictor",
+      "large_snake",
+      "asia",
+      "reptile",
+      "invasive"
+    ],
+    "related_animals": [
+      "python",
+      "anaconda",
+      "cobra_king"
+    ]
+  },
+  {
+    "id": "salamander_fire",
+    "emoji": "🦎",
+    "name": {
+      "en": "Fire Salamander",
+      "de": "Feuersalamander",
+      "fr": "Salamandre tachetée",
+      "es": "Salamandra común",
+      "it": "Salamandra pezzata",
+      "pt": "Salamandra-de-fogo",
+      "ro": "Salamandră de foc",
+      "ru": "Огненная саламандра",
+      "zh": "火蝾螈",
+      "ja": "ファイアサラマンダー",
+      "hi": "अग्नि सैलामैंडर",
+      "ar": "سمندل النار"
+    },
+    "scientific_name": "Salamandra salamandra",
+    "class": "amphibian",
+    "habitat": [
+      "forest"
+    ],
+    "continent": [
+      "europe"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.04,
+      "speed_kmh": 5,
+      "lifespan_years": 20,
+      "height_cm": 6
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "toxic_skin_secretions",
+      "warning_coloration",
+      "nocturnal_stealth",
+      "regeneration_ability"
+    ],
+    "weaknesses": [
+      "slow_moving",
+      "moisture_dependent",
+      "sensitive_to_pollution"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 2,
+      "smell": 4,
+      "taste": 2,
+      "touch": 4,
+      "special": [
+        "chemical_sensing"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "The bright yellow and black pattern warns predators of the potent toxins secreted through the skin",
+      "Medieval Europeans believed they were born from fire because they crawled out of logs placed on flames",
+      "They can live over 50 years in captivity making them one of the longest-lived amphibians"
+    ],
+    "tags": [
+      "toxic",
+      "amphibian",
+      "nocturnal",
+      "europe",
+      "forest"
+    ],
+    "related_animals": [
+      "axolotl",
+      "frog_poison_dart",
+      "frog_tree"
+    ]
+  },
+  {
+    "id": "frog_goliath",
+    "emoji": "🐸",
+    "name": {
+      "en": "Goliath Frog",
+      "de": "Goliathfrosch",
+      "fr": "Grenouille goliath",
+      "es": "Rana goliat",
+      "it": "Rana golia",
+      "pt": "Rã-golias",
+      "ro": "Broasca Goliat",
+      "ru": "Лягушка-голиаф",
+      "zh": "巨谐蛙",
+      "ja": "ゴライアスガエル",
+      "hi": "गोलियथ मेंढक",
+      "ar": "ضفدع جالوت"
+    },
+    "scientific_name": "Conraua goliath",
+    "class": "amphibian",
+    "habitat": [
+      "rainforest",
+      "rivers"
+    ],
+    "continent": [
+      "africa"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 3.3,
+      "speed_kmh": 10,
+      "lifespan_years": 15,
+      "height_cm": 32
+    },
+    "conservation_status": "EN",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "powerful_jumping_legs",
+      "large_size_deters_predators",
+      "strong_swimmer",
+      "nest_building_behavior"
+    ],
+    "weaknesses": [
+      "no_vocal_sac_cannot_call",
+      "limited_range",
+      "hunted_for_food"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 3,
+      "smell": 3,
+      "taste": 2,
+      "touch": 4,
+      "special": []
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "They are the world's largest frog species reaching up to 32 cm in length and 3.3 kg in weight",
+      "Unlike most frogs they lack a vocal sac and cannot croak or call to attract mates",
+      "They build nesting pools by moving rocks weighing up to half their own body weight"
+    ],
+    "tags": [
+      "largest_frog",
+      "amphibian",
+      "africa",
+      "endangered",
+      "aquatic"
+    ],
+    "related_animals": [
+      "frog_poison_dart",
+      "frog_tree",
+      "frog_glass"
+    ]
+  },
+  {
+    "id": "caecilian",
+    "emoji": "🪱",
+    "name": {
+      "en": "Ringed Caecilian",
+      "de": "Ringelwühle",
+      "fr": "Cécilie annelée",
+      "es": "Cecilia anillada",
+      "it": "Cecilia inanellata",
+      "pt": "Cecília-anelada",
+      "ro": "Cecilie inelară",
+      "ru": "Кольчатая червяга",
+      "zh": "环蚓螈",
+      "ja": "アシナシイモリ",
+      "hi": "रिंगड सीसिलियन",
+      "ar": "عديمة الأرجل الحلقية"
+    },
+    "scientific_name": "Siphonops annulatus",
+    "class": "amphibian",
+    "habitat": [
+      "rainforest",
+      "underground"
+    ],
+    "continent": [
+      "south_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.08,
+      "speed_kmh": 2,
+      "lifespan_years": 13,
+      "height_cm": 3
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "burrowing_efficiency",
+      "sensory_tentacles",
+      "toxic_skin",
+      "strong_bite_force_for_size"
+    ],
+    "weaknesses": [
+      "poor_eyesight",
+      "moisture_dependent",
+      "vulnerable_when_surfacing"
+    ],
+    "senses": {
+      "vision": 1,
+      "hearing": 2,
+      "smell": 4,
+      "taste": 3,
+      "touch": 5,
+      "special": [
+        "sensory_tentacles"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "They are the only amphibians with sensory tentacles located between their eyes and nostrils",
+      "Mothers grow a nutrient-rich outer skin layer that hatchlings peel off and eat for nourishment",
+      "Despite resembling worms or snakes they are amphibians more closely related to frogs and salamanders"
+    ],
+    "tags": [
+      "burrowing",
+      "amphibian",
+      "south_america",
+      "limbless",
+      "rare"
+    ],
+    "related_animals": [
+      "salamander_fire",
+      "frog_poison_dart",
+      "earthworm"
+    ]
+  },
+  {
+    "id": "frog_glass",
+    "emoji": "🐸",
+    "name": {
+      "en": "Glass Frog",
+      "de": "Glasfrosch",
+      "fr": "Grenouille de verre",
+      "es": "Rana de cristal",
+      "it": "Rana di vetro",
+      "pt": "Rã-de-vidro",
+      "ro": "Broasca de sticlă",
+      "ru": "Стеклянная лягушка",
+      "zh": "玻璃蛙",
+      "ja": "グラスフロッグ",
+      "hi": "कांच का मेंढक",
+      "ar": "ضفدع زجاجي"
+    },
+    "scientific_name": "Centrolenidae",
+    "class": "amphibian",
+    "habitat": [
+      "rainforest",
+      "rivers"
+    ],
+    "continent": [
+      "south_america",
+      "north_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.012,
+      "speed_kmh": 5,
+      "lifespan_years": 14,
+      "height_cm": 3
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "transparent_camouflage",
+      "can_hide_red_blood_cells",
+      "arboreal_agility",
+      "nocturnal_stealth"
+    ],
+    "weaknesses": [
+      "tiny_size",
+      "moisture_dependent",
+      "fragile_eggs"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 4,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": []
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "Their translucent belly skin reveals internal organs including the beating heart and digestive system",
+      "They can pack nearly 89% of their red blood cells into their liver to appear almost invisible while sleeping",
+      "Males guard the egg clutches laid on leaves overhanging streams kicking away parasitic wasps"
+    ],
+    "tags": [
+      "transparent",
+      "amphibian",
+      "rainforest",
+      "arboreal",
+      "nocturnal"
+    ],
+    "related_animals": [
+      "frog_poison_dart",
+      "frog_tree",
+      "frog_goliath"
+    ]
+  },
+  {
+    "id": "pufferfish",
+    "emoji": "🐡",
+    "name": {
+      "en": "Porcupinefish",
+      "de": "Igelfisch",
+      "fr": "Poisson-porc-épic",
+      "es": "Pez erizo",
+      "it": "Pesce istrice",
+      "pt": "Peixe-porco-espinho",
+      "ro": "Peștele arici",
+      "ru": "Рыба-ёж",
+      "zh": "刺鲀",
+      "ja": "ハリセンボン",
+      "hi": "पोर्क्यूपाइनफिश",
+      "ar": "سمكة القنفذ"
+    },
+    "scientific_name": "Diodon hystrix",
+    "class": "fish",
+    "habitat": [
+      "ocean",
+      "coral_reef"
+    ],
+    "continent": [
+      "north_america",
+      "south_america",
+      "africa",
+      "asia",
+      "oceania"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 2.8,
+      "speed_kmh": 8,
+      "lifespan_years": 10,
+      "height_cm": 20
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 3
+    },
+    "strengths": [
+      "inflation_defense",
+      "sharp_spines",
+      "tetrodotoxin_poison",
+      "strong_beak_like_teeth"
+    ],
+    "weaknesses": [
+      "slow_swimmer",
+      "vulnerable_when_deflated",
+      "poor_eyesight"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 2,
+      "smell": 3,
+      "taste": 3,
+      "touch": 3,
+      "special": [
+        "lateral_line_system"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "They inflate by gulping water to become nearly spherical making it impossible for predators to swallow them",
+      "Their fused teeth form a beak powerful enough to crush sea urchins shells and crabs",
+      "Many species contain tetrodotoxin which is up to 1200 times more poisonous than cyanide"
+    ],
+    "tags": [
+      "venomous",
+      "fish",
+      "ocean",
+      "coral_reef",
+      "defensive"
+    ],
+    "related_animals": [
+      "clownfish",
+      "seahorse",
+      "jellyfish_box"
+    ]
+  },
+  {
+    "id": "anglerfish",
+    "emoji": "🐟",
+    "name": {
+      "en": "Deep-sea Anglerfish",
+      "de": "Tiefsee-Anglerfisch",
+      "fr": "Baudroie des abysses",
+      "es": "Pez rape abisal",
+      "it": "Rana pescatrice abissale",
+      "pt": "Peixe-pescador das profundezas",
+      "ro": "Pește pescar de adâncime",
+      "ru": "Глубоководный удильщик",
+      "zh": "深海鮟鱇鱼",
+      "ja": "チョウチンアンコウ",
+      "hi": "गहरे समुद्र की एंगलरफिश",
+      "ar": "سمكة أبو الشص العميقة"
+    },
+    "scientific_name": "Melanocetus johnsonii",
+    "class": "fish",
+    "habitat": [
+      "deep_ocean"
+    ],
+    "continent": [
+      "north_america",
+      "south_america",
+      "europe",
+      "africa",
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.05,
+      "speed_kmh": 2,
+      "lifespan_years": 25,
+      "height_cm": 12
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "bioluminescent_lure",
+      "expandable_stomach",
+      "ambush_predator",
+      "extreme_pressure_tolerance"
+    ],
+    "weaknesses": [
+      "slow_moving",
+      "fragile_body",
+      "tiny_male_parasitism"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 2,
+      "smell": 4,
+      "taste": 2,
+      "touch": 4,
+      "special": [
+        "bioluminescence",
+        "lateral_line_system"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "Males are tiny parasites that permanently fuse to the female's body sharing her bloodstream",
+      "The bioluminescent lure is produced by symbiotic bacteria living in the esca on their head",
+      "They can swallow prey up to twice their own body size thanks to their expandable stomach and jaw"
+    ],
+    "tags": [
+      "deep_sea",
+      "bioluminescent",
+      "fish",
+      "ocean",
+      "predator"
+    ],
+    "related_animals": [
+      "electric_eel",
+      "jellyfish_box",
+      "octopus"
+    ]
+  },
+  {
+    "id": "barracuda",
+    "emoji": "🐟",
+    "name": {
+      "en": "Great Barracuda",
+      "de": "Großer Barrakuda",
+      "fr": "Grand barracuda",
+      "es": "Gran barracuda",
+      "it": "Grande barracuda",
+      "pt": "Grande barracuda",
+      "ro": "Baracuda mare",
+      "ru": "Большая барракуда",
+      "zh": "大梭鱼",
+      "ja": "オニカマス",
+      "hi": "बड़ा बाराकूडा",
+      "ar": "باراكودا كبيرة"
+    },
+    "scientific_name": "Sphyraena barracuda",
+    "class": "fish",
+    "habitat": [
+      "ocean",
+      "coral_reef"
+    ],
+    "continent": [
+      "north_america",
+      "south_america",
+      "africa",
+      "asia",
+      "oceania"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 23,
+      "speed_kmh": 58,
+      "lifespan_years": 14,
+      "height_cm": 25
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 3
+    },
+    "strengths": [
+      "incredible_burst_speed",
+      "razor_sharp_teeth",
+      "ambush_predator",
+      "excellent_eyesight"
+    ],
+    "weaknesses": [
+      "solitary_when_large",
+      "attracted_to_shiny_objects",
+      "ciguatera_toxin_accumulation"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 3,
+      "smell": 3,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "lateral_line_system"
+      ]
+    },
+    "ecosystem_role": "apex_predator",
+    "fun_facts": [
+      "They can accelerate from a standstill to 58 km/h in a single burst to ambush prey",
+      "Their two sets of razor-sharp teeth include fang-like outer teeth and dagger-like inner teeth",
+      "They are attracted to shiny objects which they can mistake for the scales of prey fish"
+    ],
+    "tags": [
+      "fast",
+      "predator",
+      "fish",
+      "coral_reef",
+      "tropical"
+    ],
+    "related_animals": [
+      "shark_great_white",
+      "piranha",
+      "salmon"
+    ]
+  },
+  {
+    "id": "catfish",
+    "emoji": "🐟",
+    "name": {
+      "en": "Wels Catfish",
+      "de": "Wels",
+      "fr": "Silure glane",
+      "es": "Siluro",
+      "it": "Siluro d'Europa",
+      "pt": "Siluro",
+      "ro": "Somn",
+      "ru": "Обыкновенный сом",
+      "zh": "欧洲大鲶鱼",
+      "ja": "ヨーロッパオオナマズ",
+      "hi": "वेल्स कैटफिश",
+      "ar": "سمك السلور الأوروبي"
+    },
+    "scientific_name": "Silurus glanis",
+    "class": "fish",
+    "habitat": [
+      "freshwater",
+      "rivers",
+      "lakes"
+    ],
+    "continent": [
+      "europe",
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 150,
+      "speed_kmh": 10,
+      "lifespan_years": 60,
+      "height_cm": 40
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "enormous_size",
+      "sensitive_barbels",
+      "ambush_predator",
+      "nocturnal_hunting"
+    ],
+    "weaknesses": [
+      "slow_swimming",
+      "sensitive_to_cold",
+      "bottom_dwelling_limits_range"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 3,
+      "smell": 4,
+      "taste": 5,
+      "touch": 5,
+      "special": [
+        "barbel_chemoreception"
+      ]
+    },
+    "ecosystem_role": "apex_predator",
+    "fun_facts": [
+      "They are the largest purely freshwater fish in Europe reaching up to 5 meters in length",
+      "Some populations have learned to beach themselves to catch pigeons at the water's edge",
+      "Their barbels contain taste buds giving them the ability to taste with their whiskers"
+    ],
+    "tags": [
+      "freshwater",
+      "largest_fish",
+      "europe",
+      "fish",
+      "nocturnal"
+    ],
+    "related_animals": [
+      "piranha",
+      "salmon",
+      "sturgeon"
+    ]
+  },
+  {
+    "id": "sturgeon",
+    "emoji": "🐟",
+    "name": {
+      "en": "Beluga Sturgeon",
+      "de": "Europäischer Hausen",
+      "fr": "Bélouga",
+      "es": "Esturión beluga",
+      "it": "Storione beluga",
+      "pt": "Esturjão-beluga",
+      "ro": "Morun",
+      "ru": "Белуга",
+      "zh": "欧洲鳇",
+      "ja": "オオチョウザメ",
+      "hi": "बेलुगा स्टर्जन",
+      "ar": "سمك الحفش البيلوغا"
+    },
+    "scientific_name": "Huso huso",
+    "class": "fish",
+    "habitat": [
+      "freshwater",
+      "rivers",
+      "ocean"
+    ],
+    "continent": [
+      "europe",
+      "asia"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 1000,
+      "speed_kmh": 15,
+      "lifespan_years": 100,
+      "height_cm": 60
+    },
+    "conservation_status": "CR",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "enormous_size",
+      "long_lifespan",
+      "bony_scutes_armor",
+      "anadromous_migration"
+    ],
+    "weaknesses": [
+      "extremely_slow_maturation",
+      "overfished_for_caviar",
+      "dam_blocked_migration"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 3,
+      "smell": 4,
+      "taste": 4,
+      "touch": 4,
+      "special": [
+        "electroreception"
+      ]
+    },
+    "ecosystem_role": "keystone",
+    "fun_facts": [
+      "They are living fossils that have remained virtually unchanged for over 200 million years",
+      "The largest specimen ever recorded weighed 1571 kg and was 7.2 meters long",
+      "Their eggs are the source of beluga caviar the most expensive food in the world at up to $35000 per kg"
+    ],
+    "tags": [
+      "ancient",
+      "freshwater",
+      "critically_endangered",
+      "fish",
+      "caviar"
+    ],
+    "related_animals": [
+      "catfish",
+      "salmon",
+      "shark_great_white"
+    ]
+  },
+  {
+    "id": "flying_fish",
+    "emoji": "🐟",
+    "name": {
+      "en": "Atlantic Flying Fish",
+      "de": "Atlantischer Fliegender Fisch",
+      "fr": "Exocet de l'Atlantique",
+      "es": "Pez volador del Atlántico",
+      "it": "Pesce volante atlantico",
+      "pt": "Peixe-voador-do-atlântico",
+      "ro": "Peștele zburător atlantic",
+      "ru": "Атлантическая летучая рыба",
+      "zh": "大西洋飞鱼",
+      "ja": "トビウオ",
+      "hi": "अटलांटिक उड़ने वाली मछली",
+      "ar": "السمك الطائر الأطلسي"
+    },
+    "scientific_name": "Cheilopogon melanurus",
+    "class": "fish",
+    "habitat": [
+      "ocean"
+    ],
+    "continent": [
+      "north_america",
+      "south_america",
+      "europe",
+      "africa"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 0.5,
+      "speed_kmh": 60,
+      "lifespan_years": 5,
+      "height_cm": 8
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "gliding_flight_escape",
+      "burst_swimming_speed",
+      "schooling_behavior",
+      "streamlined_body"
+    ],
+    "weaknesses": [
+      "small_size",
+      "vulnerable_to_seabirds_in_air",
+      "attracted_to_light"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 2,
+      "smell": 3,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "lateral_line_system"
+      ]
+    },
+    "ecosystem_role": "prey",
+    "fun_facts": [
+      "They can glide above the water surface for distances of over 200 meters using wing-like pectoral fins",
+      "They build up speed underwater reaching 60 km/h before launching into the air",
+      "Their flights can reach heights of up to 6 meters above the water surface"
+    ],
+    "tags": [
+      "flying",
+      "ocean",
+      "fish",
+      "schooling",
+      "tropical"
+    ],
+    "related_animals": [
+      "salmon",
+      "seahorse",
+      "albatross"
+    ]
+  },
+  {
+    "id": "moray_eel",
+    "emoji": "🐍",
+    "name": {
+      "en": "Green Moray Eel",
+      "de": "Grüne Muräne",
+      "fr": "Murène verte",
+      "es": "Morena verde",
+      "it": "Murena verde",
+      "pt": "Moreia-verde",
+      "ro": "Murena verde",
+      "ru": "Зелёная мурена",
+      "zh": "绿海鳝",
+      "ja": "グリーンモレイ",
+      "hi": "हरी मोरे ईल",
+      "ar": "موراي أخضر"
+    },
+    "scientific_name": "Gymnothorax funebris",
+    "class": "fish",
+    "habitat": [
+      "ocean",
+      "coral_reef"
+    ],
+    "continent": [
+      "north_america",
+      "south_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 29,
+      "speed_kmh": 10,
+      "lifespan_years": 36,
+      "height_cm": 15
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 3
+    },
+    "strengths": [
+      "pharyngeal_jaw_system",
+      "powerful_bite",
+      "flexible_serpentine_body",
+      "ambush_predator"
+    ],
+    "weaknesses": [
+      "poor_eyesight",
+      "confined_to_reef_habitat",
+      "vulnerable_when_hunting"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 2,
+      "smell": 5,
+      "taste": 3,
+      "touch": 4,
+      "special": []
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "They have a second set of jaws in their throat called pharyngeal jaws that shoot forward to pull prey inward",
+      "Their green color actually comes from a yellow mucus coating over their brown skin",
+      "They cooperate with groupers during hunts with the grouper flushing prey and the eel chasing it into crevices"
+    ],
+    "tags": [
+      "reef",
+      "predator",
+      "fish",
+      "ocean",
+      "nocturnal"
+    ],
+    "related_animals": [
+      "electric_eel",
+      "octopus",
+      "barracuda"
+    ]
+  },
+  {
+    "id": "centipede",
+    "emoji": "🐛",
+    "name": {
+      "en": "Giant Desert Centipede",
+      "de": "Wüsten-Riesenhundertfüßer",
+      "fr": "Scolopendre géante du désert",
+      "es": "Ciempiés gigante del desierto",
+      "it": "Centopiedi gigante del deserto",
+      "pt": "Centopeia-gigante-do-deserto",
+      "ro": "Centopedul gigant de deșert",
+      "ru": "Гигантская пустынная сколопендра",
+      "zh": "沙漠巨蜈蚣",
+      "ja": "オオムカデ",
+      "hi": "विशाल रेगिस्तानी सेंटीपीड",
+      "ar": "أم أربع وأربعين العملاقة الصحراوية"
+    },
+    "scientific_name": "Scolopendra heros",
+    "class": "invertebrate",
+    "habitat": [
+      "desert",
+      "grasslands"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.03,
+      "speed_kmh": 1.8,
+      "lifespan_years": 6,
+      "height_cm": 2
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 3
+    },
+    "strengths": [
+      "venomous_forcipules",
+      "fast_for_size",
+      "nocturnal_predator",
+      "flexible_body"
+    ],
+    "weaknesses": [
+      "vulnerable_to_desiccation",
+      "small_size",
+      "soft_bodied_between_segments"
+    ],
+    "senses": {
+      "vision": 1,
+      "hearing": 1,
+      "smell": 3,
+      "taste": 2,
+      "touch": 5,
+      "special": [
+        "vibration_sensing"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "Despite their name centipedes never have exactly 100 legs as they always have an odd number of leg pairs",
+      "Their venomous front legs called forcipules evolved from the first pair of walking legs",
+      "They can grow up to 20 cm long making them the largest centipede species in North America"
+    ],
+    "tags": [
+      "venomous",
+      "invertebrate",
+      "desert",
+      "nocturnal",
+      "predator"
+    ],
+    "related_animals": [
+      "scorpion",
+      "spider_tarantula",
+      "ant"
+    ]
+  },
+  {
+    "id": "nautilus",
+    "emoji": "🐚",
+    "name": {
+      "en": "Chambered Nautilus",
+      "de": "Perlboot",
+      "fr": "Nautile",
+      "es": "Nautilo",
+      "it": "Nautilo",
+      "pt": "Náutilo",
+      "ro": "Nautilus",
+      "ru": "Наутилус",
+      "zh": "鹦鹉螺",
+      "ja": "オウムガイ",
+      "hi": "नॉटिलस",
+      "ar": "نوتيلوس"
+    },
+    "scientific_name": "Nautilus pompilius",
+    "class": "invertebrate",
+    "habitat": [
+      "ocean",
+      "deep_ocean"
+    ],
+    "continent": [
+      "asia",
+      "oceania"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 1,
+      "speed_kmh": 3,
+      "lifespan_years": 20,
+      "height_cm": 20
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "buoyancy_control_chambers",
+      "protective_shell",
+      "jet_propulsion",
+      "up_to_90_tentacles"
+    ],
+    "weaknesses": [
+      "slow_moving",
+      "poor_eyesight",
+      "shell_collection_threat"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 1,
+      "smell": 4,
+      "taste": 2,
+      "touch": 4,
+      "special": [
+        "osphradia_chemical_sensing"
+      ]
+    },
+    "ecosystem_role": "scavenger",
+    "fun_facts": [
+      "They have survived virtually unchanged for over 500 million years predating the dinosaurs",
+      "Their shell contains up to 30 gas-filled chambers used to control buoyancy like a submarine",
+      "Unlike other cephalopods they have up to 90 tentacles but none of them have suckers"
+    ],
+    "tags": [
+      "living_fossil",
+      "cephalopod",
+      "invertebrate",
+      "ocean",
+      "ancient"
+    ],
+    "related_animals": [
+      "octopus",
+      "jellyfish_box",
+      "coral"
+    ]
+  },
+  {
+    "id": "firefly",
+    "emoji": "🪲",
+    "name": {
+      "en": "Common Firefly",
+      "de": "Großer Leuchtkäfer",
+      "fr": "Luciole commune",
+      "es": "Luciérnaga común",
+      "it": "Lucciola comune",
+      "pt": "Vaga-lume",
+      "ro": "Licurici",
+      "ru": "Светлячок",
+      "zh": "萤火虫",
+      "ja": "ホタル",
+      "hi": "जुगनू",
+      "ar": "يراعة"
+    },
+    "scientific_name": "Photinus pyralis",
+    "class": "invertebrate",
+    "habitat": [
+      "forest",
+      "grasslands",
+      "wetlands"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 0.001,
+      "speed_kmh": 3,
+      "lifespan_years": 2,
+      "height_cm": 1.5
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "bioluminescence",
+      "chemical_defense",
+      "flight_ability",
+      "light_communication"
+    ],
+    "weaknesses": [
+      "tiny_size",
+      "short_adult_lifespan",
+      "light_pollution_disruption"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 1,
+      "smell": 3,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "photoreception_for_flash_patterns"
+      ]
+    },
+    "ecosystem_role": "pollinator",
+    "fun_facts": [
+      "Their light is the most efficient in the world converting nearly 100% of energy to light with almost no heat",
+      "Each species has a unique flash pattern used to identify potential mates",
+      "The chemical luciferin responsible for their glow is now used in medical research to detect diseases"
+    ],
+    "tags": [
+      "bioluminescent",
+      "beetle",
+      "invertebrate",
+      "nocturnal",
+      "flying"
+    ],
+    "related_animals": [
+      "bee_honey",
+      "butterfly_monarch",
+      "ant"
+    ]
+  },
+  {
+    "id": "praying_mantis",
+    "emoji": "🦗",
+    "name": {
+      "en": "Praying Mantis",
+      "de": "Gottesanbeterin",
+      "fr": "Mante religieuse",
+      "es": "Mantis religiosa",
+      "it": "Mantide religiosa",
+      "pt": "Louva-a-deus",
+      "ro": "Călugăriță",
+      "ru": "Богомол",
+      "zh": "螳螂",
+      "ja": "カマキリ",
+      "hi": "प्रेइंग मैन्टिस",
+      "ar": "فرس النبي"
+    },
+    "scientific_name": "Mantis religiosa",
+    "class": "invertebrate",
+    "habitat": [
+      "grasslands",
+      "forest",
+      "gardens"
+    ],
+    "continent": [
+      "europe",
+      "asia",
+      "africa",
+      "north_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.007,
+      "speed_kmh": 1.5,
+      "lifespan_years": 1,
+      "height_cm": 8
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "lightning_fast_strike",
+      "excellent_camouflage",
+      "360_degree_head_rotation",
+      "stereoscopic_vision"
+    ],
+    "weaknesses": [
+      "short_lifespan",
+      "cannibalistic_mating",
+      "vulnerable_to_birds"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 3,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "ultrasound_detection"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "They are the only insects that can turn their heads 180 degrees giving them a wide field of vision",
+      "Their strike takes only 50 to 70 milliseconds faster than a human can blink",
+      "They have a single ear located on the underside of their body between the hind legs"
+    ],
+    "tags": [
+      "ambush_predator",
+      "insect",
+      "invertebrate",
+      "camouflage",
+      "garden"
+    ],
+    "related_animals": [
+      "spider_tarantula",
+      "scorpion",
+      "ant"
+    ]
+  },
+  {
+    "id": "horseshoe_crab",
+    "emoji": "🦀",
+    "name": {
+      "en": "Atlantic Horseshoe Crab",
+      "de": "Atlantischer Pfeilschwanzkrebs",
+      "fr": "Limule atlantique",
+      "es": "Cangrejo herradura del Atlántico",
+      "it": "Limulo atlantico",
+      "pt": "Caranguejo-ferradura-do-atlântico",
+      "ro": "Crabul-potcoavă atlantic",
+      "ru": "Атлантический мечехвост",
+      "zh": "美洲鲎",
+      "ja": "アメリカカブトガニ",
+      "hi": "अटलांटिक हॉर्सशू क्रैब",
+      "ar": "سرطان حدوة الحصان الأطلسي"
+    },
+    "scientific_name": "Limulus polyphemus",
+    "class": "invertebrate",
+    "habitat": [
+      "ocean",
+      "coastal"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 4.5,
+      "speed_kmh": 2,
+      "lifespan_years": 25,
+      "height_cm": 12
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "armored_exoskeleton",
+      "blue_copper_based_blood",
+      "can_survive_extreme_conditions",
+      "multiple_eyes"
+    ],
+    "weaknesses": [
+      "slow_moving",
+      "dependent_on_beach_spawning",
+      "harvested_for_blood"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 1,
+      "smell": 3,
+      "taste": 2,
+      "touch": 4,
+      "special": [
+        "ten_eyes_including_UV"
+      ]
+    },
+    "ecosystem_role": "keystone",
+    "fun_facts": [
+      "Their blue copper-based blood is used to test medical equipment for bacterial contamination saving countless lives",
+      "They have 10 eyes including ones that can detect UV light scattered across their body and tail",
+      "They are closer relatives of spiders and scorpions than actual crabs despite their name"
+    ],
+    "tags": [
+      "living_fossil",
+      "marine",
+      "invertebrate",
+      "coastal",
+      "ancient"
+    ],
+    "related_animals": [
+      "scorpion",
+      "spider_tarantula",
+      "coral"
+    ]
+  },
+  {
+    "id": "sea_urchin",
+    "emoji": "🟣",
+    "name": {
+      "en": "Purple Sea Urchin",
+      "de": "Lila Seeigel",
+      "fr": "Oursin violet",
+      "es": "Erizo de mar púrpura",
+      "it": "Riccio di mare viola",
+      "pt": "Ouriço-do-mar-roxo",
+      "ro": "Arici de mare violet",
+      "ru": "Пурпурный морской ёж",
+      "zh": "紫海胆",
+      "ja": "ムラサキウニ",
+      "hi": "बैंगनी समुद्री अर्चिन",
+      "ar": "قنفذ البحر الأرجواني"
+    },
+    "scientific_name": "Strongylocentrotus purpuratus",
+    "class": "invertebrate",
+    "habitat": [
+      "ocean",
+      "coastal"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 0.2,
+      "speed_kmh": 0.05,
+      "lifespan_years": 70,
+      "height_cm": 5
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "sharp_protective_spines",
+      "powerful_self_sharpening_teeth",
+      "regeneration_ability",
+      "extreme_longevity"
+    ],
+    "weaknesses": [
+      "extremely_slow",
+      "can_overgraze_kelp_forests",
+      "vulnerable_when_flipped"
+    ],
+    "senses": {
+      "vision": 1,
+      "hearing": 1,
+      "smell": 2,
+      "taste": 2,
+      "touch": 5,
+      "special": [
+        "photoreception_across_body"
+      ]
+    },
+    "ecosystem_role": "keystone",
+    "fun_facts": [
+      "They can live over 70 years and show no signs of aging or decline in reproductive ability",
+      "Their teeth are so hard and self-sharpening that they can bore into solid rock",
+      "Their genome was one of the first invertebrates fully sequenced revealing surprising genetic similarity to humans"
+    ],
+    "tags": [
+      "spiny",
+      "marine",
+      "invertebrate",
+      "long_lived",
+      "kelp_forest"
+    ],
+    "related_animals": [
+      "coral",
+      "jellyfish_box",
+      "seahorse"
+    ]
+  },
+  {
+    "id": "tarantula",
+    "emoji": "🕷️",
+    "name": {
+      "en": "Mexican Red-knee Tarantula",
+      "de": "Mexikanische Rotknie-Vogelspinne",
+      "fr": "Tarentule à genoux rouges du Mexique",
+      "es": "Tarántula de rodillas rojas",
+      "it": "Tarantola dalle ginocchia rosse",
+      "pt": "Tarântula-de-joelhos-vermelhos",
+      "ro": "Tarantulă cu genunchi roșii",
+      "ru": "Мексиканский красноколенный паук-птицеед",
+      "zh": "墨西哥红膝蜘蛛",
+      "ja": "メキシカンレッドニータランチュラ",
+      "hi": "मैक्सिकन लाल-घुटने वाला टारेंटयुला",
+      "ar": "رتيلاء الركبة الحمراء المكسيكية"
+    },
+    "scientific_name": "Brachypelma hamorii",
+    "class": "invertebrate",
+    "habitat": [
+      "desert",
+      "forest"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.015,
+      "speed_kmh": 3,
+      "lifespan_years": 30,
+      "height_cm": 6
+    },
+    "conservation_status": "NT",
+    "human_relation": {
+      "type": "pet",
+      "danger_level": 2
+    },
+    "strengths": [
+      "urticating_hair_defense",
+      "ambush_predator",
+      "long_lifespan",
+      "venom_injection"
+    ],
+    "weaknesses": [
+      "fragile_abdomen",
+      "poor_eyesight",
+      "pet_trade_overcollection"
+    ],
+    "senses": {
+      "vision": 1,
+      "hearing": 1,
+      "smell": 2,
+      "taste": 2,
+      "touch": 5,
+      "special": [
+        "vibration_sensing"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "Females can live for up to 30 years while males typically only survive 5 to 10 years",
+      "They kick irritating barbed hairs from their abdomen as a defense mechanism against predators",
+      "Despite their fearsome appearance their venom is roughly equivalent to a bee sting for humans"
+    ],
+    "tags": [
+      "arachnid",
+      "invertebrate",
+      "pet",
+      "desert",
+      "nocturnal"
+    ],
+    "related_animals": [
+      "spider_tarantula",
+      "scorpion",
+      "centipede"
+    ]
+  },
+  {
+    "id": "earthworm",
+    "emoji": "🪱",
+    "name": {
+      "en": "Common Earthworm",
+      "de": "Gemeiner Regenwurm",
+      "fr": "Ver de terre commun",
+      "es": "Lombriz de tierra común",
+      "it": "Lombrico comune",
+      "pt": "Minhoca-comum",
+      "ro": "Râma comună",
+      "ru": "Обыкновенный дождевой червь",
+      "zh": "蚯蚓",
+      "ja": "ミミズ",
+      "hi": "केंचुआ",
+      "ar": "دودة الأرض الشائعة"
+    },
+    "scientific_name": "Lumbricus terrestris",
+    "class": "invertebrate",
+    "habitat": [
+      "underground",
+      "grasslands",
+      "forest"
+    ],
+    "continent": [
+      "europe",
+      "north_america",
+      "asia",
+      "africa",
+      "south_america",
+      "oceania"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 0.01,
+      "speed_kmh": 0.04,
+      "lifespan_years": 6,
+      "height_cm": 1
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "regeneration_ability",
+      "soil_aeration",
+      "incredible_burrowing",
+      "hermaphroditic_reproduction"
+    ],
+    "weaknesses": [
+      "desiccation_risk",
+      "vulnerable_to_predators",
+      "sensitive_to_chemicals"
+    ],
+    "senses": {
+      "vision": 1,
+      "hearing": 1,
+      "smell": 2,
+      "taste": 2,
+      "touch": 5,
+      "special": [
+        "light_detection_through_skin"
+      ]
+    },
+    "ecosystem_role": "decomposer",
+    "fun_facts": [
+      "There can be up to 1 million earthworms per acre of healthy soil processing tons of earth annually",
+      "They breathe through their skin which must remain moist at all times for gas exchange",
+      "Charles Darwin spent 39 years studying them and called them the most important creatures in the history of the world"
+    ],
+    "tags": [
+      "soil",
+      "decomposer",
+      "invertebrate",
+      "burrowing",
+      "ubiquitous"
+    ],
+    "related_animals": [
+      "ant",
+      "coral",
+      "caecilian"
+    ]
+  },
+  {
+    "id": "porcupine",
+    "emoji": "🦔",
+    "name": {
+      "en": "North American Porcupine",
+      "de": "Nordamerikanischer Baumstachler",
+      "fr": "Porc-épic d'Amérique du Nord",
+      "es": "Puercoespín norteamericano",
+      "it": "Porcospino nordamericano",
+      "pt": "Porco-espinho norte-americano",
+      "ro": "Porcupinul nord-american",
+      "ru": "Североамериканский дикобраз",
+      "zh": "北美豪猪",
+      "ja": "カナダヤマアラシ",
+      "hi": "उत्तर अमेरिकी साही",
+      "ar": "النيص الأمريكي الشمالي"
+    },
+    "scientific_name": "Erethizon dorsatum",
+    "class": "mammal",
+    "habitat": [
+      "forest",
+      "grasslands",
+      "desert"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 8,
+      "speed_kmh": 3,
+      "lifespan_years": 18,
+      "height_cm": 30
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "quill_defense",
+      "excellent_climber",
+      "strong_grip",
+      "thick_skin"
+    ],
+    "weaknesses": [
+      "slow_movement",
+      "poor_eyesight",
+      "vulnerable_underbelly",
+      "solitary_nature"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 3,
+      "smell": 4,
+      "taste": 3,
+      "touch": 4,
+      "special": [
+        "vibration_detection_through_quills"
+      ]
+    },
+    "ecosystem_role": "herbivore_seed_disperser",
+    "fun_facts": [
+      "Each individual carries around 30,000 quills that are replaced when lost",
+      "The quills have barbed tips that expand once embedded, making them extremely difficult to remove",
+      "They are excellent swimmers because the hollow quills help them float"
+    ],
+    "tags": [
+      "quills",
+      "rodent",
+      "nocturnal",
+      "north_america",
+      "mammal"
+    ],
+    "related_animals": [
+      "hedgehog",
+      "armadillo",
+      "rabbit"
+    ]
+  },
+  {
+    "id": "manatee",
+    "emoji": "🐋",
+    "name": {
+      "en": "West Indian Manatee",
+      "de": "Karibik-Manati",
+      "fr": "Lamantin des Caraïbes",
+      "es": "Manatí del Caribe",
+      "it": "Lamantino delle Indie occidentali",
+      "pt": "Peixe-boi-marinho",
+      "ro": "Lamantin din Caraibe",
+      "ru": "Карибский ламантин",
+      "zh": "西印度海牛",
+      "ja": "アメリカマナティー",
+      "hi": "पश्चिम भारतीय मैनाटी",
+      "ar": "خروف البحر الهندي الغربي"
+    },
+    "scientific_name": "Trichechus manatus",
+    "class": "mammal",
+    "habitat": [
+      "ocean",
+      "rivers",
+      "coastal"
+    ],
+    "continent": [
+      "north_america",
+      "south_america"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 500,
+      "speed_kmh": 25,
+      "lifespan_years": 40,
+      "height_cm": 130
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "massive_size",
+      "excellent_swimmer",
+      "thick_hide",
+      "low_metabolism_efficiency"
+    ],
+    "weaknesses": [
+      "slow_movement",
+      "cold_sensitivity",
+      "boat_strike_vulnerability",
+      "low_reproductive_rate"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 3,
+      "smell": 2,
+      "taste": 3,
+      "touch": 5,
+      "special": [
+        "vibrissae_detect_water_currents"
+      ]
+    },
+    "ecosystem_role": "aquatic_herbivore",
+    "fun_facts": [
+      "They consume up to 10% of their body weight in aquatic vegetation daily",
+      "Sailors once mistook them for mermaids, inspiring mermaid legends",
+      "They have no natural predators in the wild as adults"
+    ],
+    "tags": [
+      "aquatic",
+      "gentle",
+      "herbivore",
+      "mammal",
+      "marine"
+    ],
+    "related_animals": [
+      "whale_humpback",
+      "dolphin",
+      "seal"
+    ]
+  },
+  {
+    "id": "lemur",
+    "emoji": "🐒",
+    "name": {
+      "en": "Ring-tailed Lemur",
+      "de": "Katta",
+      "fr": "Maki catta",
+      "es": "Lémur de cola anillada",
+      "it": "Lemure dalla coda ad anelli",
+      "pt": "Lêmure-de-cauda-anelada",
+      "ro": "Lemurul cu coadă inelată",
+      "ru": "Кошачий лемур",
+      "zh": "环尾狐猴",
+      "ja": "ワオキツネザル",
+      "hi": "रिंग-टेल्ड लीमर",
+      "ar": "الليمور حلقي الذيل"
+    },
+    "scientific_name": "Lemur catta",
+    "class": "mammal",
+    "habitat": [
+      "forest",
+      "scrubland"
+    ],
+    "continent": [
+      "africa"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 2.2,
+      "speed_kmh": 20,
+      "lifespan_years": 18,
+      "height_cm": 42
+    },
+    "conservation_status": "EN",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "agile_climber",
+      "social_group_living",
+      "scent_communication",
+      "omnivorous_diet"
+    ],
+    "weaknesses": [
+      "habitat_restricted_to_madagascar",
+      "small_body_size",
+      "vulnerable_to_predators",
+      "deforestation_threat"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 4,
+      "smell": 5,
+      "taste": 3,
+      "touch": 3,
+      "special": [
+        "scent_gland_communication"
+      ]
+    },
+    "ecosystem_role": "seed_disperser",
+    "fun_facts": [
+      "Males engage in 'stink fights' by rubbing their tails with scent glands and waving them at rivals",
+      "The most ground-dwelling of their family, spending more time foraging on foot than in the trees",
+      "Groups are matriarchal, with females dominant over all males"
+    ],
+    "tags": [
+      "primate",
+      "madagascar",
+      "social",
+      "mammal",
+      "endemic"
+    ],
+    "related_animals": [
+      "chimpanzee",
+      "gorilla",
+      "orangutan"
+    ]
+  },
+  {
+    "id": "cassowary",
+    "emoji": "🐦",
+    "name": {
+      "en": "Southern Cassowary",
+      "de": "Helmkasuar",
+      "fr": "Casoar à casque",
+      "es": "Casuario del sur",
+      "it": "Casuario meridionale",
+      "pt": "Casuar-do-sul",
+      "ro": "Cazuarul sudic",
+      "ru": "Шлемоносный казуар",
+      "zh": "南方鹤鸵",
+      "ja": "ヒクイドリ",
+      "hi": "दक्षिणी कैसोवरी",
+      "ar": "الشبنم الجنوبي"
+    },
+    "scientific_name": "Casuarius casuarius",
+    "class": "bird",
+    "habitat": [
+      "rainforest",
+      "forest"
+    ],
+    "continent": [
+      "oceania",
+      "asia"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 60,
+      "speed_kmh": 50,
+      "lifespan_years": 40,
+      "height_cm": 170
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 4
+    },
+    "strengths": [
+      "powerful_kick",
+      "dagger_like_claw",
+      "fast_runner",
+      "strong_swimmer"
+    ],
+    "weaknesses": [
+      "flightless",
+      "habitat_loss_vulnerability",
+      "solitary_nature",
+      "road_kill_risk"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 4,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "low_frequency_sound_detection_via_casque"
+      ]
+    },
+    "ecosystem_role": "seed_disperser",
+    "fun_facts": [
+      "Often called the world's most dangerous bird due to a dagger-like 12 cm claw on each foot",
+      "The bony casque on the head may amplify low-frequency sounds in dense rainforest",
+      "Fathers incubate the eggs and raise the chicks alone for nine months"
+    ],
+    "tags": [
+      "flightless",
+      "dangerous",
+      "rainforest",
+      "bird",
+      "oceania"
+    ],
+    "related_animals": [
+      "ostrich",
+      "kiwi",
+      "crane"
+    ]
+  },
+  {
+    "id": "secretary_bird",
+    "emoji": "🦅",
+    "name": {
+      "en": "Secretary Bird",
+      "de": "Sekretär",
+      "fr": "Messager sagittaire",
+      "es": "Serpentario",
+      "it": "Segretario",
+      "pt": "Secretário",
+      "ro": "Pasărea secretar",
+      "ru": "Птица-секретарь",
+      "zh": "蛇鹫",
+      "ja": "ヘビクイワシ",
+      "hi": "सेक्रेटरी बर्ड",
+      "ar": "الطائر الكاتب"
+    },
+    "scientific_name": "Sagittarius serpentarius",
+    "class": "bird",
+    "habitat": [
+      "savanna",
+      "grasslands"
+    ],
+    "continent": [
+      "africa"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 4,
+      "speed_kmh": 30,
+      "lifespan_years": 20,
+      "height_cm": 130
+    },
+    "conservation_status": "EN",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "powerful_stomp_attack",
+      "snake_hunting_specialist",
+      "long_legs_for_savanna",
+      "flight_capability"
+    ],
+    "weaknesses": [
+      "habitat_loss_vulnerability",
+      "prefers_walking_over_flying",
+      "large_territory_requirement",
+      "declining_population"
+    ],
+    "senses": {
+      "vision": 5,
+      "hearing": 3,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "exceptional_visual_acuity_for_detecting_prey"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "They kill prey by stomping with a force five times their own body weight in just 15 milliseconds",
+      "The name may come from the crest feathers resembling quill pens tucked behind a clerk's ear in the 1800s",
+      "They can walk over 30 km in a single day while hunting on the African savanna"
+    ],
+    "tags": [
+      "raptor",
+      "snake_hunter",
+      "africa",
+      "bird",
+      "terrestrial"
+    ],
+    "related_animals": [
+      "eagle_bald",
+      "hawk",
+      "falcon_peregrine"
+    ]
+  },
+  {
+    "id": "hoopoe",
+    "emoji": "🐦",
+    "name": {
+      "en": "Eurasian Hoopoe",
+      "de": "Wiedehopf",
+      "fr": "Huppe fasciée",
+      "es": "Abubilla euroasiática",
+      "it": "Upupa eurasiatica",
+      "pt": "Poupa-europeia",
+      "ro": "Pupăza",
+      "ru": "Удод",
+      "zh": "戴胜",
+      "ja": "ヤツガシラ",
+      "hi": "हुदहुद",
+      "ar": "الهدهد الأوراسي"
+    },
+    "scientific_name": "Upupa epops",
+    "class": "bird",
+    "habitat": [
+      "grasslands",
+      "forest",
+      "urban"
+    ],
+    "continent": [
+      "europe",
+      "asia",
+      "africa"
+    ],
+    "diet": "insectivore",
+    "stats": {
+      "weight_kg": 0.068,
+      "speed_kmh": 40,
+      "lifespan_years": 10,
+      "height_cm": 28
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "distinctive_crest_display",
+      "probing_bill_for_insects",
+      "foul_smelling_defense_secretion",
+      "agile_flight"
+    ],
+    "weaknesses": [
+      "small_body_size",
+      "vulnerable_to_predators",
+      "ground_nesting_risk",
+      "insect_dependent_diet"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 3,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "bill_tip_sensitivity_for_underground_prey"
+      ]
+    },
+    "ecosystem_role": "insect_control",
+    "fun_facts": [
+      "Females and chicks can spray a foul-smelling liquid at predators that smells like rotting meat",
+      "The distinctive crown of feathers can be raised into an impressive fan-shaped crest during courtship",
+      "Mentioned in the Quran and considered sacred in many Middle Eastern cultures throughout history"
+    ],
+    "tags": [
+      "colorful",
+      "crested",
+      "insectivore",
+      "bird",
+      "migratory"
+    ],
+    "related_animals": [
+      "woodpecker",
+      "kingfisher",
+      "robin"
+    ]
+  },
+  {
+    "id": "tuatara",
+    "emoji": "🦎",
+    "name": {
+      "en": "Tuatara",
+      "de": "Brückenechse",
+      "fr": "Tuatara",
+      "es": "Tuátara",
+      "it": "Tuatara",
+      "pt": "Tuatara",
+      "ro": "Tuatara",
+      "ru": "Туатара",
+      "zh": "喙头蜥",
+      "ja": "ムカシトカゲ",
+      "hi": "टुआटारा",
+      "ar": "التواتارا"
+    },
+    "scientific_name": "Sphenodon punctatus",
+    "class": "reptile",
+    "habitat": [
+      "forest",
+      "coastal"
+    ],
+    "continent": [
+      "oceania"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.9,
+      "speed_kmh": 5,
+      "lifespan_years": 100,
+      "height_cm": 15
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "extreme_longevity",
+      "cold_tolerance",
+      "third_eye_light_sensing",
+      "nocturnal_hunting"
+    ],
+    "weaknesses": [
+      "slow_metabolism",
+      "extremely_slow_reproduction",
+      "limited_range",
+      "invasive_species_vulnerability"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 2,
+      "smell": 3,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "parietal_eye_light_detection"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "They are the sole surviving members of an order that thrived 200 million years ago alongside dinosaurs",
+      "A parietal 'third eye' on top of the head detects light and helps regulate circadian rhythms",
+      "Eggs take 12 to 15 months to hatch, the longest incubation period of any reptile"
+    ],
+    "tags": [
+      "living_fossil",
+      "endemic",
+      "new_zealand",
+      "reptile",
+      "nocturnal"
+    ],
+    "related_animals": [
+      "gecko",
+      "iguana",
+      "chameleon"
+    ]
+  },
+  {
+    "id": "gila_monster",
+    "emoji": "🦎",
+    "name": {
+      "en": "Gila Monster",
+      "de": "Gila-Krustenechse",
+      "fr": "Monstre de Gila",
+      "es": "Monstruo de Gila",
+      "it": "Mostro di Gila",
+      "pt": "Monstro-de-gila",
+      "ro": "Monstrul de Gila",
+      "ru": "Жилатье",
+      "zh": "钝尾毒蜥",
+      "ja": "アメリカドクトカゲ",
+      "hi": "गिला मॉन्स्टर",
+      "ar": "وحش الهيلا"
+    },
+    "scientific_name": "Heloderma suspectum",
+    "class": "reptile",
+    "habitat": [
+      "desert",
+      "scrubland"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.7,
+      "speed_kmh": 2.4,
+      "lifespan_years": 20,
+      "height_cm": 10
+    },
+    "conservation_status": "NT",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 3
+    },
+    "strengths": [
+      "venomous_bite",
+      "powerful_jaw_grip",
+      "fat_storage_in_tail",
+      "burrowing_ability"
+    ],
+    "weaknesses": [
+      "extremely_slow",
+      "low_stamina",
+      "poor_eyesight",
+      "vulnerable_when_above_ground"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 2,
+      "smell": 5,
+      "taste": 4,
+      "touch": 3,
+      "special": [
+        "forked_tongue_chemical_detection"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "Venom is delivered by grooved teeth in the lower jaw, not fangs like snakes",
+      "A compound from the venom led to the development of the diabetes drug Exenatide",
+      "They can consume a meal equal to one-third of their body weight and store fat in their tail for months"
+    ],
+    "tags": [
+      "venomous",
+      "desert",
+      "reptile",
+      "north_america",
+      "rare"
+    ],
+    "related_animals": [
+      "komodo_dragon",
+      "iguana",
+      "gecko"
+    ]
+  },
+  {
+    "id": "cobra_spitting",
+    "emoji": "🐍",
+    "name": {
+      "en": "Mozambique Spitting Cobra",
+      "de": "Mosambik-Speikobra",
+      "fr": "Cobra cracheur du Mozambique",
+      "es": "Cobra escupidora de Mozambique",
+      "it": "Cobra sputatore del Mozambico",
+      "pt": "Cobra-cuspe de Moçambique",
+      "ro": "Cobra scuipătoare din Mozambic",
+      "ru": "Мозамбикская плюющаяся кобра",
+      "zh": "莫桑比克射毒眼镜蛇",
+      "ja": "モザンビークドクコブラ",
+      "hi": "मोज़ाम्बिक थूकने वाला कोबरा",
+      "ar": "كوبرا موزمبيق البصاقة"
+    },
+    "scientific_name": "Naja mossambica",
+    "class": "reptile",
+    "habitat": [
+      "savanna",
+      "grasslands",
+      "scrubland"
+    ],
+    "continent": [
+      "africa"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 1.5,
+      "speed_kmh": 12,
+      "lifespan_years": 20,
+      "height_cm": 8
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 5
+    },
+    "strengths": [
+      "venom_spitting_range",
+      "accurate_venom_aim",
+      "fast_strike",
+      "hood_threat_display"
+    ],
+    "weaknesses": [
+      "vulnerable_to_mongooses",
+      "cold_sensitivity",
+      "limited_venom_supply",
+      "solitary_nature"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 2,
+      "smell": 4,
+      "taste": 3,
+      "touch": 3,
+      "special": [
+        "infrared_heat_detection",
+        "vibration_sensing"
+      ]
+    },
+    "ecosystem_role": "predator",
+    "fun_facts": [
+      "Can accurately spit venom up to 3 meters directly at the eyes of a perceived threat",
+      "The venom causes intense pain and can lead to permanent blindness if it contacts the eyes",
+      "Responsible for the majority of serious snakebite cases in southern Africa"
+    ],
+    "tags": [
+      "venomous",
+      "snake",
+      "africa",
+      "reptile",
+      "dangerous"
+    ],
+    "related_animals": [
+      "cobra_king",
+      "rattlesnake",
+      "python"
+    ]
+  },
+  {
+    "id": "marine_iguana",
+    "emoji": "🦎",
+    "name": {
+      "en": "Marine Iguana",
+      "de": "Meerechse",
+      "fr": "Iguane marin",
+      "es": "Iguana marina",
+      "it": "Iguana marina",
+      "pt": "Iguana-marinha",
+      "ro": "Iguana marină",
+      "ru": "Морская игуана",
+      "zh": "海鬣蜥",
+      "ja": "ウミイグアナ",
+      "hi": "समुद्री इगुआना",
+      "ar": "الإغوانا البحرية"
+    },
+    "scientific_name": "Amblyrhynchus cristatus",
+    "class": "reptile",
+    "habitat": [
+      "coastal",
+      "ocean"
+    ],
+    "continent": [
+      "south_america"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 1.5,
+      "speed_kmh": 35,
+      "lifespan_years": 12,
+      "height_cm": 25
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "underwater_foraging",
+      "salt_excretion_glands",
+      "strong_swimming",
+      "clinging_claws_on_rocks"
+    ],
+    "weaknesses": [
+      "cold_blooded_ocean_cooling",
+      "limited_to_galapagos",
+      "invasive_predator_vulnerability",
+      "slow_on_land"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 2,
+      "smell": 3,
+      "taste": 3,
+      "touch": 3,
+      "special": [
+        "salt_concentration_sensing"
+      ]
+    },
+    "ecosystem_role": "herbivore_algae_grazer",
+    "fun_facts": [
+      "The only lizard in the world that forages in the sea, diving up to 12 meters to graze on algae",
+      "They can shrink their skeleton by up to 20% during food shortages and regrow when conditions improve",
+      "Special nasal glands expel concentrated salt crystals, making them look like they are sneezing"
+    ],
+    "tags": [
+      "endemic",
+      "galapagos",
+      "aquatic",
+      "reptile",
+      "unique"
+    ],
+    "related_animals": [
+      "iguana",
+      "chameleon",
+      "sea_turtle"
+    ]
+  },
+  {
+    "id": "hellbender",
+    "emoji": "🦎",
+    "name": {
+      "en": "Eastern Hellbender",
+      "de": "Schlammteufel",
+      "fr": "Ménopome",
+      "es": "Salamandra gigante del este",
+      "it": "Menopoma orientale",
+      "pt": "Salamandra-gigante-do-leste",
+      "ro": "Salamandra gigant de est",
+      "ru": "Аллеганский скрытожаберник",
+      "zh": "美洲大鲵",
+      "ja": "ヘルベンダー",
+      "hi": "पूर्वी हेलबेंडर",
+      "ar": "السلمندر العملاق الشرقي"
+    },
+    "scientific_name": "Cryptobranchus alleganiensis",
+    "class": "amphibian",
+    "habitat": [
+      "rivers",
+      "freshwater"
+    ],
+    "continent": [
+      "north_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 2.5,
+      "speed_kmh": 5,
+      "lifespan_years": 30,
+      "height_cm": 8
+    },
+    "conservation_status": "NT",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "cutaneous_respiration",
+      "nocturnal_ambush_hunting",
+      "strong_jaw",
+      "flat_body_for_crevices"
+    ],
+    "weaknesses": [
+      "water_quality_sensitivity",
+      "habitat_fragmentation",
+      "slow_movement",
+      "siltation_vulnerability"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 2,
+      "smell": 4,
+      "taste": 3,
+      "touch": 5,
+      "special": [
+        "lateral_line_water_pressure_detection"
+      ]
+    },
+    "ecosystem_role": "aquatic_predator",
+    "fun_facts": [
+      "The largest salamander in North America, reaching up to 74 cm in length",
+      "They absorb oxygen primarily through loose folds of skin along their sides",
+      "Males guard nests of 150 to 750 eggs for months, fanning them to keep water oxygenated"
+    ],
+    "tags": [
+      "aquatic",
+      "giant_salamander",
+      "amphibian",
+      "north_america",
+      "indicator_species"
+    ],
+    "related_animals": [
+      "salamander",
+      "axolotl",
+      "salamander_fire"
+    ]
+  },
+  {
+    "id": "surinam_toad",
+    "emoji": "🐸",
+    "name": {
+      "en": "Surinam Toad",
+      "de": "Wabenkröte",
+      "fr": "Crapaud du Suriname",
+      "es": "Sapo de Surinam",
+      "it": "Rospo del Suriname",
+      "pt": "Sapo-do-surinã",
+      "ro": "Broasca de Surinam",
+      "ru": "Суринамская пипа",
+      "zh": "苏里南负子蟾",
+      "ja": "コモリガエル",
+      "hi": "सूरीनाम टोड",
+      "ar": "ضفدع سورينام"
+    },
+    "scientific_name": "Pipa pipa",
+    "class": "amphibian",
+    "habitat": [
+      "freshwater",
+      "rainforest"
+    ],
+    "continent": [
+      "south_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.16,
+      "speed_kmh": 3,
+      "lifespan_years": 8,
+      "height_cm": 3
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "camouflage_flat_body",
+      "unique_back_brooding",
+      "tactile_star_shaped_fingers",
+      "fully_aquatic_lifestyle"
+    ],
+    "weaknesses": [
+      "poor_eyesight",
+      "slow_movement",
+      "water_quality_dependent",
+      "vulnerable_to_habitat_loss"
+    ],
+    "senses": {
+      "vision": 1,
+      "hearing": 3,
+      "smell": 3,
+      "taste": 2,
+      "touch": 5,
+      "special": [
+        "star_shaped_finger_tips_detect_prey_vibrations"
+      ]
+    },
+    "ecosystem_role": "aquatic_predator",
+    "fun_facts": [
+      "Eggs are embedded into the mother's back skin, where young develop and emerge as fully formed miniature adults",
+      "The flat body resembles a dead leaf, providing excellent camouflage on the river bottom",
+      "Star-shaped sensory organs on the fingertips detect the slightest movement of prey in murky water"
+    ],
+    "tags": [
+      "aquatic",
+      "unusual_reproduction",
+      "amphibian",
+      "south_america",
+      "camouflage"
+    ],
+    "related_animals": [
+      "toad",
+      "frog_glass",
+      "axolotl"
+    ]
+  },
+  {
+    "id": "sunfish",
+    "emoji": "🐟",
+    "name": {
+      "en": "Ocean Sunfish",
+      "de": "Mondfisch",
+      "fr": "Poisson-lune",
+      "es": "Pez luna",
+      "it": "Pesce luna",
+      "pt": "Peixe-lua",
+      "ro": "Peștele-lună",
+      "ru": "Рыба-луна",
+      "zh": "翻车鲀",
+      "ja": "マンボウ",
+      "hi": "ओशन सनफिश",
+      "ar": "سمكة شمس المحيط"
+    },
+    "scientific_name": "Mola mola",
+    "class": "fish",
+    "habitat": [
+      "ocean",
+      "open_water"
+    ],
+    "continent": [
+      "global_oceans"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 1000,
+      "speed_kmh": 3.2,
+      "lifespan_years": 23,
+      "height_cm": 300
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "massive_size",
+      "thick_skin",
+      "deep_diving_ability",
+      "prolific_egg_production"
+    ],
+    "weaknesses": [
+      "extremely_slow",
+      "parasite_susceptibility",
+      "bycatch_vulnerability",
+      "poor_maneuverability"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 2,
+      "smell": 2,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "lateral_line_water_pressure_detection"
+      ]
+    },
+    "ecosystem_role": "jellyfish_predator",
+    "fun_facts": [
+      "The heaviest bony fish in the world, with specimens exceeding 2,200 kg recorded",
+      "A single female can produce up to 300 million eggs at once, more than any other vertebrate",
+      "They bask on their side at the surface to warm up after deep dives and attract cleaner fish"
+    ],
+    "tags": [
+      "giant",
+      "ocean",
+      "fish",
+      "unusual",
+      "bony_fish"
+    ],
+    "related_animals": [
+      "pufferfish",
+      "manta_ray",
+      "shark_whale"
+    ]
+  },
+  {
+    "id": "mudskipper",
+    "emoji": "🐟",
+    "name": {
+      "en": "Atlantic Mudskipper",
+      "de": "Atlantischer Schlammspringer",
+      "fr": "Périophtalme atlantique",
+      "es": "Saltafango atlántico",
+      "it": "Saltafango atlantico",
+      "pt": "Saltador-do-lodo atlântico",
+      "ro": "Săritor de noroi atlantic",
+      "ru": "Атлантический илистый прыгун",
+      "zh": "大西洋弹涂鱼",
+      "ja": "ムツゴロウ",
+      "hi": "अटलांटिक मडस्किपर",
+      "ar": "نطاط الطين الأطلسي"
+    },
+    "scientific_name": "Periophthalmus barbarus",
+    "class": "fish",
+    "habitat": [
+      "coastal",
+      "mangrove",
+      "mudflats"
+    ],
+    "continent": [
+      "africa"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 0.06,
+      "speed_kmh": 1.7,
+      "lifespan_years": 5,
+      "height_cm": 4
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "amphibious_lifestyle",
+      "pectoral_fin_locomotion",
+      "aerial_respiration",
+      "burrowing_ability"
+    ],
+    "weaknesses": [
+      "tiny_size",
+      "desiccation_risk",
+      "limited_land_speed",
+      "predator_vulnerability"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 2,
+      "smell": 3,
+      "taste": 3,
+      "touch": 3,
+      "special": [
+        "aerial_vision_adapted_eyes",
+        "cutaneous_respiration"
+      ]
+    },
+    "ecosystem_role": "mudflat_ecosystem_engineer",
+    "fun_facts": [
+      "They can breathe through their skin and the lining of their mouth, allowing them to survive on land for days",
+      "Muscular pectoral fins function like arms, allowing them to walk, climb, and even leap between rocks",
+      "Males build elaborate mud walls around burrow entrances to attract females during courtship"
+    ],
+    "tags": [
+      "amphibious",
+      "unusual",
+      "fish",
+      "coastal",
+      "africa"
+    ],
+    "related_animals": [
+      "flying_fish",
+      "catfish",
+      "electric_eel"
+    ]
+  },
+  {
+    "id": "lionfish",
+    "emoji": "🐟",
+    "name": {
+      "en": "Red Lionfish",
+      "de": "Rotfeuerfisch",
+      "fr": "Rascasse volante rouge",
+      "es": "Pez león rojo",
+      "it": "Pesce scorpione rosso",
+      "pt": "Peixe-leão-vermelho",
+      "ro": "Peștele leu roșu",
+      "ru": "Красная крылатка",
+      "zh": "红色蓑鲉",
+      "ja": "ハナミノカサゴ",
+      "hi": "लाल लायनफिश",
+      "ar": "سمكة الأسد الحمراء"
+    },
+    "scientific_name": "Pterois volitans",
+    "class": "fish",
+    "habitat": [
+      "coral_reef",
+      "ocean",
+      "coastal"
+    ],
+    "continent": [
+      "asia",
+      "oceania",
+      "north_america",
+      "south_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.48,
+      "speed_kmh": 6,
+      "lifespan_years": 15,
+      "height_cm": 10
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 3
+    },
+    "strengths": [
+      "venomous_spines",
+      "aggressive_hunter",
+      "rapid_reproduction",
+      "no_natural_predators_in_atlantic"
+    ],
+    "weaknesses": [
+      "slow_swimmer",
+      "conspicuous_coloration",
+      "human_culling_pressure",
+      "cold_water_intolerance"
+    ],
+    "senses": {
+      "vision": 4,
+      "hearing": 2,
+      "smell": 3,
+      "taste": 3,
+      "touch": 3,
+      "special": [
+        "lateral_line_prey_detection"
+      ]
+    },
+    "ecosystem_role": "invasive_reef_predator",
+    "fun_facts": [
+      "One of the most destructive invasive species in the Atlantic, decimating native reef fish by up to 80%",
+      "They use their elaborate fins to herd small fish into tight spaces before striking",
+      "A single female can release up to 2 million eggs per year in gelatinous mucus balls"
+    ],
+    "tags": [
+      "venomous",
+      "invasive",
+      "coral_reef",
+      "fish",
+      "colorful"
+    ],
+    "related_animals": [
+      "pufferfish",
+      "clownfish",
+      "barracuda"
+    ]
+  },
+  {
+    "id": "arapaima",
+    "emoji": "🐟",
+    "name": {
+      "en": "Arapaima",
+      "de": "Arapaima",
+      "fr": "Arapaïma",
+      "es": "Arapaima",
+      "it": "Arapaima",
+      "pt": "Pirarucu",
+      "ro": "Arapaima",
+      "ru": "Арапаима",
+      "zh": "巨骨舌鱼",
+      "ja": "ピラルクー",
+      "hi": "अरापाइमा",
+      "ar": "أرابيما"
+    },
+    "scientific_name": "Arapaima gigas",
+    "class": "fish",
+    "habitat": [
+      "freshwater",
+      "rivers",
+      "floodplain"
+    ],
+    "continent": [
+      "south_america"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 200,
+      "speed_kmh": 40,
+      "lifespan_years": 20,
+      "height_cm": 50
+    },
+    "conservation_status": "DD",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 2
+    },
+    "strengths": [
+      "air_breathing_ability",
+      "armored_scales",
+      "massive_size",
+      "powerful_tail_strike"
+    ],
+    "weaknesses": [
+      "must_surface_to_breathe",
+      "overfishing_vulnerability",
+      "habitat_dependent",
+      "slow_reproduction"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 2,
+      "smell": 3,
+      "taste": 3,
+      "touch": 3,
+      "special": [
+        "electrical_field_detection"
+      ]
+    },
+    "ecosystem_role": "apex_freshwater_predator",
+    "fun_facts": [
+      "One of the largest freshwater fish in the world, reaching up to 3 meters and 200 kg",
+      "Scales are so tough they can resist piranha bites, and are studied for bio-inspired armor",
+      "Must surface to gulp air every 10 to 20 minutes using a modified swim bladder that acts as a lung"
+    ],
+    "tags": [
+      "giant",
+      "freshwater",
+      "amazon",
+      "fish",
+      "air_breather"
+    ],
+    "related_animals": [
+      "piranha",
+      "electric_eel",
+      "catfish"
+    ]
+  },
+  {
+    "id": "giant_clam",
+    "emoji": "🐚",
+    "name": {
+      "en": "Giant Clam",
+      "de": "Riesenmuschel",
+      "fr": "Bénitier géant",
+      "es": "Almeja gigante",
+      "it": "Tridacna gigante",
+      "pt": "Amêijoa-gigante",
+      "ro": "Scoica gigantică",
+      "ru": "Гигантская тридакна",
+      "zh": "砗磲",
+      "ja": "オオシャコガイ",
+      "hi": "विशाल सीप",
+      "ar": "المحار العملاق"
+    },
+    "scientific_name": "Tridacna gigas",
+    "class": "invertebrate",
+    "habitat": [
+      "coral_reef",
+      "ocean"
+    ],
+    "continent": [
+      "asia",
+      "oceania"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 200,
+      "speed_kmh": 0,
+      "lifespan_years": 100,
+      "height_cm": 40
+    },
+    "conservation_status": "VU",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "massive_shell_protection",
+      "symbiotic_algae_photosynthesis",
+      "long_lifespan",
+      "filter_feeding_efficiency"
+    ],
+    "weaknesses": [
+      "completely_sessile",
+      "shell_harvesting_threat",
+      "ocean_acidification_sensitivity",
+      "slow_growth"
+    ],
+    "senses": {
+      "vision": 2,
+      "hearing": 1,
+      "smell": 1,
+      "taste": 2,
+      "touch": 3,
+      "special": [
+        "light_sensitive_cells_in_mantle",
+        "shadow_reflex_detection"
+      ]
+    },
+    "ecosystem_role": "reef_filter_feeder",
+    "fun_facts": [
+      "The largest living bivalve mollusk, with shells reaching 1.2 meters across and weighing over 200 kg",
+      "Symbiotic algae living in the mantle tissue provide up to 90% of nutritional needs via photosynthesis",
+      "Once settled on a reef as a juvenile, they remain in the same spot for the rest of their lives"
+    ],
+    "tags": [
+      "sessile",
+      "coral_reef",
+      "invertebrate",
+      "giant",
+      "symbiotic"
+    ],
+    "related_animals": [
+      "coral",
+      "nautilus",
+      "sea_urchin"
+    ]
+  },
+  {
+    "id": "portuguese_man_o_war",
+    "emoji": "🪼",
+    "name": {
+      "en": "Portuguese Man o' War",
+      "de": "Portugiesische Galeere",
+      "fr": "Galère portugaise",
+      "es": "Carabela portuguesa",
+      "it": "Caravella portoghese",
+      "pt": "Caravela-portuguesa",
+      "ro": "Galerida portugheză",
+      "ru": "Португальский кораблик",
+      "zh": "僧帽水母",
+      "ja": "カツオノエボシ",
+      "hi": "पुर्तगाली मैन ओ' वॉर",
+      "ar": "قنديل البحر البرتغالي"
+    },
+    "scientific_name": "Physalia physalis",
+    "class": "invertebrate",
+    "habitat": [
+      "ocean",
+      "open_water"
+    ],
+    "continent": [
+      "global_oceans"
+    ],
+    "diet": "carnivore",
+    "stats": {
+      "weight_kg": 0.5,
+      "speed_kmh": 0,
+      "lifespan_years": 1,
+      "height_cm": 15
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "dangerous",
+      "danger_level": 4
+    },
+    "strengths": [
+      "extremely_long_venomous_tentacles",
+      "colonial_organism_specialization",
+      "wind_driven_sail",
+      "sting_effective_even_when_dead"
+    ],
+    "weaknesses": [
+      "cannot_swim_independently",
+      "wind_dependent_movement",
+      "vulnerable_to_loggerhead_turtles",
+      "short_lifespan"
+    ],
+    "senses": {
+      "vision": 1,
+      "hearing": 1,
+      "smell": 1,
+      "taste": 2,
+      "touch": 5,
+      "special": [
+        "tentacle_chemoreception"
+      ]
+    },
+    "ecosystem_role": "surface_predator",
+    "fun_facts": [
+      "Not a true jellyfish but a siphonophore, a colonial organism made of four specialized polyp types",
+      "Tentacles can extend up to 50 meters below the surface, longer than a blue whale",
+      "The gas-filled float acts as a sail and can be deflated to briefly submerge and escape surface threats"
+    ],
+    "tags": [
+      "venomous",
+      "colonial_organism",
+      "ocean",
+      "invertebrate",
+      "dangerous"
+    ],
+    "related_animals": [
+      "jellyfish_box",
+      "coral",
+      "sea_urchin"
+    ]
+  },
+  {
+    "id": "bombardier_beetle",
+    "emoji": "🪲",
+    "name": {
+      "en": "Bombardier Beetle",
+      "de": "Bombardierkäfer",
+      "fr": "Scarabée bombardier",
+      "es": "Escarabajo bombardero",
+      "it": "Scarabeo bombardiere",
+      "pt": "Besouro-bombardeiro",
+      "ro": "Gândacul bombardier",
+      "ru": "Жук-бомбардир",
+      "zh": "放屁虫",
+      "ja": "ミイデラゴミムシ",
+      "hi": "बॉम्बार्डियर बीटल",
+      "ar": "خنفساء القاذف"
+    },
+    "scientific_name": "Brachinus crepitans",
+    "class": "invertebrate",
+    "habitat": [
+      "grasslands",
+      "forest",
+      "scrubland"
+    ],
+    "continent": [
+      "europe",
+      "asia",
+      "africa",
+      "north_america"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 0.002,
+      "speed_kmh": 3,
+      "lifespan_years": 2,
+      "height_cm": 0.5
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "chemical_spray_defense",
+      "precise_spray_aiming",
+      "rapid_fire_capability",
+      "nocturnal_hunting"
+    ],
+    "weaknesses": [
+      "tiny_size",
+      "limited_chemical_reserves",
+      "soft_body_when_not_spraying",
+      "predation_by_specialized_predators"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 2,
+      "smell": 4,
+      "taste": 3,
+      "touch": 4,
+      "special": [
+        "antennal_chemical_detection"
+      ]
+    },
+    "ecosystem_role": "insect_predator",
+    "fun_facts": [
+      "Sprays a boiling 100°C chemical mixture from the tip of the abdomen at attacking predators",
+      "The internal reaction mixes hydroquinone and hydrogen peroxide with catalytic enzymes for an explosive result",
+      "Can aim the spray in almost any direction by rotating a flexible nozzle at the abdomen tip"
+    ],
+    "tags": [
+      "chemical_defense",
+      "beetle",
+      "invertebrate",
+      "nocturnal",
+      "unique"
+    ],
+    "related_animals": [
+      "ant",
+      "firefly",
+      "praying_mantis"
+    ]
+  },
+  {
+    "id": "atlas_moth",
+    "emoji": "🦋",
+    "name": {
+      "en": "Atlas Moth",
+      "de": "Atlasspinner",
+      "fr": "Attacus atlas",
+      "es": "Polilla atlas",
+      "it": "Falena atlas",
+      "pt": "Mariposa-atlas",
+      "ro": "Molia atlas",
+      "ru": "Павлиноглазка атлас",
+      "zh": "皇蛾",
+      "ja": "ヨナグニサン",
+      "hi": "एटलस मोथ",
+      "ar": "فراشة الأطلس"
+    },
+    "scientific_name": "Attacus atlas",
+    "class": "invertebrate",
+    "habitat": [
+      "rainforest",
+      "forest"
+    ],
+    "continent": [
+      "asia"
+    ],
+    "diet": "herbivore",
+    "stats": {
+      "weight_kg": 0.025,
+      "speed_kmh": 15,
+      "lifespan_years": 0.04,
+      "height_cm": 3
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "massive_wingspan_intimidation",
+      "snake_mimicry_wing_tips",
+      "silk_production",
+      "nocturnal_flight"
+    ],
+    "weaknesses": [
+      "no_mouth_as_adult",
+      "extremely_short_adult_lifespan",
+      "attracted_to_light",
+      "fragile_wings"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 2,
+      "smell": 5,
+      "taste": 1,
+      "touch": 3,
+      "special": [
+        "pheromone_detection_over_kilometers"
+      ]
+    },
+    "ecosystem_role": "pollinator_decomposer",
+    "fun_facts": [
+      "One of the largest Lepidoptera in the world with a wingspan reaching 30 cm, larger than many birds",
+      "Adults have no functional mouth and survive only on stored fat from the caterpillar stage for about two weeks",
+      "Wing tips resemble snake heads, deterring birds and other predators from attacking"
+    ],
+    "tags": [
+      "giant_insect",
+      "moth",
+      "invertebrate",
+      "asia",
+      "nocturnal"
+    ],
+    "related_animals": [
+      "butterfly_monarch",
+      "bee_honey",
+      "firefly"
+    ]
+  },
+  {
+    "id": "hermit_crab",
+    "emoji": "🦀",
+    "name": {
+      "en": "Hermit Crab",
+      "de": "Einsiedlerkrebs",
+      "fr": "Bernard-l'hermite",
+      "es": "Cangrejo ermitaño",
+      "it": "Paguro",
+      "pt": "Caranguejo-eremita",
+      "ro": "Racul pustnic",
+      "ru": "Рак-отшельник",
+      "zh": "寄居蟹",
+      "ja": "ヤドカリ",
+      "hi": "हर्मिट क्रैब",
+      "ar": "السرطان الناسك"
+    },
+    "scientific_name": "Coenobita clypeatus",
+    "class": "invertebrate",
+    "habitat": [
+      "coastal",
+      "coral_reef",
+      "forest"
+    ],
+    "continent": [
+      "north_america",
+      "south_america"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 0.2,
+      "speed_kmh": 1,
+      "lifespan_years": 30,
+      "height_cm": 5
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "pet",
+      "danger_level": 1
+    },
+    "strengths": [
+      "shell_protection",
+      "shell_upgrading_behavior",
+      "omnivorous_adaptability",
+      "social_shell_exchange_chains"
+    ],
+    "weaknesses": [
+      "dependent_on_gastropod_shells",
+      "vulnerable_during_shell_change",
+      "desiccation_risk",
+      "slow_movement"
+    ],
+    "senses": {
+      "vision": 3,
+      "hearing": 2,
+      "smell": 5,
+      "taste": 4,
+      "touch": 4,
+      "special": [
+        "shell_vibration_sensing",
+        "humidity_detection"
+      ]
+    },
+    "ecosystem_role": "scavenger_decomposer",
+    "fun_facts": [
+      "They form vacancy chains where individuals line up by size and swap shells in sequence from largest to smallest",
+      "Not true decapods but more closely related to squat lobsters, with a soft asymmetric abdomen",
+      "Some species form symbiotic relationships with sea anemones, placing them on their shells for protection"
+    ],
+    "tags": [
+      "shell_dweller",
+      "social",
+      "invertebrate",
+      "coastal",
+      "scavenger"
+    ],
+    "related_animals": [
+      "crab",
+      "lobster",
+      "horseshoe_crab"
+    ]
+  },
+  {
+    "id": "sea_cucumber",
+    "emoji": "🥒",
+    "name": {
+      "en": "Sea Cucumber",
+      "de": "Seegurke",
+      "fr": "Concombre de mer",
+      "es": "Pepino de mar",
+      "it": "Cetriolo di mare",
+      "pt": "Pepino-do-mar",
+      "ro": "Castraveții de mare",
+      "ru": "Морской огурец",
+      "zh": "海参",
+      "ja": "ナマコ",
+      "hi": "समुद्री खीरा",
+      "ar": "خيار البحر"
+    },
+    "scientific_name": "Holothuria forskali",
+    "class": "invertebrate",
+    "habitat": [
+      "ocean",
+      "coral_reef",
+      "deep_sea"
+    ],
+    "continent": [
+      "global_oceans"
+    ],
+    "diet": "omnivore",
+    "stats": {
+      "weight_kg": 0.5,
+      "speed_kmh": 0.03,
+      "lifespan_years": 10,
+      "height_cm": 5
+    },
+    "conservation_status": "LC",
+    "human_relation": {
+      "type": "wild",
+      "danger_level": 1
+    },
+    "strengths": [
+      "evisceration_defense",
+      "regeneration_ability",
+      "body_wall_liquefaction",
+      "toxin_production"
+    ],
+    "weaknesses": [
+      "extremely_slow",
+      "soft_bodied",
+      "overharvesting_threat",
+      "limited_mobility"
+    ],
+    "senses": {
+      "vision": 1,
+      "hearing": 1,
+      "smell": 3,
+      "taste": 3,
+      "touch": 5,
+      "special": [
+        "tube_feet_chemoreception",
+        "respiratory_tree_water_sensing"
+      ]
+    },
+    "ecosystem_role": "decomposer",
+    "fun_facts": [
+      "They can expel their internal organs at predators and fully regenerate them within weeks",
+      "Some species can liquefy their body wall to squeeze through tiny cracks and re-solidify on the other side",
+      "They recycle nutrients from the ocean floor and a single individual can process 45 kg of sediment per year"
+    ],
+    "tags": [
+      "echinoderm",
+      "ocean_floor",
+      "invertebrate",
+      "regeneration",
+      "decomposer"
+    ],
+    "related_animals": [
+      "starfish",
+      "sea_urchin",
+      "coral"
+    ]
   }
 ]
