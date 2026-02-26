@@ -149,11 +149,19 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 3rem 2rem;
+    padding: 0 2rem;
+}
+
+.container:first-of-type {
+    padding-top: 1.5rem;
+}
+
+.container:last-of-type {
+    padding-bottom: 1.5rem;
 }
 
 .section {
-    margin-bottom: 4rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Map teaser on homepage */
@@ -205,7 +213,7 @@ body {
 
 .section-subtitle {
     color: var(--text-gray);
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
     font-size: 1.1rem;
 }
 
@@ -537,17 +545,32 @@ a.card {
 }
 
 /* ==========================================================================
-   9b. ANIMAL PHOTO (Wikipedia)
+   9b. ANIMAL MEDIA (Photo + Continent Map)
    ========================================================================== */
+.animal-media {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    align-items: stretch;
+}
+
+.animal-media-photo,
+.animal-media-map {
+    flex: 1;
+    min-width: 0;
+}
+
 .animal-photo {
-    max-width: 600px;
-    margin: 0 auto 2rem;
     text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .animal-photo img {
     width: 100%;
-    max-height: 420px;
+    max-height: 380px;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.12);
@@ -571,6 +594,22 @@ a.card {
 @keyframes ak-shimmer {
     0% { background-position: 200% 0; }
     100% { background-position: -200% 0; }
+}
+
+.animal-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: var(--ak-bg);
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.animal-map svg {
+    width: 100%;
+    max-height: 340px;
 }
 
 /* ==========================================================================
@@ -3564,11 +3603,11 @@ a.card {
     }
 
     .container {
-        padding: 2rem 1rem;
+        padding: 0 1rem;
     }
 
-    .animal-photo {
-        max-width: 100%;
+    .animal-media {
+        flex-direction: column;
     }
 
     .animal-photo img {
@@ -3739,6 +3778,10 @@ a.card {
 
     .animal-photo-loading {
         height: 180px;
+    }
+
+    .animal-map {
+        padding: 1rem;
     }
 
     .animal-selector-panel {
