@@ -752,6 +752,10 @@ function renderAnimalDetail() {
       <p style="color:var(--text-gray)">${_t('detail.continent')}: ${(animal.continent || []).map(c => _t('continent.' + c)).join(', ')}</p>
     </div>
 
+    <div id="animal-photo" class="animal-photo">
+      <div class="animal-photo-loading"></div>
+    </div>
+
     <!-- Stats -->
     <div class="content-section">
       <h2>${_t('detail.stats')}</h2>
@@ -835,6 +839,31 @@ function renderAnimalDetail() {
       });
     }
   }
+
+  // Fetch animal photo from Wikipedia
+  _loadAnimalPhoto(animal);
+}
+
+async function _loadAnimalPhoto(animal) {
+  const container = document.getElementById('animal-photo');
+  if (!container) return;
+
+  const titles = [animal.scientific_name, animal.name.en];
+  for (const title of titles) {
+    try {
+      const resp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`);
+      if (!resp.ok) continue;
+      const data = await resp.json();
+      if (data.thumbnail && data.thumbnail.source) {
+        const imgUrl = data.thumbnail.source.replace(/\/\d+px-/, '/800px-');
+        container.innerHTML = `
+          <img src="${imgUrl}" alt="${_animalName(animal)}" loading="lazy">
+          <div class="animal-photo-credit">Photo: Wikimedia Commons</div>`;
+        return;
+      }
+    } catch(e) { /* continue to next title */ }
+  }
+  container.style.display = 'none';
 }
 
 
