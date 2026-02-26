@@ -753,13 +753,13 @@ function renderAnimalDetail() {
     </div>
 
     <div class="animal-media">
+      <div class="animal-media-map">
+        <div id="animal-map" class="animal-map">${_worldMapSvg(animal.continent || [])}</div>
+      </div>
       <div class="animal-media-photo">
         <div id="animal-photo" class="animal-photo">
           <div class="animal-photo-loading"></div>
         </div>
-      </div>
-      <div class="animal-media-map">
-        <div id="animal-map" class="animal-map">${_worldMapSvg(animal.continent || [])}</div>
       </div>
     </div>
 
@@ -862,24 +862,14 @@ async function _loadAnimalPhoto(animal) {
       if (!resp.ok) continue;
       const data = await resp.json();
       if (data.thumbnail && data.thumbnail.source) {
-        const thumbUrl = data.thumbnail.source;
-        const largeUrl = thumbUrl.replace(/\/\d+px-/, '/600px-');
-        const img = new Image();
-        img.alt = _animalName(animal);
-        img.loading = 'lazy';
-        img.onload = () => {
-          container.innerHTML = '';
-          container.appendChild(img);
-          container.insertAdjacentHTML('beforeend', '<div class="animal-photo-credit">Photo: Wikimedia Commons</div>');
-        };
-        img.onerror = () => {
-          if (img.src !== thumbUrl) { img.src = thumbUrl; return; }
-          container.closest('.animal-media-photo').style.display = 'none';
-        };
-        img.src = largeUrl;
+        const src = data.thumbnail.source.replace(/\/\d+px-/, '/600px-');
+        container.innerHTML = `
+          <img src="${src}" alt="${_animalName(animal)}"
+               onerror="this.src='${data.thumbnail.source}'; this.onerror=null;">
+          <div class="animal-photo-credit">Photo: Wikimedia Commons</div>`;
         return;
       }
-    } catch(e) { /* continue to next title */ }
+    } catch(e) { console.warn('Photo fetch failed:', title, e); }
   }
   container.closest('.animal-media-photo').style.display = 'none';
 }
