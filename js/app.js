@@ -451,7 +451,7 @@ function renderSuperSenses() {
           <h2>${sense.icon} ${_t(sense.name_key)}</h2>
           <p>${_t(sense.how_it_works_key)}</p>
           <div style="margin:1rem 0;font-size:0.9rem;color:var(--text-gray)">
-            <strong>${_t('senses.human_equivalent') || 'Human equivalent'}:</strong> ${sense.human_equivalent}<br>
+            <strong>${_t('senses.human_comparison') || 'Human Comparison'}:</strong> ${sense.human_equivalent}<br>
             <strong>${_t('senses.range') || 'Range'}:</strong> ${sense.range}
           </div>
         </div>
@@ -579,12 +579,12 @@ function renderRecordsExtremes() {
           const runnersUp = (r.runners_up || []).map(id => Data.getAnimal(id)).filter(Boolean);
           return `<div class="content-section">
             <h2>${r.icon} ${_t(r.name_key)}</h2>
-            ${animal ? `<div class="card" style="border-left-color:#E65100;margin-bottom:1rem;">
+            ${animal ? `<a href="animal-detail.html?id=${animal.id}" class="card" style="border-left-color:#E65100;margin-bottom:1rem;text-decoration:none;color:inherit;cursor:pointer;">
               <div><span class="card-icon" style="font-size:2rem">${_animalIcon(animal)}</span>
               <span class="card-title" style="font-size:1.2rem">${_animalName(animal)}</span></div>
               <div class="card-value">${r.value}</div>
               <p class="card-description">${_t(r.description_key)}</p>
-            </div>` : ''}
+            </a>` : ''}
             ${runnersUp.length ? `<div style="margin-top:0.5rem">
               <strong>${_t('records.runners_up') || 'Runners-up'}:</strong>
               <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:0.5rem">
