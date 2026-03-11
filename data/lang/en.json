@@ -734,5 +734,9 @@
   "modal.cancel": "Cancel",
   "modal.ok": "OK",
   "modal.yes": "Yes",
-  "modal.no": "No"
+  "modal.no": "No",
+  "updates.title": "What's New",
+  "updates.subtitle": "Latest additions and improvements",
+  "updates.mar2026.title": "Animal Photos Coming Soon",
+  "updates.mar2026.desc": "Each animal page will soon feature real wildlife photography and expanded habitat information."
 }

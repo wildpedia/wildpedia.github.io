@@ -218,10 +218,41 @@ function _setupScrollTop() {
 }
 
 
+/* --------------------------------------------------------------------------
+   What's New
+   -------------------------------------------------------------------------- */
+function _formatUpdateDate(dateStr) {
+  var d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString(I18n.getLang() || 'en', { year: 'numeric', month: 'short' });
+}
+
+function _renderWhatsNew() {
+  var wrap = document.getElementById('whats-new-wrap');
+  if (!wrap) return;
+  var updates = Data.getUpdates();
+  if (!updates.length) { wrap.innerHTML = ''; return; }
+  wrap.innerHTML =
+    '<section class="updates-section">' +
+    '<h2 class="section-title" data-i18n="updates.title">What\'s New</h2>' +
+    '<p class="section-subtitle" data-i18n="updates.subtitle">Latest additions and improvements</p>' +
+    '<div class="updates-list">' +
+    updates.map(function(u) {
+      return '<div class="update-item">' +
+        '<span class="update-icon">' + u.icon + '</span>' +
+        '<div class="update-body">' +
+        '<strong>' + _t(u.titleKey) + '</strong>' +
+        '<span class="update-date">' + _formatUpdateDate(u.date) + '</span>' +
+        '<p>' + _t(u.descKey) + '</p>' +
+        '</div></div>';
+    }).join('') +
+    '</div></section>';
+}
+
 /* ==========================================================================
    INDEX PAGE
    ========================================================================== */
 function renderIndex() {
+  _renderWhatsNew();
   _renderHeroStats();
   _renderWisdom();
   _renderCategoryCards();

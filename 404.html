@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecosystem Roles — Wildpedia</title>
-    <meta name="description" content="Every animal plays a vital part in Earth's delicate balance.">
-    <meta property="og:title" content="Ecosystem Roles — Wildpedia">
-    <meta property="og:description" content="Every animal plays a vital part in Earth's delicate balance.">
+    <title>Page Not Found — Wildpedia</title>
+    <meta name="description" content="The page you're looking for doesn't exist on Wildpedia.">
+    <meta property="og:title" content="Page Not Found — Wildpedia">
+    <meta property="og:description" content="The page you're looking for doesn't exist on Wildpedia.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://wildpedia.github.io/ecosystem-roles.html">
+    <meta property="og:url" content="https://wildpedia.github.io/404.html">
     <meta property="og:image" content="https://wildpedia.github.io/img/og-preview.png">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <style>
+        .error-section {
+            text-align: center;
+            padding: 4rem 1rem;
+            min-height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .error-code {
+            font-size: 8rem;
+            font-weight: 800;
+            color: #D4A017;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        .error-title {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .error-message {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 500px;
+            margin-bottom: 2rem;
+        }
+        .error-home {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background: #D4A017;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+        .error-home:hover {
+            opacity: 0.9;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -31,9 +73,13 @@
         </div>
     </header>
 
-    <div class="back-bar"><a href="index.html" data-i18n="detail.back">&larr; Back to Home</a></div>
     <div class="container">
-        <div class="page-content" id="ecosystem-content"></div>
+        <div class="error-section">
+            <div class="error-code">404</div>
+            <h1 class="error-title">Page Not Found</h1>
+            <p class="error-message">Sorry, the page you are looking for doesn't exist or has been moved. Let's get you back on track.</p>
+            <a href="index.html" class="error-home">Back to Home</a>
+        </div>
     </div>
 
     <footer class="footer">

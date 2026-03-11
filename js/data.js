@@ -154,6 +154,17 @@ const Data = (() => {
       .sort((a, b) => b.stats.lifespan_years - a.stats.lifespan_years).slice(0, limit || 10);
   }
 
+  // Monthly updates (auto-hides entries older than 2 months)
+  const _updates = [
+    { id: 'mar2026', date: '2026-03-01', icon: '\u{1F43E}', titleKey: 'updates.mar2026.title', descKey: 'updates.mar2026.desc' }
+  ];
+
+  function getUpdates() {
+    const now = new Date();
+    const cutoff = new Date(now.getFullYear(), now.getMonth() - 2, 1);
+    return _updates.filter(u => new Date(u.date) >= cutoff);
+  }
+
   return {
     init,
     getAllAnimals, getAnimal, getAnimalsByClass, getAnimalsByHabitat, getAnimalsByContinent,
@@ -170,6 +181,7 @@ const Data = (() => {
     getEcosystemRoles, getEcosystemRole,
     getStatScore, getSenseScore, getOverallSenseScore,
     getDangerLabel, getDangerColor, getIUCNColor,
-    getTopBySpeed, getTopByWeight, getTopByLifespan
+    getTopBySpeed, getTopByWeight, getTopByLifespan,
+    getUpdates
   };
 })();
