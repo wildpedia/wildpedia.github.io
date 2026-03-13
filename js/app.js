@@ -153,7 +153,9 @@ function _animalCard(animal, opts) {
   const name = _animalName(animal);
   const emoji = _animalIcon(animal);
   const extra = opts.subtitle || '';
+  const img = animal.image ? `<img src="${animal.image}" alt="${name}" class="card-img" loading="lazy" onerror="this.style.display='none'">` : '';
   return `<a href="animal-detail.html?id=${animal.id}" class="card overview-card" style="border-left-color:${opts.color || 'var(--ak-primary)'}">
+    ${img}
     <span class="card-icon">${emoji}</span>
     <span class="card-title">${name}</span>
     ${extra ? `<div class="card-description">${extra}</div>` : ''}
@@ -667,6 +669,7 @@ function renderConservation() {
           <h2><span class="iucn-badge" style="background:${s.color}">${s.id}</span> ${_t(s.name_key)} <span style="color:var(--text-gray);font-weight:normal">(${animals.length})</span></h2>
           ${animals.length ? `<div class="cards-grid grid-4x2">
             ${animals.map(a => `<a href="animal-detail.html?id=${a.id}" class="card overview-card" style="border-left-color:${s.color}">
+              ${a.image ? `<img src="${a.image}" alt="${_animalName(a)}" class="card-img" loading="lazy" onerror="this.style.display='none'">` : ''}
               <span class="card-icon">${_animalIcon(a)}</span>
               <div>
                 <span class="card-title">${_animalName(a)}</span>
@@ -692,6 +695,7 @@ function renderConservation() {
           <h2>${t.icon} ${_t(t.name_key)}</h2>
           <div class="cards-grid grid-4x2" style="margin-top:0.5rem">
             ${animals.map(a => `<a href="animal-detail.html?id=${a.id}" class="card overview-card">
+              ${a.image ? `<img src="${a.image}" alt="${_animalName(a)}" class="card-img" loading="lazy" onerror="this.style.display='none'">` : ''}
               <span class="card-icon">${_animalIcon(a)}</span>
               <div>
                 <span class="card-title">${_animalName(a)}</span>
@@ -750,6 +754,7 @@ function renderAnimalDetail() {
       <div class="food-browse-grid">
         ${sorted.map(({ animal: a, name }) =>
           `<a href="animal-detail.html?id=${a.id}" class="card food-browse-card">
+            ${a.image ? `<img src="${a.image}" alt="${name}" class="card-img" loading="lazy" onerror="this.style.display='none'">` : ''}
             <span class="food-browse-icon">${_animalIcon(a)}</span>
             <span class="food-browse-name">${name}</span>
             ${_classBadge(a.class)}
@@ -789,7 +794,8 @@ function renderAnimalDetail() {
       </div>
       <div class="animal-media-photo">
         <div id="animal-photo" class="animal-photo">
-          <div class="animal-photo-loading"></div>
+          ${animal.image ? `<img src="${animal.image}" alt="${name}" loading="lazy" onerror="this.style.display='none'">
+          <div class="animal-photo-credit">Photo: Wikimedia Commons</div>` : `<div class="animal-photo-loading"></div>`}
         </div>
       </div>
     </div>
@@ -902,7 +908,10 @@ async function _loadAnimalPhoto(animal) {
       }
     } catch(e) { console.warn('Photo fetch failed:', title, e); }
   }
-  container.closest('.animal-media-photo').style.display = 'none';
+  // Only hide the photo section if there's no pre-fetched image either
+  if (!animal.image) {
+    container.closest('.animal-media-photo').style.display = 'none';
+  }
 }
 
 function _worldMapSvg(continents) {
@@ -1151,6 +1160,7 @@ function renderWorldMap() {
 
       <div class="cards-grid grid-4x2">
         ${filtered.sort((a, b) => _animalName(a).localeCompare(_animalName(b), I18n.getLang())).map(a => `<a href="animal-detail.html?id=${a.id}" class="card overview-card">
+          ${a.image ? `<img src="${a.image}" alt="${_animalName(a)}" class="card-img" loading="lazy" onerror="this.style.display='none'">` : ''}
           <span class="card-icon">${_animalIcon(a)}</span>
           <div>
             <span class="card-title">${_animalName(a)}</span>

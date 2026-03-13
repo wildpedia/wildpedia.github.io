@@ -73,7 +73,8 @@
       "tiger",
       "leopard",
       "cheetah"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/400px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg"
   },
   {
     "id": "tiger",
@@ -149,7 +150,8 @@
       "lion",
       "leopard",
       "bear_grizzly"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg/400px-Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg"
   },
   {
     "id": "wolf",
@@ -227,7 +229,8 @@
       "dog",
       "bear_grizzly",
       "lion"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/400px-Eurasian_wolf_2.jpg"
   },
   {
     "id": "elephant_african",
@@ -305,7 +308,8 @@
       "rhino",
       "hippo",
       "giraffe"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/400px-178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg"
   },
   {
     "id": "elephant_asian",
@@ -383,7 +387,8 @@
       "elephant_african",
       "rhino",
       "horse"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/400px-Elephas_maximus_%28Bandipur%29.jpg"
   },
   {
     "id": "bear_polar",
@@ -459,7 +464,8 @@
       "bear_grizzly",
       "wolf",
       "whale_blue"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/400px-Polar_Bear_-_Alaska_%28cropped%29.jpg"
   },
   {
     "id": "bear_grizzly",
@@ -537,7 +543,8 @@
       "bear_polar",
       "wolf",
       "salmon"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/GrizzlyBearJeanBeaufort.jpg/400px-GrizzlyBearJeanBeaufort.jpg"
   },
   {
     "id": "cheetah",
@@ -612,7 +619,8 @@
       "lion",
       "leopard",
       "tiger"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Male_cheetah_facing_left_in_South_Africa.jpg/400px-Male_cheetah_facing_left_in_South_Africa.jpg"
   },
   {
     "id": "leopard",
@@ -693,7 +701,8 @@
       "tiger",
       "cheetah",
       "wolf"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/African_leopard_male_%28cropped%29.jpg/400px-African_leopard_male_%28cropped%29.jpg"
   },
   {
     "id": "gorilla",
@@ -768,7 +777,8 @@
       "chimpanzee",
       "orangutan",
       "elephant_african"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Male_gorilla_in_SF_zoo.jpg/400px-Male_gorilla_in_SF_zoo.jpg"
   },
   {
     "id": "chimpanzee",
@@ -844,7 +854,8 @@
       "gorilla",
       "orangutan",
       "dog"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/400px-015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg"
   },
   {
     "id": "orangutan",
@@ -920,7 +931,8 @@
       "gorilla",
       "chimpanzee",
       "sloth"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Tanjung_Puting30477.jpg/400px-Tanjung_Puting30477.jpg"
   },
   {
     "id": "dolphin",
@@ -1002,7 +1014,8 @@
       "whale_blue",
       "whale_humpback",
       "shark_great_white"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Common_dolphin_noaa.jpg/400px-Common_dolphin_noaa.jpg"
   },
   {
     "id": "whale_blue",
@@ -1085,7 +1098,8 @@
       "whale_humpback",
       "dolphin",
       "manta_ray"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg/400px-Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg"
   },
   {
     "id": "whale_humpback",
@@ -1168,7 +1182,8 @@
       "whale_blue",
       "dolphin",
       "manta_ray"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/400px-Humpback_Whale_underwater_shot.jpg"
   },
   {
     "id": "bat",
@@ -1252,7 +1267,8 @@
       "owl",
       "bee_honey",
       "butterfly_monarch"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Big-eared-townsend-fledermaus.jpg/400px-Big-eared-townsend-fledermaus.jpg"
   },
   {
     "id": "horse",
@@ -1332,7 +1348,8 @@
       "cow",
       "dog",
       "elephant_asian"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nokota_Horses_cropped.jpg/400px-Nokota_Horses_cropped.jpg"
   },
   {
     "id": "dog",
@@ -1412,7 +1429,8 @@
       "wolf",
       "cat_domestic",
       "horse"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/400px-Huskiesatrest.jpg"
   },
   {
     "id": "cat_domestic",
@@ -1492,7 +1510,8 @@
       "lion",
       "leopard",
       "dog"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/400px-Cat_August_2010-4.jpg"
   },
   {
     "id": "cow",
@@ -1572,7 +1591,8 @@
       "hippo",
       "giraffe",
       "zebra"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/400px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg"
   },
   {
     "id": "hippo",
@@ -1649,7 +1669,8 @@
       "elephant_african",
       "rhino",
       "crocodile"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Portrait_Hippopotamus_in_the_water.jpg/400px-Portrait_Hippopotamus_in_the_water.jpg"
   },
   {
     "id": "rhino",
@@ -1724,7 +1745,8 @@
       "elephant_african",
       "hippo",
       "elephant_asian"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg/400px-109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg"
   },
   {
     "id": "giraffe",
@@ -1798,7 +1820,8 @@
       "elephant_african",
       "zebra",
       "rhino"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rothschild%27s_giraffe_%28Giraffa_camelopardalis_rothschildi%29_-_Murchison_Falls_National_Park.jpg/400px-Rothschild%27s_giraffe_%28Giraffa_camelopardalis_rothschildi%29_-_Murchison_Falls_National_Park.jpg"
   },
   {
     "id": "zebra",
@@ -1874,7 +1897,8 @@
       "horse",
       "giraffe",
       "lion"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg/400px-Equus_quagga_burchellii_-_Etosha%2C_2014.jpg"
   },
   {
     "id": "kangaroo",
@@ -1950,7 +1974,8 @@
       "horse",
       "zebra",
       "giraffe"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Red_kangaroo_-_melbourne_zoo.jpg/400px-Red_kangaroo_-_melbourne_zoo.jpg"
   },
   {
     "id": "panda",
@@ -2026,7 +2051,8 @@
       "bear_grizzly",
       "bear_polar",
       "sloth"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/400px-Grosser_Panda.JPG"
   },
   {
     "id": "sloth",
@@ -2101,7 +2127,8 @@
       "orangutan",
       "panda",
       "frog_tree"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bradypus.jpg/400px-Bradypus.jpg"
   },
   {
     "id": "otter",
@@ -2177,7 +2204,8 @@
       "dolphin",
       "salmon",
       "hippo"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Fischotter%2C_Lutra_Lutra.JPG/400px-Fischotter%2C_Lutra_Lutra.JPG"
   },
   {
     "id": "eagle_bald",
@@ -2253,7 +2281,8 @@
       "eagle_golden",
       "falcon_peregrine",
       "owl"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg/400px-Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg"
   },
   {
     "id": "eagle_golden",
@@ -2331,7 +2360,8 @@
       "eagle_bald",
       "falcon_peregrine",
       "owl"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg/400px-015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg"
   },
   {
     "id": "owl",
@@ -2407,7 +2437,8 @@
       "eagle_bald",
       "eagle_golden",
       "bat"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg/400px-Bubo_bubo_3_%28Martin_Mecnarowski%29.jpg"
   },
   {
     "id": "penguin_emperor",
@@ -2482,7 +2513,8 @@
       "albatross",
       "dolphin",
       "whale_humpback"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/400px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg"
   },
   {
     "id": "flamingo",
@@ -2559,7 +2591,8 @@
       "swan",
       "ostrich",
       "albatross"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg/400px-010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg"
   },
   {
     "id": "parrot",
@@ -2634,7 +2667,8 @@
       "toucan",
       "crow",
       "peacock"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg/400px-Perroquet_%C3%A0_Yampopo_Beach_-_Douala.jpg"
   },
   {
     "id": "hummingbird",
@@ -2710,7 +2744,8 @@
       "bee_honey",
       "butterfly_monarch",
       "bat"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Archilochus_colubris_-flying_-male-8.jpg/400px-Archilochus_colubris_-flying_-male-8.jpg"
   },
   {
     "id": "albatross",
@@ -2787,7 +2822,8 @@
       "penguin_emperor",
       "flamingo",
       "swan"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Diomedea_exulans_-_SE_Tasmania.jpg/400px-Diomedea_exulans_-_SE_Tasmania.jpg"
   },
   {
     "id": "falcon_peregrine",
@@ -2869,7 +2905,8 @@
       "eagle_golden",
       "eagle_bald",
       "owl"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg/400px-Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg"
   },
   {
     "id": "ostrich",
@@ -2945,7 +2982,8 @@
       "penguin_emperor",
       "kangaroo",
       "cheetah"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/400px-Struthio_camelus_-_Etosha_2014_%283%29.jpg"
   },
   {
     "id": "toucan",
@@ -3020,7 +3058,8 @@
       "parrot",
       "peacock",
       "hummingbird"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/400px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg"
   },
   {
     "id": "crow",
@@ -3101,7 +3140,8 @@
       "parrot",
       "owl",
       "chimpanzee"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Corvus_corax_ad_berlin_090516.jpg/400px-Corvus_corax_ad_berlin_090516.jpg"
   },
   {
     "id": "peacock",
@@ -3176,7 +3216,8 @@
       "flamingo",
       "parrot",
       "toucan"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/400px-Peacock_on_tree_%2852077240794%29.jpg"
   },
   {
     "id": "swan",
@@ -3254,7 +3295,8 @@
       "flamingo",
       "albatross",
       "penguin_emperor"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/CygneVaires.jpg/400px-CygneVaires.jpg"
   },
   {
     "id": "crocodile",
@@ -3331,7 +3373,8 @@
       "komodo_dragon",
       "anaconda",
       "hippo"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/NileCrocodile.jpg/400px-NileCrocodile.jpg"
   },
   {
     "id": "cobra_king",
@@ -3408,7 +3451,8 @@
       "python",
       "rattlesnake",
       "anaconda"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg/400px-12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg"
   },
   {
     "id": "python",
@@ -3485,7 +3529,8 @@
       "anaconda",
       "cobra_king",
       "crocodile"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Python_reticulatus_%D1%81%D0%B5%D1%82%D1%87%D0%B0%D1%82%D1%8B%D0%B9_%D0%BF%D0%B8%D1%82%D0%BE%D0%BD-2.jpg/400px-Python_reticulatus_%D1%81%D0%B5%D1%82%D1%87%D0%B0%D1%82%D1%8B%D0%B9_%D0%BF%D0%B8%D1%82%D0%BE%D0%BD-2.jpg"
   },
   {
     "id": "komodo_dragon",
@@ -3562,7 +3607,8 @@
       "crocodile",
       "chameleon",
       "iguana"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/400px-202306_Varanus_komodoensis.jpg"
   },
   {
     "id": "sea_turtle",
@@ -3643,7 +3689,8 @@
       "shark_great_white",
       "manta_ray",
       "coral"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/400px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg"
   },
   {
     "id": "chameleon",
@@ -3721,7 +3768,8 @@
       "gecko",
       "iguana",
       "komodo_dragon"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Mediterranean_chameleon_%28Chamaeleo_chamaeleon_recticrista%29.jpg/400px-Mediterranean_chameleon_%28Chamaeleo_chamaeleon_recticrista%29.jpg"
   },
   {
     "id": "iguana",
@@ -3797,7 +3845,8 @@
       "chameleon",
       "gecko",
       "komodo_dragon"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Iguana_iguana_%28male_resting%29.jpg/400px-Iguana_iguana_%28male_resting%29.jpg"
   },
   {
     "id": "gecko",
@@ -3872,7 +3921,8 @@
       "chameleon",
       "iguana",
       "spider_tarantula"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Gekko_gecko_192144834.jpg/400px-Gekko_gecko_192144834.jpg"
   },
   {
     "id": "rattlesnake",
@@ -3949,7 +3999,8 @@
       "cobra_king",
       "python",
       "scorpion"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/%28Westliche_Diamantklapperschlange%29_Crotalus_atrox.jpg/400px-%28Westliche_Diamantklapperschlange%29_Crotalus_atrox.jpg"
   },
   {
     "id": "anaconda",
@@ -4028,7 +4079,8 @@
       "python",
       "crocodile",
       "cobra_king"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Sucuri_verde.jpg/400px-Sucuri_verde.jpg"
   },
   {
     "id": "frog_poison_dart",
@@ -4103,7 +4155,8 @@
       "frog_tree",
       "salamander",
       "chameleon"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Dendrobates_tinctorius_-_Karlsruhe_Zoo_05.jpg/400px-Dendrobates_tinctorius_-_Karlsruhe_Zoo_05.jpg"
   },
   {
     "id": "axolotl",
@@ -4180,7 +4233,8 @@
       "salamander",
       "frog_tree",
       "frog_poison_dart"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Axolotl_ganz.jpg/400px-Axolotl_ganz.jpg"
   },
   {
     "id": "salamander",
@@ -4257,7 +4311,8 @@
       "axolotl",
       "frog_poison_dart",
       "frog_tree"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Salamandra_salamandra_MHNT_1.jpg/400px-Salamandra_salamandra_MHNT_1.jpg"
   },
   {
     "id": "frog_tree",
@@ -4334,7 +4389,8 @@
       "frog_poison_dart",
       "salamander",
       "chameleon"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/European_tree_frog_%28Hyla_arborea%29_on_hemp-agrimony_%28Eupatorium_cannabinum%29.jpg/400px-European_tree_frog_%28Hyla_arborea%29_on_hemp-agrimony_%28Eupatorium_cannabinum%29.jpg"
   },
   {
     "id": "shark_great_white",
@@ -4416,7 +4472,8 @@
       "shark_hammerhead",
       "crocodile",
       "dolphin"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/400px-White_shark.jpg"
   },
   {
     "id": "shark_hammerhead",
@@ -4497,7 +4554,8 @@
       "shark_great_white",
       "manta_ray",
       "electric_eel"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Great_hammerhead2.jpg/400px-Great_hammerhead2.jpg"
   },
   {
     "id": "clownfish",
@@ -4575,7 +4633,8 @@
       "seahorse",
       "coral",
       "sea_turtle"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Clown_fish_in_the_Andaman_Coral_Reef.jpg/400px-Clown_fish_in_the_Andaman_Coral_Reef.jpg"
   },
   {
     "id": "seahorse",
@@ -4652,7 +4711,8 @@
       "clownfish",
       "coral",
       "manta_ray"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Hal_-_Hippocampus_kuda_-_4.jpg/400px-Hal_-_Hippocampus_kuda_-_4.jpg"
   },
   {
     "id": "manta_ray",
@@ -4733,7 +4793,8 @@
       "shark_great_white",
       "whale_blue",
       "sea_turtle"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Manta_birostris-Thailand4.jpg/400px-Manta_birostris-Thailand4.jpg"
   },
   {
     "id": "piranha",
@@ -4810,7 +4871,8 @@
       "electric_eel",
       "salmon",
       "shark_great_white"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg/400px-Pygocentrus_nattereri_-_Karlsruhe_Zoo_01.jpg"
   },
   {
     "id": "salmon",
@@ -4889,7 +4951,8 @@
       "bear_grizzly",
       "eagle_bald",
       "piranha"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Wst_atlantischer_lachs_stoer_001.jpg/400px-Wst_atlantischer_lachs_stoer_001.jpg"
   },
   {
     "id": "electric_eel",
@@ -4966,7 +5029,8 @@
       "piranha",
       "shark_hammerhead",
       "anaconda"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Electric-eel.jpg/400px-Electric-eel.jpg"
   },
   {
     "id": "octopus",
@@ -5047,7 +5111,8 @@
       "jellyfish_box",
       "clownfish",
       "coral"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/400px-Octopus2.jpg"
   },
   {
     "id": "bee_honey",
@@ -5132,7 +5197,8 @@
       "butterfly_monarch",
       "hummingbird",
       "ant"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/400px-Apis_mellifera_Western_honey_bee.jpg"
   },
   {
     "id": "butterfly_monarch",
@@ -5211,7 +5277,8 @@
       "bee_honey",
       "hummingbird",
       "bat"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg/400px-Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg"
   },
   {
     "id": "ant",
@@ -5289,7 +5356,8 @@
       "bee_honey",
       "spider_tarantula",
       "scorpion"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/A_Formica_rufa_sideview.jpg/400px-A_Formica_rufa_sideview.jpg"
   },
   {
     "id": "spider_tarantula",
@@ -5366,7 +5434,8 @@
       "scorpion",
       "ant",
       "gecko"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Theraphosa_blondi_MHNT.jpg/400px-Theraphosa_blondi_MHNT.jpg"
   },
   {
     "id": "scorpion",
@@ -5444,7 +5513,8 @@
       "spider_tarantula",
       "cobra_king",
       "rattlesnake"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Androctonus_australis_02.JPG/400px-Androctonus_australis_02.JPG"
   },
   {
     "id": "jellyfish_box",
@@ -5522,7 +5592,8 @@
       "octopus",
       "coral",
       "sea_turtle"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Avispa_marina_cropped.png/400px-Avispa_marina_cropped.png"
   },
   {
     "id": "coral",
@@ -5603,7 +5674,8 @@
       "clownfish",
       "sea_turtle",
       "jellyfish_box"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Coral_Outcrop_Flynn_Reef.jpg/400px-Coral_Outcrop_Flynn_Reef.jpg"
   },
   {
     "id": "red_fox",
@@ -5686,7 +5758,8 @@
       "wolf",
       "dog",
       "raccoon"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg/400px-Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg"
   },
   {
     "id": "rabbit",
@@ -5767,7 +5840,8 @@
       "red_fox",
       "eagle_golden",
       "owl"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Oryctolagus_cuniculus_-_euqirneto_-_419737670_%28cropped%29.jpeg/400px-Oryctolagus_cuniculus_-_euqirneto_-_419737670_%28cropped%29.jpeg"
   },
   {
     "id": "hedgehog",
@@ -5844,7 +5918,8 @@
       "bat",
       "red_fox",
       "owl"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Erinaceus_europaeus_LC0119.jpg/400px-Erinaceus_europaeus_LC0119.jpg"
   },
   {
     "id": "moose",
@@ -5922,7 +5997,8 @@
       "horse",
       "bison",
       "wolf"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Alaska_moose.jpg/400px-Alaska_moose.jpg"
   },
   {
     "id": "raccoon",
@@ -6002,7 +6078,8 @@
       "red_fox",
       "dog",
       "bear_grizzly"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Raccoon_in_Central_Park_%2835264%29.jpg/400px-Raccoon_in_Central_Park_%2835264%29.jpg"
   },
   {
     "id": "bison",
@@ -6077,7 +6154,8 @@
       "cow",
       "moose",
       "horse"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/American_bison_k5680-1.jpg/400px-American_bison_k5680-1.jpg"
   },
   {
     "id": "camel",
@@ -6153,7 +6231,8 @@
       "horse",
       "giraffe",
       "elephant_african"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Camelus_dromedarius_in_Nuweiba.jpg/400px-Camelus_dromedarius_in_Nuweiba.jpg"
   },
   {
     "id": "jaguar",
@@ -6233,7 +6312,8 @@
       "leopard",
       "lion",
       "tiger"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Standing_jaguar.jpg/400px-Standing_jaguar.jpg"
   },
   {
     "id": "walrus",
@@ -6313,7 +6393,8 @@
       "bear_polar",
       "whale_blue",
       "dolphin"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg/400px-Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg"
   },
   {
     "id": "penguin_african",
@@ -6391,7 +6472,8 @@
       "penguin_emperor",
       "albatross",
       "puffin"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Wikimania_2018%2C_Cape_Town_%28_1050602%29%2C_crop.jpg/400px-Wikimania_2018%2C_Cape_Town_%28_1050602%29%2C_crop.jpg"
   },
   {
     "id": "woodpecker",
@@ -6469,7 +6551,8 @@
       "owl",
       "crow",
       "parrot"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Greater_Spotted_Woodpecker_%2841554059345%29.jpg/400px-Greater_Spotted_Woodpecker_%2841554059345%29.jpg"
   },
   {
     "id": "crane",
@@ -6545,7 +6628,8 @@
       "flamingo",
       "swan",
       "albatross"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Grus_japonensis_-Hokkaido%2C_Japan_-several-8_%281%29.jpg/400px-Grus_japonensis_-Hokkaido%2C_Japan_-several-8_%281%29.jpg"
   },
   {
     "id": "hawk",
@@ -6625,7 +6709,8 @@
       "eagle_bald",
       "eagle_golden",
       "falcon_peregrine"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Red-tailed_Hawk_%2845812546121%29.jpg/400px-Red-tailed_Hawk_%2845812546121%29.jpg"
   },
   {
     "id": "puffin",
@@ -6704,7 +6789,8 @@
       "penguin_emperor",
       "penguin_african",
       "albatross"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Puffin_%28Fratercula_arctica%29.jpg/400px-Puffin_%28Fratercula_arctica%29.jpg"
   },
   {
     "id": "alligator",
@@ -6783,7 +6869,8 @@
       "crocodile",
       "komodo_dragon",
       "sea_turtle"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/American_Alligator.jpg/400px-American_Alligator.jpg"
   },
   {
     "id": "tortoise_galapagos",
@@ -6859,7 +6946,8 @@
       "sea_turtle",
       "iguana",
       "chameleon"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Galapagos_giant_tortoise_Geochelone_elephantopus.jpg/400px-Galapagos_giant_tortoise_Geochelone_elephantopus.jpg"
   },
   {
     "id": "newt",
@@ -6938,7 +7026,8 @@
       "salamander",
       "axolotl",
       "frog_poison_dart"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kammmolchmaennchen.jpg/400px-Kammmolchmaennchen.jpg"
   },
   {
     "id": "toad",
@@ -7019,7 +7108,8 @@
       "frog_tree",
       "frog_poison_dart",
       "salamander"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Common_Toad_Cornwall.jpeg/400px-Common_Toad_Cornwall.jpeg"
   },
   {
     "id": "shark_whale",
@@ -7100,7 +7190,8 @@
       "shark_great_white",
       "manta_ray",
       "whale_blue"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Similan_Dive_Center_-_great_whale_shark.jpg/400px-Similan_Dive_Center_-_great_whale_shark.jpg"
   },
   {
     "id": "swordfish",
@@ -7182,7 +7273,8 @@
       "shark_great_white",
       "manta_ray",
       "tuna"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Xiphias_gladius_Linnaeus%2C_1758_2599925021.jpg/400px-Xiphias_gladius_Linnaeus%2C_1758_2599925021.jpg"
   },
   {
     "id": "tuna",
@@ -7262,7 +7354,8 @@
       "swordfish",
       "shark_great_white",
       "salmon"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bluefin-big.jpg/400px-Bluefin-big.jpg"
   },
   {
     "id": "lobster",
@@ -7339,7 +7432,8 @@
       "crab",
       "scorpion",
       "octopus"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Nur01521_-_Flickr_-_NOAA_Photo_Library.jpg/400px-Nur01521_-_Flickr_-_NOAA_Photo_Library.jpg"
   },
   {
     "id": "snail",
@@ -7422,7 +7516,8 @@
       "octopus",
       "coral",
       "ant"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Snail1web.jpg/400px-Snail1web.jpg"
   },
   {
     "id": "dragonfly",
@@ -7502,7 +7597,8 @@
       "bee_honey",
       "butterfly_monarch",
       "bat"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Sympetrum_striolatum_3%28loz%29.jpg/400px-Sympetrum_striolatum_3%28loz%29.jpg"
   },
   {
     "id": "crab",
@@ -7579,7 +7675,8 @@
       "lobster",
       "octopus",
       "scorpion"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Macrocheira_kaempferi.jpg/400px-Macrocheira_kaempferi.jpg"
   },
   {
     "id": "starfish",
@@ -7657,7 +7754,8 @@
       "coral",
       "jellyfish_box",
       "octopus"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Asterias_rubens.jpg/400px-Asterias_rubens.jpg"
   },
   {
     "id": "snow_leopard",
@@ -7733,7 +7831,8 @@
       "leopard",
       "tiger",
       "lynx"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Irbis4.JPG/400px-Irbis4.JPG"
   },
   {
     "id": "wombat",
@@ -7809,7 +7908,8 @@
       "kangaroo",
       "platypus",
       "panda"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/400px-Vombatus_ursinus_-Maria_Island_National_Park.jpg"
   },
   {
     "id": "armadillo",
@@ -7888,7 +7988,8 @@
       "wombat",
       "panda",
       "ant"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Tatu_%28dasypus_novemcinctus%29%2C_Uruguay%2C_2020.jpg/400px-Tatu_%28dasypus_novemcinctus%29%2C_Uruguay%2C_2020.jpg"
   },
   {
     "id": "meerkat",
@@ -7964,7 +8065,8 @@
       "hyena",
       "scorpion",
       "cobra_king"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Meerkat_%28Suricata_suricatta%29_Tswalu.jpg/400px-Meerkat_%28Suricata_suricatta%29_Tswalu.jpg"
   },
   {
     "id": "hyena",
@@ -8040,7 +8142,8 @@
       "lion",
       "wolf",
       "meerkat"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Spotted_hyena_%28Crocuta_crocuta%29.jpg/400px-Spotted_hyena_%28Crocuta_crocuta%29.jpg"
   },
   {
     "id": "buffalo_water",
@@ -8116,7 +8219,8 @@
       "cow",
       "rhino",
       "hippo"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Water_buffalo_at_Rinca.jpg/400px-Water_buffalo_at_Rinca.jpg"
   },
   {
     "id": "deer",
@@ -8196,7 +8300,8 @@
       "horse",
       "giraffe",
       "zebra"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cervus_elaphus_Luc_Viatour_6.jpg/400px-Cervus_elaphus_Luc_Viatour_6.jpg"
   },
   {
     "id": "seal",
@@ -8276,7 +8381,8 @@
       "dolphin",
       "whale_blue",
       "otter"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Common_seal_%28Phoca_vitulina%29_2.jpg/400px-Common_seal_%28Phoca_vitulina%29_2.jpg"
   },
   {
     "id": "lynx",
@@ -8355,7 +8461,8 @@
       "snow_leopard",
       "leopard",
       "cat_domestic"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Lynx_Nationalpark_Bayerischer_Wald_01.jpg/400px-Lynx_Nationalpark_Bayerischer_Wald_01.jpg"
   },
   {
     "id": "platypus",
@@ -8434,7 +8541,8 @@
       "wombat",
       "kangaroo",
       "otter"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg/400px-Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg"
   },
   {
     "id": "robin",
@@ -8515,7 +8623,8 @@
       "crow",
       "swift",
       "hummingbird"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Erithacus_rubecula_with_cocked_head.jpg/400px-Erithacus_rubecula_with_cocked_head.jpg"
   },
   {
     "id": "pelican",
@@ -8594,7 +8703,8 @@
       "flamingo",
       "albatross",
       "stork"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg/400px-Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg"
   },
   {
     "id": "kingfisher",
@@ -8675,7 +8785,8 @@
       "hummingbird",
       "pelican",
       "falcon_peregrine"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Alcedo_atthis_-England-8_%28cropped%29.jpg/400px-Alcedo_atthis_-England-8_%28cropped%29.jpg"
   },
   {
     "id": "swift",
@@ -8753,7 +8864,8 @@
       "falcon_peregrine",
       "hummingbird",
       "robin"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Common_Swift_2025_07_18_02_%28cropped%29.jpg/400px-Common_Swift_2025_07_18_02_%28cropped%29.jpg"
   },
   {
     "id": "vulture",
@@ -8832,7 +8944,8 @@
       "eagle_bald",
       "eagle_golden",
       "crow"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Gyps_fulvus_in_flight_-_Spain.jpg/400px-Gyps_fulvus_in_flight_-_Spain.jpg"
   },
   {
     "id": "macaw",
@@ -8910,7 +9023,8 @@
       "parrot",
       "toucan",
       "crow"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/400px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg"
   },
   {
     "id": "stork",
@@ -8989,7 +9103,8 @@
       "flamingo",
       "pelican",
       "swan"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg/400px-White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg"
   },
   {
     "id": "kiwi",
@@ -9066,7 +9181,8 @@
       "ostrich",
       "penguin_emperor",
       "wombat"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/TeTuatahianui.jpg/400px-TeTuatahianui.jpg"
   },
   {
     "id": "monitor_komodo",
@@ -9144,7 +9260,8 @@
       "crocodile",
       "iguana",
       "anaconda"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/400px-202306_Varanus_komodoensis.jpg"
   },
   {
     "id": "turtle_leatherback",
@@ -9225,7 +9342,8 @@
       "sea_turtle",
       "crocodile",
       "whale_humpback"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg/400px-Leatherback_sea_turtle_Tinglar%2C_USVI_%285839996547%29.jpg"
   },
   {
     "id": "python_burmese",
@@ -9303,7 +9421,8 @@
       "python",
       "anaconda",
       "cobra_king"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Brooding_female_Python_molurus_bivittatus.jpg/400px-Brooding_female_Python_molurus_bivittatus.jpg"
   },
   {
     "id": "salamander_fire",
@@ -9380,7 +9499,8 @@
       "axolotl",
       "frog_poison_dart",
       "frog_tree"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Salamandra_salamandra_MHNT_1.jpg/400px-Salamandra_salamandra_MHNT_1.jpg"
   },
   {
     "id": "frog_goliath",
@@ -9456,7 +9576,8 @@
       "frog_poison_dart",
       "frog_tree",
       "frog_glass"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Conraua_goliath_photo_from_iNaturalist_539752953.jpg/400px-Conraua_goliath_photo_from_iNaturalist_539752953.jpg"
   },
   {
     "id": "caecilian",
@@ -9534,7 +9655,8 @@
       "salamander_fire",
       "frog_poison_dart",
       "earthworm"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Siphonops_annulatus_IRDias_2014.png/400px-Siphonops_annulatus_IRDias_2014.png"
   },
   {
     "id": "frog_glass",
@@ -9611,7 +9733,8 @@
       "frog_poison_dart",
       "frog_tree",
       "frog_goliath"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Cochranella_susatamai03.jpg/400px-Cochranella_susatamai03.jpg"
   },
   {
     "id": "pufferfish",
@@ -9693,7 +9816,8 @@
       "clownfish",
       "seahorse",
       "jellyfish_box"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pez_erizo_moteado_%28Diodon_hystrix%29%2C_Cabo_Pulmo%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-19%2C_DD_23.jpg/400px-Pez_erizo_moteado_%28Diodon_hystrix%29%2C_Cabo_Pulmo%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-19%2C_DD_23.jpg"
   },
   {
     "id": "anglerfish",
@@ -9775,7 +9899,8 @@
       "electric_eel",
       "jellyfish_box",
       "octopus"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Humpback_anglerfish.png/400px-Humpback_anglerfish.png"
   },
   {
     "id": "barracuda",
@@ -9857,7 +9982,8 @@
       "shark_great_white",
       "piranha",
       "salmon"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Barracuda_laban.jpg/400px-Barracuda_laban.jpg"
   },
   {
     "id": "catfish",
@@ -9937,7 +10063,8 @@
       "piranha",
       "salmon",
       "sturgeon"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Silurus_glanis_02.jpg/400px-Silurus_glanis_02.jpg"
   },
   {
     "id": "sturgeon",
@@ -10017,7 +10144,8 @@
       "catfish",
       "salmon",
       "shark_great_white"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/%D0%91%D1%96%D0%BB%D1%83%D0%B3%D0%B0_%28Huso_huso%29.jpg/400px-%D0%91%D1%96%D0%BB%D1%83%D0%B3%D0%B0_%28Huso_huso%29.jpg"
   },
   {
     "id": "flying_fish",
@@ -10097,7 +10225,8 @@
       "salmon",
       "seahorse",
       "albatross"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cheilopogon_melanurus_%28beached%29.jpg/400px-Cheilopogon_melanurus_%28beached%29.jpg"
   },
   {
     "id": "moray_eel",
@@ -10174,7 +10303,8 @@
       "electric_eel",
       "octopus",
       "barracuda"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/GreenMorayEel.JPG/400px-GreenMorayEel.JPG"
   },
   {
     "id": "centipede",
@@ -10252,7 +10382,8 @@
       "scorpion",
       "spider_tarantula",
       "ant"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Scolopendra_heros.jpg/400px-Scolopendra_heros.jpg"
   },
   {
     "id": "nautilus",
@@ -10331,7 +10462,8 @@
       "octopus",
       "jellyfish_box",
       "coral"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Nautilus_pompilius_%28detail%29.jpg/400px-Nautilus_pompilius_%28detail%29.jpg"
   },
   {
     "id": "firefly",
@@ -10410,7 +10542,8 @@
       "bee_honey",
       "butterfly_monarch",
       "ant"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Photinus_pyralis_Firefly_3.jpg/400px-Photinus_pyralis_Firefly_3.jpg"
   },
   {
     "id": "praying_mantis",
@@ -10492,7 +10625,8 @@
       "spider_tarantula",
       "scorpion",
       "ant"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/European_praying_mantis_%28Mantis_religiosa%29_green_female_Dobruja.jpg/400px-European_praying_mantis_%28Mantis_religiosa%29_green_female_Dobruja.jpg"
   },
   {
     "id": "horseshoe_crab",
@@ -10570,7 +10704,8 @@
       "scorpion",
       "spider_tarantula",
       "coral"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Limulus_polyphemus_%28aq.%29.jpg/400px-Limulus_polyphemus_%28aq.%29.jpg"
   },
   {
     "id": "sea_urchin",
@@ -10648,7 +10783,8 @@
       "coral",
       "jellyfish_box",
       "seahorse"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Urchin_%289398869414%29.jpg/400px-Urchin_%289398869414%29.jpg"
   },
   {
     "id": "tarantula",
@@ -10726,7 +10862,8 @@
       "spider_tarantula",
       "scorpion",
       "centipede"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Brachypelma_smithi_2009_G09.jpg/400px-Brachypelma_smithi_2009_G09.jpg"
   },
   {
     "id": "earthworm",
@@ -10810,7 +10947,8 @@
       "ant",
       "coral",
       "caecilian"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Regenwurm1.jpg/400px-Regenwurm1.jpg"
   },
   {
     "id": "porcupine",
@@ -10890,7 +11028,8 @@
       "hedgehog",
       "armadillo",
       "rabbit"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Porcupine-BioDome.jpg/400px-Porcupine-BioDome.jpg"
   },
   {
     "id": "manatee",
@@ -10971,7 +11110,8 @@
       "whale_humpback",
       "dolphin",
       "seal"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Manatee_with_calf.PD_-_colour_corrected.jpg/400px-Manatee_with_calf.PD_-_colour_corrected.jpg"
   },
   {
     "id": "lemur",
@@ -11050,7 +11190,8 @@
       "chimpanzee",
       "gorilla",
       "orangutan"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ring-tailed_lemur_%28Lemur_catta%29.jpg/400px-Ring-tailed_lemur_%28Lemur_catta%29.jpg"
   },
   {
     "id": "cassowary",
@@ -11130,7 +11271,8 @@
       "ostrich",
       "kiwi",
       "crane"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Southern_Cassowary_7071.jpg/400px-Southern_Cassowary_7071.jpg"
   },
   {
     "id": "secretary_bird",
@@ -11209,7 +11351,8 @@
       "eagle_bald",
       "hawk",
       "falcon_peregrine"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Secretary_bird_Mara_for_WC.jpg/400px-Secretary_bird_Mara_for_WC.jpg"
   },
   {
     "id": "hoopoe",
@@ -11291,7 +11434,8 @@
       "woodpecker",
       "kingfisher",
       "robin"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Eurasian_hoopoe_by_Gunjan_Pandey.jpg/400px-Eurasian_hoopoe_by_Gunjan_Pandey.jpg"
   },
   {
     "id": "tuatara",
@@ -11370,7 +11514,8 @@
       "gecko",
       "iguana",
       "chameleon"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Tuatara_%285205719005%29.jpg/400px-Tuatara_%285205719005%29.jpg"
   },
   {
     "id": "gila_monster",
@@ -11449,7 +11594,8 @@
       "komodo_dragon",
       "iguana",
       "gecko"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Gila_monster2.JPG/400px-Gila_monster2.JPG"
   },
   {
     "id": "cobra_spitting",
@@ -11530,7 +11676,8 @@
       "cobra_king",
       "rattlesnake",
       "python"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Mozambique_spitting_cobra_%28Naja_mossambica%29.jpg/400px-Mozambique_spitting_cobra_%28Naja_mossambica%29.jpg"
   },
   {
     "id": "marine_iguana",
@@ -11609,7 +11756,8 @@
       "iguana",
       "chameleon",
       "sea_turtle"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Amblyrhynchus_cristatus_%283838137696%29.jpg/400px-Amblyrhynchus_cristatus_%283838137696%29.jpg"
   },
   {
     "id": "hellbender",
@@ -11688,7 +11836,8 @@
       "salamander",
       "axolotl",
       "salamander_fire"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Hellbender.jpg/400px-Hellbender.jpg"
   },
   {
     "id": "surinam_toad",
@@ -11767,7 +11916,8 @@
       "toad",
       "frog_glass",
       "axolotl"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Pipa_pipa01.jpg/400px-Pipa_pipa01.jpg"
   },
   {
     "id": "sunfish",
@@ -11846,7 +11996,8 @@
       "pufferfish",
       "manta_ray",
       "shark_whale"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Mola_mola.jpg/400px-Mola_mola.jpg"
   },
   {
     "id": "mudskipper",
@@ -11927,7 +12078,8 @@
       "flying_fish",
       "catfish",
       "electric_eel"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/GambianMudskippers.jpg/400px-GambianMudskippers.jpg"
   },
   {
     "id": "lionfish",
@@ -12010,7 +12162,8 @@
       "pufferfish",
       "clownfish",
       "barracuda"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Pterois_volitans_Manado-e_edit.jpg/400px-Pterois_volitans_Manado-e_edit.jpg"
   },
   {
     "id": "arapaima",
@@ -12090,7 +12243,8 @@
       "piranha",
       "electric_eel",
       "catfish"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Arapaima_gigas_at_Beijing_aquarium.JPG/400px-Arapaima_gigas_at_Beijing_aquarium.JPG"
   },
   {
     "id": "giant_clam",
@@ -12171,7 +12325,8 @@
       "coral",
       "nautilus",
       "sea_urchin"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Giant_clam_%28Tridacna_gigas%29_Michaelmas_Cay.jpg/400px-Giant_clam_%28Tridacna_gigas%29_Michaelmas_Cay.jpg"
   },
   {
     "id": "portuguese_man_o_war",
@@ -12250,7 +12405,8 @@
       "jellyfish_box",
       "coral",
       "sea_urchin"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Portuguese_Man-O-War_%28Physalia_physalis%29.jpg/400px-Portuguese_Man-O-War_%28Physalia_physalis%29.jpg"
   },
   {
     "id": "bombardier_beetle",
@@ -12333,7 +12489,8 @@
       "ant",
       "firefly",
       "praying_mantis"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Carabidae_-_Brachinus_crepitans.JPG/400px-Carabidae_-_Brachinus_crepitans.JPG"
   },
   {
     "id": "atlas_moth",
@@ -12412,7 +12569,8 @@
       "butterfly_monarch",
       "bee_honey",
       "firefly"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Attacus_atlas_qtl3.jpg/400px-Attacus_atlas_qtl3.jpg"
   },
   {
     "id": "hermit_crab",
@@ -12494,7 +12652,8 @@
       "crab",
       "lobster",
       "horseshoe_crab"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Caribbean_hermit_crab.JPG/400px-Caribbean_hermit_crab.JPG"
   },
   {
     "id": "sea_cucumber",
@@ -12575,6 +12734,7 @@
       "starfish",
       "sea_urchin",
       "coral"
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Holothuria_forskali_Rab2011_h_3798.JPG/400px-Holothuria_forskali_Rab2011_h_3798.JPG"
   }
 ]
